@@ -1,0 +1,163 @@
+[
+  {
+    "type": "node",
+    "id": 914226304,
+    "lat": 52.2687596,
+    "lon": 104.2216043,
+    "tags": {
+      "name": "Кая",
+      "name:en": "Kaya",
+      "name:ru": "Кая",
+      "public_transport": "stop_position",
+      "railway": "halt",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1498787101,
+    "lat": 52.2625633,
+    "lon": 104.2436952,
+    "tags": {
+      "name": "Мельниково",
+      "public_transport": "stop_position",
+      "railway": "halt",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1498787146,
+    "lat": 52.2549096,
+    "lon": 104.265029,
+    "tags": {
+      "name": "Академическая",
+      "public_transport": "stop_position",
+      "railway": "halt",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1500956398,
+    "lat": 52.2938081,
+    "lon": 104.2474838,
+    "tags": {
+      "name": "Иркутный мост",
+      "railway": "halt",
+      "uic_ref": "2054891"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1500960951,
+    "lat": 52.2826286,
+    "lon": 104.2603298,
+    "tags": {
+      "name": "Иркутск-Пассажирский",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1500960952,
+    "lat": 52.2826347,
+    "lon": 104.2605338,
+    "tags": {
+      "name": "Иркутск-Пассажирский",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1668228731,
+    "lat": 52.262603,
+    "lon": 104.243756,
+    "tags": {
+      "name": "Мельниково",
+      "public_transport": "stop_position",
+      "railway": "halt",
+      "train": "yes",
+      "uic_ref": "2054893"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1668228887,
+    "lat": 52.2688093,
+    "lon": 104.2215789,
+    "tags": {
+      "esr:user": "932809",
+      "name": "Кая",
+      "name:en": "Kaya",
+      "name:ru": "Кая",
+      "public_transport": "stop_position",
+      "railway": "halt",
+      "train": "yes",
+      "uic_ref": "2054004"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3198249585,
+    "lat": 52.2548726,
+    "lon": 104.2650238,
+    "tags": {
+      "esr:user": "930112",
+      "name": "Академическая",
+      "name:ru": "Академическая",
+      "public_transport": "stop_position",
+      "railway": "halt",
+      "train": "yes",
+      "uic_ref": "2054892"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9395910137,
+    "lat": 52.263647,
+    "lon": 104.183446,
+    "tags": {
+      "name": "Черемушки",
+      "railway": "halt"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9395910172,
+    "lat": 52.274183,
+    "lon": 104.191686,
+    "tags": {
+      "name": "5194км",
+      "railway": "halt"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10170925408,
+    "lat": 52.2550149,
+    "lon": 104.2645125,
+    "tags": {
+      "name": "Академическая",
+      "public_transport": "station",
+      "railway": "station",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10170925413,
+    "lat": 52.2547738,
+    "lon": 104.2647618,
+    "tags": {
+      "name": "Академическая",
+      "public_transport": "station",
+      "railway": "station",
+      "train": "yes"
+    }
+  }
+]

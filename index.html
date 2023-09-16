@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
           integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
           crossorigin=""/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital@0;1&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
             integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
             crossorigin=""></script>
@@ -16,6 +19,16 @@
         #map { height: 90vh; width: 90%; }
         .leaflet-routing-container {
             display: none;
+        }
+        .station-text {
+            font-family: "Open Sans";
+            font-weight: 800;
+            font-size: 15px;
+            left: 16px;
+            top: -6px;
+            text-shadow: 1.41px 1.41px #d9eef5, 2px 0 #d9eef5, 1.41px -1.41px #d9eef5,
+            0 -2px #d9eef5, -1.41px -1.41px #d9eef5, -2px 0 #d9eef5,
+            -1.41px 1.41px #d9eef5, 0 2px #d9eef5;
         }
     </style>
     <script type="module" src="main.js"></script>

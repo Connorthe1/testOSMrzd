@@ -5,7 +5,7 @@ import linePoints from './linePoints.json' assert {type: 'json'};
 
 window.onload = async function() {
 
-    const corner1 = L.latLng(82.273831, 7.501591)
+    const corner1 = L.latLng(82.273831, 12)
     const corner2 = L.latLng(37.151806, 177.99319)
     const bounds = L.latLngBounds(corner1, corner2)
 
@@ -14,29 +14,17 @@ window.onload = async function() {
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         noWrap: true,
-        minZoom: 3,
+        minZoom: 5,
         maxZoom: 14,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-    //Russia map
-    // await L.geoJSON(data, {
-    //     style: function (feature) {
-    //         return {color: feature.properties.color};
-    //     }
-    // }).addTo(map);
-
-    //railroads
-    // await L.geoPackageFeatureLayer([], {
-    //     geoPackageUrl: './rzd.gpkg',
-    //     layerName: 'railways',
-    //     style: {color: 'black', weight: 2.5, opacity: 0.6},
-    // }).addTo(map);
-    // await L.geoPackageFeatureLayer([], {
-    //     geoPackageUrl: './rzd.gpkg',
-    //     layerName: 'railways',
-    //     style: {color: 'white', dashArray: '5, 10', weight: 2, opacity: 0.8},
-    // }).addTo(map);
+    // Russia map
+    await L.geoJSON(data, {
+        style: function (feature) {
+            return {color: feature.properties.color};
+        }
+    }).addTo(map);
 
     lines.forEach(line => {
         line.nodes = line.nodes.map(item => {
@@ -46,7 +34,7 @@ window.onload = async function() {
     })
 
     lines.forEach(line => {
-        L.polyline(line.nodes, {zIndex: 10, color: 'red'}).addTo(map);
+        L.polyline(line.nodes, {zIndex: 10, color: '#2b5ad2'}).addTo(map);
     })
 
     const sortedStations = stations.filter((obj, index, self) =>
@@ -54,6 +42,8 @@ window.onload = async function() {
     );
 
     sortedStations.forEach((item, idx) => {
-        L.circleMarker([item.lat,item.lon], {zIndex: 10, color: 'blue'}).bindTooltip(`${item.tags.name}`, {permanent: true, direction: 'top'}).addTo(map);
+        let name = L.divIcon({className: 'station-text', html: item.tags.name});
+        L.circleMarker([item.lat,item.lon], {zIndex: 10, fillColor: '#2b5ad2', color: '#a1e4fa', weight: 1, fillOpacity: 1, radius: 5}).addTo(map);
+        L.marker([item.lat,item.lon], {icon: name}).addTo(map);
     })
 }

@@ -25,7 +25,7 @@ window.onload = async function() {
 
     L.maptilerLayer({
         apiKey: key,
-        style: "97153cbc-9568-4fe0-8863-bfc30bd5cd18", //optional
+        // style: "97153cbc-9568-4fe0-8863-bfc30bd5cd18", //optional
         noWrap: true,
     }).addTo(map);
 

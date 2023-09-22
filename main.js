@@ -1,10 +1,13 @@
 // import data from './russia_geojson_wgs84.geojson' assert {type: 'json'};
 import stations from './stations.json' assert {type: 'json'};
+import j from './j.json' assert {type: 'json'};
 import lines from './lines.json' assert {type: 'json'};
 import linePoints from './linePoints.json' assert {type: 'json'};
 
 window.onload = async function() {
-    const showOts = document.querySelector('#ots')
+    // const showOts = document.querySelector('#ots')
+    const search = document.querySelector('#search')
+    const searchButton = document.querySelector('#searchButton')
 
     const corner1 = L.latLng(82.273831, 12)
     const corner2 = L.latLng(37.151806, 177.99319)
@@ -21,7 +24,7 @@ window.onload = async function() {
         smoothSensitivity: 4,
         maxBounds: bounds
     })
-    map.setView([52.289588, 104.280606], 5);
+    map.setView([52.289588, 104.280606], 6);
 
     L.maptilerLayer({
         apiKey: key,
@@ -79,9 +82,17 @@ window.onload = async function() {
         showStations(map.getZoom())
     })
 
-    showOts.addEventListener('click', () => {
-        lines.forEach(line => {
-            L.polyline(line.nodes, {color: '#f3c71b'}).addTo(map);
-        })
+    // showOts.addEventListener('click', () => {
+    //     lines.forEach(line => {
+    //         L.polyline(line.nodes, {color: '#f3c71b'}).addTo(map);
+    //     })
+    // })
+
+    searchButton.addEventListener('click', () => {
+        const res = j.find(item => item.tags.name?.toLowerCase().includes(search.value.toLowerCase()))
+        console.log(res)
+        if (res) {
+            map.setView([res.lat, res.lon], 14);
+        }
     })
 }

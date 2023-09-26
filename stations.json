@@ -70,20 +70,6 @@
   },
   {
     "type": "node",
-    "id": 3209759491,
-    "lat": 51.8042184,
-    "lon": 104.3980203,
-    "tags": {
-      "esr:user": "934289",
-      "name": "Пономарёвка",
-      "old_name": "107 км",
-      "public_transport": "stop_position",
-      "railway": "halt",
-      "train": "yes"
-    }
-  },
-  {
-    "type": "node",
     "id": 1215727558,
     "lat": 51.7988089,
     "lon": 104.3553537,
@@ -99,6 +85,17 @@
   },
   {
     "type": "node",
+    "id": 3505207079,
+    "lat": 55.7662673,
+    "lon": 109.5468581,
+    "tags": {
+      "esr:user": "903238",
+      "name": "Блок-пост 1084 км",
+      "railway": "halt"
+    }
+  },
+  {
+    "type": "node",
     "id": 10883083639,
     "lat": 56.2867901,
     "lon": 113.3428075,
@@ -106,6 +103,18 @@
       "name": "Итыкит",
       "public_transport": "station",
       "railway": "station",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1853353715,
+    "lat": 56.7461451,
+    "lon": 106.5040767,
+    "tags": {
+      "name": "Звёздная",
+      "public_transport": "stop_position",
+      "railway": "stop",
       "train": "yes"
     }
   },
@@ -1388,6 +1397,17 @@
   },
   {
     "type": "node",
+    "id": 3605513399,
+    "lat": 56.1756118,
+    "lon": 98.720029,
+    "tags": {
+      "name": "Разъезд №6",
+      "public_transport": "station",
+      "railway": "station"
+    }
+  },
+  {
+    "type": "node",
     "id": 3605511279,
     "lat": 56.1764351,
     "lon": 99.1191369,
@@ -1408,6 +1428,17 @@
       "name:ru": "104 км",
       "name:uk": "104 км",
       "railway": "halt"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3605510993,
+    "lat": 56.1623021,
+    "lon": 99.1493308,
+    "tags": {
+      "name": "Разъезд №9",
+      "public_transport": "station",
+      "railway": "station"
     }
   },
   {
@@ -1575,6 +1606,18 @@
       "name:ru": "Огнёвка",
       "railway": "station",
       "uic_ref": "2054848"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3605500303,
+    "lat": 56.2324441,
+    "lon": 100.7716849,
+    "tags": {
+      "esr:user": "924234",
+      "name": "Разъезд № 18",
+      "railway": "halt",
+      "uic_ref": "2054997"
     }
   },
   {
@@ -2932,6 +2975,20 @@
   },
   {
     "type": "node",
+    "id": 558493677,
+    "lat": 51.7274786,
+    "lon": 103.6987739,
+    "tags": {
+      "esr:user": "933229",
+      "name": "Чёртова Гора",
+      "name:en": "Chyortova Gora",
+      "name:ru": "Чёртова Гора",
+      "railway": "halt",
+      "uic_ref": "2054353"
+    }
+  },
+  {
+    "type": "node",
     "id": 10998547881,
     "lat": 51.6981557,
     "lon": 103.6897789,
@@ -2942,6 +2999,21 @@
       "name:ru": "Слюдянка II",
       "railway": "station",
       "uic_ref": "2054824"
+    }
+  },
+  {
+    "type": "node",
+    "id": 558515323,
+    "lat": 51.7375568,
+    "lon": 103.7795833,
+    "tags": {
+      "esr:user": "933248",
+      "name": "Тёмная падь",
+      "name:en": "Tyomnaya Pad'",
+      "name:ru": "Тёмная падь",
+      "name:translate:en": "Dark Ravine",
+      "railway": "halt",
+      "uic_ref": "2054059"
     }
   },
   {
@@ -3288,6 +3360,18 @@
       "railway": "station",
       "uic_name": "Tanchoj",
       "uic_ref": "2054547"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1812403364,
+    "lat": 51.5794214,
+    "lon": 105.2528937,
+    "tags": {
+      "name": "Переёмная",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "train": "yes"
     }
   },
   {
@@ -4490,6 +4574,18 @@
   },
   {
     "type": "node",
+    "id": 734232306,
+    "lat": 56.1525143,
+    "lon": 101.4757542,
+    "tags": {
+      "name": "Анзёби",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
     "id": 2004843645,
     "lat": 56.2741206,
     "lon": 101.8952499,
@@ -4511,6 +4607,18 @@
       "name:ru": "Мамырь",
       "railway": "halt",
       "uic_ref": "2054777"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3604934128,
+    "lat": 56.4140467,
+    "lon": 103.6419765,
+    "tags": {
+      "esr:user": "925523",
+      "name": "Чёрная",
+      "railway": "station",
+      "uic_ref": "2054782"
     }
   },
   {

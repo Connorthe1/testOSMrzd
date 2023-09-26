@@ -1,5 +1,6 @@
 // import data from './russia_geojson_wgs84.geojson' assert {type: 'json'};
 import stations from './stations.json' assert {type: 'json'};
+import additionalStations from './additionalStations.json' assert {type: 'json'};
 import j from './j.json' assert {type: 'json'};
 import lines from './lines.json' assert {type: 'json'};
 import linePoints from './linePoints.json' assert {type: 'json'};
@@ -50,7 +51,9 @@ window.onload = async function() {
         L.polyline(line.nodes, {color: '#2b5ad2'}).addTo(map);
     })
 
-    const sortedStations = stations.filter((obj, index, self) =>
+    const concatStations = stations.concat(additionalStations)
+
+    const sortedStations = concatStations.filter((obj, index, self) =>
         index === self.findIndex((o) => o.tags.name === obj.tags.name)
     );
 

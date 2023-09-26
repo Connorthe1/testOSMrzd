@@ -18,5 +18,17 @@
       "name": "Раздольный",
       "name:ru": "Раздольный"
     }
+  },
+  {
+    "type": "node",
+    "id": 10886484309,
+    "lat": 57.0277566,
+    "lon": 119.0882058,
+    "tags": {
+      "name": "Икабьякан",
+      "public_transport": "station",
+      "railway": "station",
+      "train": "yes"
+    }
   }
 ]

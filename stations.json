@@ -490,6 +490,43 @@
   },
   {
     "type": "node",
+    "id": 2109468662,
+    "lat": 57.0000826,
+    "lon": 118.7682151,
+    "tags": {
+      "name": "Икабья",
+      "public_transport": "stop_position",
+      "railway": "stop",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9982475430,
+    "lat": 57.0170907,
+    "lon": 119.3474701,
+    "tags": {
+      "esr:user": "904758",
+      "name": "Мурурин",
+      "public_transport": "station",
+      "railway": "station",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2109468658,
+    "lat": 56.915634,
+    "lon": 118.532989,
+    "tags": {
+      "name": "Кемен",
+      "public_transport": "station",
+      "railway": "station",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
     "id": 3505248359,
     "lat": 56.1681076,
     "lon": 113.6721095,
@@ -3056,6 +3093,17 @@
   },
   {
     "type": "node",
+    "id": 204978748,
+    "lat": 51.6584986,
+    "lon": 103.7238261,
+    "tags": {
+      "name": "Слюдянка I",
+      "public_transport": "stop_position",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
     "id": 2203275822,
     "lat": 51.6442287,
     "lon": 103.7604727,
@@ -3731,15 +3779,15 @@
   },
   {
     "type": "node",
-    "id": 3505129590,
-    "lat": 51.9983293,
-    "lon": 107.4909623,
+    "id": 948042636,
+    "lat": 56.1540841,
+    "lon": 97.1584696,
     "tags": {
-      "esr:user": "935328",
+      "esr:user": "894043",
       "name": "Сосновый Бор",
       "name:ru": "Сосновый Бор",
       "railway": "halt",
-      "uic_ref": "2054082"
+      "uic_ref": "2038377"
     }
   },
   {
@@ -4375,6 +4423,18 @@
       "name": "Ангоя",
       "public_transport": "stop_position",
       "railway": "stop",
+      "train": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10886568885,
+    "lat": 57.010879,
+    "lon": 119.6316477,
+    "tags": {
+      "name": "Олонгдо",
+      "public_transport": "station",
+      "railway": "station",
       "train": "yes"
     }
   },
@@ -5210,11 +5270,11 @@
   },
   {
     "type": "node",
-    "id": 3141798748,
-    "lat": 56.0503663,
-    "lon": 98.2414011,
+    "id": 972840329,
+    "lat": 56.3128061,
+    "lon": 97.3759017,
     "tags": {
-      "esr:user": "923212",
+      "esr:user": "894325",
       "name": "24 км",
       "name:be": "24 км",
       "name:bg": "24 км",
@@ -5229,10 +5289,7 @@
       "name:ro": "24 km",
       "name:ru": "24 км",
       "name:uk": "24 км",
-      "network": "Восточно-Сибирская железная дорога",
-      "public_transport": "station",
-      "railway": "halt",
-      "uic_ref": "2054995"
+      "railway": "halt"
     }
   },
   {

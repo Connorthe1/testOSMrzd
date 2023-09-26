@@ -48,7 +48,7 @@ window.onload = async function() {
     })
 
     lines.forEach(line => {
-        L.polyline(line.nodes, {color: '#2b5ad2'}).addTo(map);
+        L.polyline(line.nodes, {color: '#3a789d'}).addTo(map);
     })
 
     const concatStations = stations.concat(additionalStations)

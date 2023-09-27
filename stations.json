@@ -1,6370 +1,3562 @@
 [
     {
-        "type": "node",
-        "id": 6282435716,
         "lat": 52.0293905,
         "lon": 104.0807886,
+        "id": 20399,
         "tags": {
-            "name": "Рассоха",
-            "railway": "halt",
-            "train": "yes"
+            "name": "РАССОХА"
         }
     },
     {
-        "type": "node",
-        "id": 8013565081,
         "lat": 51.8007008,
         "lon": 104.5705978,
+        "id": 20437,
         "tags": {
-            "name": "Речка Пыловка",
-            "old_name": "94 км",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "РЕЧ. ПЫЛОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3186145732,
         "lat": 51.8520912,
         "lon": 104.7119319,
+        "id": 20439,
         "tags": {
-            "esr:user": "933483",
-            "name": "Лиственичный",
-            "note": "80 км КБЖД",
-            "old_name": "80 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ЛИСТВЕНИЧНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3185319516,
         "lat": 51.8734459,
         "lon": 104.7928567,
+        "id": 20443,
         "tags": {
-            "esr:user": "933619",
-            "name": "Малый Баранчик",
-            "note": "74 км КБЖД",
-            "old_name": "74 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "МАЛ.БАРАНЧИК"
         }
     },
     {
-        "type": "node",
-        "id": 1215727585,
         "lat": 51.7878284,
         "lon": 104.2171652,
+        "id": 20461,
         "tags": {
-            "fixme": "уточнить положение о/п",
-            "name": "Речка Маритуйка",
-            "old_name": "120 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "Р. МАРИТУЙКА"
         }
     },
     {
-        "type": "node",
-        "id": 1215727626,
         "lat": 51.7605882,
         "lon": 104.1004014,
+        "id": 20465,
         "tags": {
-            "esr:user": "934132",
-            "fixme": "уточнить положение о/п",
-            "name": "Баклань",
-            "old_name": "129 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "БАКЛАНЬ"
         }
     },
     {
-        "type": "node",
-        "id": 1599365372,
         "lat": 51.7568867,
         "lon": 104.0181931,
+        "id": 20466,
         "tags": {
-            "name": "Пыловка",
-            "old_name": "134 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ПЫЛОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 275770955,
         "lat": 51.7286799,
         "lon": 103.7581751,
+        "id": 20468,
         "tags": {
-            "name": "Галерея Сосновая",
-            "old_name": "154 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ГАЛ.СОСНОВАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 1215727527,
         "lat": 51.8000549,
         "lon": 104.464525,
+        "id": 20473,
         "tags": {
-            "alt_name": "Шумиха",
-            "esr:user": "934274",
-            "name": "Шумиха",
-            "old_name": "102 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ШУМИХА"
         }
     },
     {
-        "type": "node",
-        "id": 3209759491,
         "lat": 51.8042184,
         "lon": 104.3980203,
+        "id": 20474,
         "tags": {
-            "esr:user": "934289",
-            "name": "Пономарёвка",
-            "old_name": "107 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ПОНОМАРЁВКА"
         }
     },
     {
-        "type": "node",
-        "id": 1215727558,
         "lat": 51.7988089,
         "lon": 104.3553537,
+        "id": 20475,
         "tags": {
-            "esr:user": "934293",
-            "name": "Половинная",
-            "old_name": "110 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054204"
+            "name": "ПОЛОВИННАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3505207079,
         "lat": 55.7662673,
         "lon": 109.5468581,
+        "id": 19910,
         "tags": {
-            "esr:user": "903238",
-            "name": "Блок-пост 1084 км",
-            "railway": "halt"
+            "name": "БП 1084 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 10883083639,
         "lat": 56.2867901,
         "lon": 113.3428075,
+        "id": 40066,
         "tags": {
-            "name": "Итыкит",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "ИТЫКИТ"
         }
     },
     {
-        "type": "node",
-        "id": 1853353715,
         "lat": 56.7461451,
         "lon": 106.5040767,
+        "id": 19888,
         "tags": {
-            "name": "Звёздная",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ЗВЕЗДНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3602642811,
         "lat": 56.8440539,
         "lon": 106.227892,
+        "id": 19889,
         "tags": {
-            "esr:user": "902235",
-            "name": "Чудничный",
-            "name:ru": "Чудничный",
-            "railway": "station",
-            "uic_ref": "2054044"
+            "name": "ЧУДНИЧНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3602634275,
         "lat": 56.375676,
         "lon": 107.0725042,
+        "id": 19891,
         "tags": {
-            "esr:user": "902502",
-            "name": "Небель",
-            "name:ru": "Небель",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Nebel(RUS)",
-            "uic_ref": "2054047"
+            "name": "НЕБЕЛЬ"
         }
     },
     {
-        "type": "node",
-        "id": 3602632762,
         "lat": 56.0804317,
         "lon": 107.6804856,
+        "id": 19893,
         "tags": {
-            "esr:user": "902803",
-            "name": "Окунайский",
-            "name:ru": "Окунайский",
-            "railway": "station",
-            "uic_ref": "2054213"
+            "name": "ОКУНАЙСКИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3602637003,
         "lat": 55.9091783,
         "lon": 107.7990733,
+        "id": 19894,
         "tags": {
-            "esr:user": "902907",
-            "name": "Улькан",
-            "name:ja": "ウリカン",
-            "name:ru": "Улькан",
-            "network": "РЖД",
-            "operator": "Восточно-Сибирская железная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Ulkan",
-            "uic_ref": "2054049"
+            "name": "УЛЬКАН"
         }
     },
     {
-        "type": "node",
-        "id": 3602636517,
         "lat": 55.8537289,
         "lon": 108.006295,
+        "id": 19895,
         "tags": {
-            "esr:user": "902911",
-            "name": "Умбелла",
-            "name:ru": "Умбелла",
-            "railway": "station",
-            "uic_ref": "2054214"
+            "name": "УМБЕЛЛА"
         }
     },
     {
-        "type": "node",
-        "id": 8556678859,
-        "lat": 51.4082144,
-        "lon": 108.3899626,
-        "tags": {
-            "name": "Цаган-Дабан",
-            "operator": "Тугнуйское ПТУ",
-            "railway": "station"
-        }
-    },
-    {
-        "type": "node",
-        "id": 9988626159,
         "lat": 55.7093477,
         "lon": 109.0722764,
+        "id": 19900,
         "tags": {
-            "esr:user": "903115",
-            "name": "Гоуджекит",
-            "name:ru": "Гоуджекит",
-            "railway": "station",
-            "uic_name": "Goudshekit",
-            "uic_ref": "2054103"
+            "name": "ГОУДЖЕКИТ"
         }
     },
     {
-        "type": "node",
-        "id": 4397725427,
         "lat": 55.7559962,
         "lon": 109.2744649,
+        "id": 19901,
         "tags": {
-            "esr:user": "903127",
-            "name": "Тыя",
-            "name:ru": "Тыя",
-            "railway": "station",
-            "uic_ref": "2054104"
+            "name": "ТЫЯ"
         }
     },
     {
-        "type": "node",
-        "id": 2109023292,
-        "lat": 55.6328364,
-        "lon": 109.3423036,
-        "tags": {
-            "name": "Северобайкальск",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3717947182,
         "lat": 55.7642821,
         "lon": 109.5433252,
+        "id": 19911,
         "tags": {
-            "name": "Молокон",
-            "railway": "halt",
-            "uic_ref": "2054222"
+            "name": "МОЛОКОН"
         }
     },
     {
-        "type": "node",
-        "id": 3965162833,
         "lat": 55.8116596,
         "lon": 109.6036596,
+        "id": 19912,
         "tags": {
-            "esr:user": "903308",
-            "name": "Нижнеангарск",
-            "name:ja": "ニジュネアンガルスク",
-            "name:ru": "Нижнеангарск",
-            "network": "РЖД",
-            "operator": "Восточно-Сибирская железная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Nishneangarsk",
-            "uic_ref": "2054107"
+            "name": "НИЖНЕАНГАРСК"
         }
     },
     {
-        "type": "node",
-        "id": 4795339001,
-        "lat": 55.8896428,
-        "lon": 109.7950042,
-        "tags": {
-            "name": "Холодная",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3505209896,
         "lat": 55.8753507,
         "lon": 109.7590213,
+        "id": 19917,
         "tags": {
-            "esr:user": "903350",
-            "name": "1103 км",
-            "name:be": "1103 км",
-            "name:bg": "1103 км",
-            "name:ee": "1103 km",
-            "name:en": "1103 km",
-            "name:hy": "1103 կմ",
-            "name:ka": "1103 კმ",
-            "name:lt": "1103 km",
-            "name:lv": "1103 km",
-            "name:md": "1103 km",
-            "name:pl": "1103 km",
-            "name:ro": "1103 km",
-            "name:ru": "1103 км",
-            "name:uk": "1103 км",
-            "railway": "halt",
-            "uic_ref": "2054228"
+            "name": "ОП 1103 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 2919102458,
         "lat": 55.8502398,
         "lon": 109.6793016,
+        "id": 19918,
         "tags": {
-            "name": "1095 км",
-            "railway": "halt"
+            "name": "ОП 1095 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 4795339000,
         "lat": 55.9308565,
         "lon": 110.1000506,
+        "id": 19919,
         "tags": {
-            "name": "Кичера",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "КИЧЕРА"
         }
     },
     {
-        "type": "node",
-        "id": 3505212009,
         "lat": 55.93933,
         "lon": 110.3396389,
+        "id": 19920,
         "tags": {
-            "name": "Дзелинда",
-            "railway": "station"
+            "name": "ДЗЕЛИНДА"
         }
     },
     {
-        "type": "node",
-        "id": 3505212869,
         "lat": 55.9514563,
         "lon": 110.649208,
+        "id": 19921,
         "tags": {
-            "esr:user": "903420",
-            "name": "Кирон",
-            "name:ru": "Кирон",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054111"
+            "name": "КИРОН"
         }
     },
     {
-        "type": "node",
-        "id": 3269964108,
         "lat": 56.163589,
         "lon": 111.5267563,
+        "id": 19925,
         "tags": {
-            "esr:user": "903539",
-            "name": "Анамакит",
-            "name:ru": "Анамакит",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054115"
+            "name": "АНАМАКИТ"
         }
     },
     {
-        "type": "node",
-        "id": 2016234827,
         "lat": 56.150056,
         "lon": 111.7299035,
+        "id": 19926,
         "tags": {
-            "name": "Новый Уоян",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "НОВЫЙ УОЯН"
         }
     },
     {
-        "type": "node",
-        "id": 314034061,
         "lat": 56.259399,
         "lon": 112.8223733,
+        "id": 19927,
         "tags": {
-            "name": "Кюхельбекерская",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "КЮХЕЛЬБЕКЕРСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3505222009,
         "lat": 56.2013233,
         "lon": 112.5668521,
+        "id": 19928,
         "tags": {
-            "esr:user": "903810",
-            "name": "Чуро",
-            "name:ru": "Чуро",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054123"
+            "name": "ЧУРО"
         }
     },
     {
-        "type": "node",
-        "id": 3166270998,
         "lat": 56.2056874,
         "lon": 112.3495343,
+        "id": 19929,
         "tags": {
-            "name": "Янчуй",
-            "railway": "halt"
+            "name": "ЯНЧУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2016234826,
         "lat": 56.1611851,
         "lon": 111.9963883,
+        "id": 19930,
         "tags": {
-            "name": "Баканы",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054121"
+            "name": "БАКАНЫ"
         }
     },
     {
-        "type": "node",
-        "id": 314034191,
         "lat": 56.3284008,
         "lon": 113.2226378,
+        "id": 19932,
         "tags": {
-            "name": "Ангаракан",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "АНГАРАКАН"
         }
     },
     {
-        "type": "node",
-        "id": 7416620790,
         "lat": 56.1924229,
         "lon": 113.5556799,
+        "id": 19933,
         "tags": {
-            "name": "Окусикан",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ОКУСИКАН"
         }
     },
     {
-        "type": "node",
-        "id": 2109131427,
         "lat": 56.7999267,
         "lon": 118.2749437,
+        "id": 19934,
         "tags": {
-            "name": "Новая Чара",
-            "network": "РЖД",
-            "operator": "Восточно-Сибирская железная лорога",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "НОВАЯ ЧАРА"
         }
     },
     {
-        "type": "node",
-        "id": 10872922584,
         "lat": 56.7414251,
         "lon": 117.970616,
+        "id": 19935,
         "tags": {
-            "name": "Сакукан",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "САКУКАН"
         }
     },
     {
-        "type": "node",
-        "id": 10886137625,
         "lat": 56.5888882,
         "lon": 117.2985587,
+        "id": 19938,
         "tags": {
-            "name": "Кодар",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "КОДАР"
         }
     },
     {
-        "type": "node",
-        "id": 2420481052,
         "lat": 56.4537658,
         "lon": 116.6804697,
+        "id": 19941,
         "tags": {
-            "esr:user": "904372",
-            "express:code": "2054142",
-            "name": "Балбухта",
-            "name:ru": "Балбухта",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054142"
+            "name": "БАЛБУХТА"
         }
     },
     {
-        "type": "node",
-        "id": 279999579,
         "lat": 56.3595305,
         "lon": 114.8357715,
+        "id": 19944,
         "tags": {
-            "name": "Таксимо",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ТАКСИМО"
         }
     },
     {
-        "type": "node",
-        "id": 2109468662,
         "lat": 57.0000826,
         "lon": 118.7682151,
+        "id": 19946,
         "tags": {
-            "name": "Икабья",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ИКАБЬЯ"
         }
     },
     {
-        "type": "node",
-        "id": 9982475430,
         "lat": 57.0170907,
         "lon": 119.3474701,
+        "id": 19952,
         "tags": {
-            "esr:user": "904758",
-            "name": "Мурурин",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "МУРУРИН"
         }
     },
     {
-        "type": "node",
-        "id": 2109468658,
         "lat": 56.915634,
         "lon": 118.532989,
+        "id": 19955,
         "tags": {
-            "name": "Кемен",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "КЕМЕН"
         }
     },
     {
-        "type": "node",
-        "id": 3505248359,
         "lat": 56.1681076,
         "lon": 113.6721095,
+        "id": 19958,
         "tags": {
-            "esr:user": "905708",
-            "name": "Северомуйск",
-            "name:ja": "セヴェロムイスク",
-            "name:ru": "Северомуйск",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054007"
+            "name": "СЕВЕРОМУЙСК"
         }
     },
     {
-        "type": "node",
-        "id": 3505238434,
         "lat": 56.1718202,
         "lon": 113.5579952,
+        "id": 19959,
         "tags": {
-            "esr:user": "905712",
-            "name": "Казанкан",
-            "name:ru": "Казанкан",
-            "railway": "halt",
-            "uic_ref": "2054008"
+            "name": "КАЗАНКАН"
         }
     },
     {
-        "type": "node",
-        "id": 2897434695,
         "lat": 56.1714117,
         "lon": 113.5375317,
+        "id": 19960,
         "tags": {
-            "name": "Горячий Ключ",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "ГОРЯЧИЙ КЛЮЧ"
         }
     },
     {
-        "type": "node",
-        "id": 2840997056,
         "lat": 51.4676317,
         "lon": 114.609853,
+        "id": 19961,
         "tags": {
-            "alt_name": "6336 км",
-            "name": "Перевал",
-            "railway": "halt"
+            "name": "ПЕРЕВАЛ"
         }
     },
     {
-        "type": "node",
-        "id": 339831955,
         "lat": 56.2892279,
         "lon": 113.3750604,
+        "id": 19962,
         "tags": {
-            "name": "Осыпной",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "ОСЫПНОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 318634089,
         "lat": 56.3054613,
         "lon": 114.3326065,
+        "id": 19963,
         "tags": {
-            "esr:user": "906019",
-            "name": "Муякан",
-            "name:ru": "Муякан",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054133"
+            "name": "МУЯКАН"
         }
     },
     {
-        "type": "node",
-        "id": 314035259,
         "lat": 56.2432076,
         "lon": 114.0869336,
+        "id": 19964,
         "tags": {
-            "esr:user": "906024",
-            "name": "Ульги",
-            "name:ru": "Ульги",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054005"
+            "name": "УЛЬГИ"
         }
     },
     {
-        "type": "node",
-        "id": 3505249370,
         "lat": 56.1912233,
         "lon": 113.8508327,
+        "id": 19965,
         "tags": {
-            "esr:user": "906039",
-            "name": "Аркум",
-            "name:ru": "Аркум",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054006"
+            "name": "АРКУМ"
         }
     },
     {
-        "type": "node",
-        "id": 301994153,
         "lat": 56.322857,
         "lon": 116.0749301,
+        "id": 19967,
         "tags": {
-            "esr:user": "906503",
-            "name": "Куанда",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Kuanda",
-            "uic_ref": "2054128"
+            "name": "КУАНДА"
         }
     },
     {
-        "type": "node",
-        "id": 10885924693,
         "lat": 56.2397456,
         "lon": 115.8544507,
+        "id": 19968,
         "tags": {
-            "name": "Койра",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "КОЙРА"
         }
     },
     {
-        "type": "node",
-        "id": 10885924674,
         "lat": 56.2126234,
         "lon": 115.6922165,
+        "id": 19969,
         "tags": {
-            "name": "Шиверы",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "ШИВЕРЫ"
         }
     },
     {
-        "type": "node",
-        "id": 3761334707,
-        "lat": 51.356422,
-        "lon": 109.7397811,
-        "tags": {
-            "esr:user": "940631",
-            "name": "5874 км",
-            "name:ru": "5874 км (Закульта)",
-            "railway": "halt"
-        }
-    },
-    {
-        "type": "node",
-        "id": 2014906998,
         "lat": 55.9386325,
         "lon": 98.000692,
+        "id": 20089,
         "tags": {
-            "name": "Тайшет",
-            "name:ja": "タイシェト",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ТАЙШЕТ"
         }
     },
     {
-        "type": "node",
-        "id": 1450891204,
         "lat": 55.8920001,
         "lon": 98.1014581,
+        "id": 20091,
         "tags": {
-            "name": "Лаврентьево",
-            "railway": "halt",
-            "uic_ref": "2055824"
+            "name": "ЛАВРЕНТЬЕВО"
         }
     },
     {
-        "type": "node",
-        "id": 1450896772,
         "lat": 55.9267312,
         "lon": 98.0221117,
+        "id": 20095,
         "tags": {
-            "name": "4518 км",
-            "railway": "halt"
+            "name": "ОП 4518 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 2012522398,
-        "lat": 53.0292832,
-        "lon": 103.1903463,
-        "tags": {
-            "name": "Восточная",
-            "railway": "halt",
-            "uic_ref": "2055874"
-        }
-    },
-    {
-        "type": "node",
-        "id": 6635737736,
         "lat": 56.0407937,
         "lon": 97.6355361,
+        "id": 20099,
         "tags": {
-            "esr:user": "920203",
-            "name": "Юрты",
-            "name:ja": "ユルトゥイ",
-            "name:ru": "Юрты",
-            "network": "РЖД",
-            "operator": "Восточно-Сибирская железная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Jurti",
-            "uic_ref": "2054223"
+            "name": "ЮРТЫ"
         }
     },
     {
-        "type": "node",
-        "id": 3219867986,
         "lat": 55.7929049,
         "lon": 98.1861823,
+        "id": 20103,
         "tags": {
-            "name": "Байроновка",
-            "public_transport": "stop_position",
-            "railway": "station",
-            "train": "yes"
+            "name": "БАЙРОНОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 257345653,
         "lat": 55.7373383,
         "lon": 98.2570308,
+        "id": 20104,
         "tags": {
-            "name": "Шелехово",
-            "railway": "halt",
-            "uic_ref": "2055826"
+            "name": "ШЕЛЕХОВО"
         }
     },
     {
-        "type": "node",
-        "id": 257345603,
         "lat": 55.7119007,
         "lon": 98.3965271,
+        "id": 20106,
         "tags": {
-            "name": "Разгон",
-            "railway": "station",
-            "uic_ref": "2054302"
+            "name": "РАЗГОН"
         }
     },
     {
-        "type": "node",
-        "id": 257345546,
         "lat": 55.6683671,
         "lon": 98.4575512,
+        "id": 20107,
         "tags": {
-            "name": "Облепиха",
-            "railway": "station",
-            "uic_ref": "2054303"
+            "name": "ОБЛЕПИХА"
         }
     },
     {
-        "type": "node",
-        "id": 276092690,
         "lat": 55.6180531,
         "lon": 98.6209174,
+        "id": 20108,
         "tags": {
-            "name": "Моховой",
-            "railway": "halt",
-            "uic_ref": "2055828"
+            "name": "МОХОВОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3605545594,
         "lat": 55.6003346,
         "lon": 98.656594,
+        "id": 20110,
         "tags": {
-            "esr:user": "920638",
-            "name": "4584 км",
-            "name:be": "4584 км",
-            "name:bg": "4584 км",
-            "name:ee": "4584 km",
-            "name:en": "4584 km",
-            "name:hy": "4584 կմ",
-            "name:ka": "4584 კმ",
-            "name:lt": "4584 km",
-            "name:lv": "4584 km",
-            "name:md": "4584 km",
-            "name:pl": "4584 km",
-            "name:ro": "4584 km",
-            "name:ru": "4584 км",
-            "name:uk": "4584 км",
-            "railway": "halt"
+            "name": "ОП 4584 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1425732104,
         "lat": 55.2956043,
         "lon": 98.6923561,
+        "id": 20111,
         "tags": {
-            "name": "4617 км",
-            "railway": "halt"
+            "name": "ОП 4617 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1425732224,
         "lat": 55.3985597,
         "lon": 98.637023,
+        "id": 20114,
         "tags": {
-            "name": "4604 км",
-            "railway": "halt",
-            "uic_ref": "2055830"
+            "name": "ОП 4604 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1527932093,
         "lat": 55.4658102,
         "lon": 98.6228956,
+        "id": 20115,
         "tags": {
-            "name": "Алгашет",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "АЛГАШЕТ"
         }
     },
     {
-        "type": "node",
-        "id": 1527932107,
         "lat": 55.3705029,
         "lon": 98.6471845,
+        "id": 20116,
         "tags": {
-            "name": "Замзор",
-            "railway": "station",
-            "uic_ref": "2054306"
+            "name": "ЗАМЗОР"
         }
     },
     {
-        "type": "node",
-        "id": 1550056323,
         "lat": 55.2517315,
         "lon": 98.7743723,
+        "id": 20120,
         "tags": {
-            "name": "Болотный",
-            "railway": "halt",
-            "uic_ref": "2055834"
+            "name": "БОЛОТНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056332,
         "lat": 55.2042647,
         "lon": 98.8007816,
+        "id": 20121,
         "tags": {
-            "name": "Камышет",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "КАМЫШЕТ"
         }
     },
     {
-        "type": "node",
-        "id": 1425731785,
         "lat": 55.1259073,
         "lon": 98.8572566,
+        "id": 20122,
         "tags": {
-            "name": "Хохлуша",
-            "railway": "halt",
-            "uic_ref": "2055835"
+            "name": "ХОХЛУША"
         }
     },
     {
-        "type": "node",
-        "id": 1550056790,
         "lat": 55.0331746,
         "lon": 98.8274866,
+        "id": 20126,
         "tags": {
-            "name": "4655 км",
-            "railway": "halt",
-            "uic_ref": "2055836"
+            "name": "ОП 4655 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056337,
         "lat": 54.9959684,
         "lon": 98.8582027,
+        "id": 20127,
         "tags": {
-            "name": "Мара",
-            "railway": "halt",
-            "uic_ref": "2055837"
+            "name": "МАРА"
         }
     },
     {
-        "type": "node",
-        "id": 3266571452,
         "lat": 54.9648839,
         "lon": 98.9388651,
+        "id": 20129,
         "tags": {
-            "name": "Курят",
-            "railway": "station"
+            "name": "КУРЯТ"
         }
     },
     {
-        "type": "node",
-        "id": 3605549383,
         "lat": 54.9019815,
         "lon": 99.0123355,
+        "id": 20131,
         "tags": {
-            "esr:user": "921166",
-            "name": "4677 км",
-            "name:be": "4677 км",
-            "name:bg": "4677 км",
-            "name:ee": "4677 km",
-            "name:en": "4677 km",
-            "name:hy": "4677 կմ",
-            "name:ka": "4677 კმ",
-            "name:lt": "4677 km",
-            "name:lv": "4677 km",
-            "name:md": "4677 km",
-            "name:pl": "4677 km",
-            "name:ro": "4677 km",
-            "name:ru": "4677 км",
-            "name:uk": "4677 км",
-            "railway": "halt"
+            "name": "ОП 4677 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056341,
         "lat": 54.8933952,
         "lon": 99.0278255,
+        "id": 20132,
         "tags": {
-            "name": "Нижнеудинск",
-            "name:ja": "ニジネウジンスク",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "НИЖНЕУДИНСК"
         }
     },
     {
-        "type": "node",
-        "id": 243083549,
         "lat": 54.8599472,
         "lon": 99.0910098,
+        "id": 20133,
         "tags": {
-            "name": "Рубахино",
-            "railway": "halt"
+            "name": "РУБАХИНО"
         }
     },
     {
-        "type": "node",
-        "id": 1550183330,
         "lat": 54.8319687,
         "lon": 99.1915487,
+        "id": 20135,
         "tags": {
-            "name": "Муксут",
-            "railway": "halt"
+            "name": "МУКСУТ"
         }
     },
     {
-        "type": "node",
-        "id": 243084540,
         "lat": 54.8075351,
         "lon": 99.2903204,
+        "id": 20137,
         "tags": {
-            "name": "Тайгинский",
-            "railway": "halt",
-            "uic_ref": "2055842"
+            "name": "ТАЙГИНСКИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183388,
         "lat": 54.8200075,
         "lon": 99.2445178,
+        "id": 20138,
         "tags": {
-            "name": "4696 км",
-            "railway": "halt"
+            "name": "ОП 4696 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183355,
         "lat": 54.7916118,
         "lon": 99.3416135,
+        "id": 20139,
         "tags": {
-            "name": "Хингуй",
-            "railway": "station"
+            "name": "ХИНГУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3605550130,
         "lat": 54.7429373,
         "lon": 99.4965525,
+        "id": 20141,
         "tags": {
-            "esr:user": "921429",
-            "name": "Кадуй",
-            "name:ru": "Кадуй",
-            "railway": "halt",
-            "uic_ref": "2054373"
+            "name": "КАДУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 243086678,
         "lat": 54.7345255,
         "lon": 99.5800654,
+        "id": 20142,
         "tags": {
-            "name": "4721 км",
-            "railway": "halt"
+            "name": "ОП 4721 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183356,
         "lat": 54.7048192,
         "lon": 99.6331332,
+        "id": 20144,
         "tags": {
-            "name": "Худоеланская",
-            "railway": "station"
+            "name": "ХУДОЕЛАНСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183342,
         "lat": 54.6848691,
         "lon": 99.7073312,
+        "id": 20145,
         "tags": {
-            "name": "Победа",
-            "railway": "halt"
+            "name": "ПОБЕДА"
         }
     },
     {
-        "type": "node",
-        "id": 1550183390,
         "lat": 54.650812,
         "lon": 99.7666266,
+        "id": 20146,
         "tags": {
-            "name": "4737 км",
-            "railway": "halt"
+            "name": "ОП 4737 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183391,
         "lat": 54.6313025,
         "lon": 99.8241721,
+        "id": 20147,
         "tags": {
-            "name": "4742 км",
-            "railway": "halt"
+            "name": "ОП 4742 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 243087594,
         "lat": 54.6337123,
         "lon": 99.8110141,
+        "id": 20148,
         "tags": {
-            "name": "Вершина",
-            "railway": "halt",
-            "uic_ref": "2054021"
+            "name": "ВЕРШИНА"
         }
     },
     {
-        "type": "node",
-        "id": 1550183306,
         "lat": 54.6377266,
         "lon": 99.9757945,
+        "id": 20151,
         "tags": {
-            "name": "Варяг",
-            "railway": "halt",
-            "uic_ref": "2054866"
+            "name": "ВАРЯГ"
         }
     },
     {
-        "type": "node",
-        "id": 243333429,
         "lat": 54.62993,
         "lon": 100.132411,
+        "id": 20152,
         "tags": {
-            "name": "Будагово",
-            "railway": "station"
+            "name": "БУДАГОВО"
         }
     },
     {
-        "type": "node",
-        "id": 1550183395,
         "lat": 54.6183784,
         "lon": 100.2007375,
+        "id": 20153,
         "tags": {
-            "name": "4768 км",
-            "railway": "halt"
+            "name": "ОП 4768 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 245292577,
-        "lat": 51.6054204,
-        "lon": 103.9038901,
+        "lat": 54.6357054,
+        "lon": 100.324968,
+        "id": 20154,
         "tags": {
-            "esr:user": "933337",
-            "name": "Мангутай",
-            "name:en": "Mangutay",
-            "name:ru": "Мангутай",
-            "railway": "halt",
-            "uic_ref": "2054928"
+            "name": "УТАЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183397,
         "lat": 54.6399953,
         "lon": 100.4274304,
+        "id": 20155,
         "tags": {
-            "name": "4784 км",
-            "railway": "halt"
+            "name": "ОП 4784 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1012065171,
         "lat": 54.5947597,
         "lon": 100.5362442,
+        "id": 20158,
         "tags": {
-            "name": "Тулун",
-            "name:ja": "トゥルン",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ТУЛУН"
         }
     },
     {
-        "type": "node",
-        "id": 3267655284,
         "lat": 54.5337318,
         "lon": 100.6550642,
+        "id": 20161,
         "tags": {
-            "esr:user": "922101",
-            "name": "Нюра",
-            "railway": "station",
-            "uic_ref": "2054318"
+            "name": "НЮРА"
         }
     },
     {
-        "type": "node",
-        "id": 368344248,
         "lat": 54.5198744,
         "lon": 100.6893714,
+        "id": 20162,
         "tags": {
-            "name": "4811 км",
-            "railway": "halt"
+            "name": "ОП 4811 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183359,
         "lat": 54.4543954,
         "lon": 100.8919134,
+        "id": 20166,
         "tags": {
-            "name": "Шуба",
-            "railway": "station",
-            "uic_ref": "2054319"
+            "name": "ШУБА"
         }
     },
     {
-        "type": "node",
-        "id": 1550183358,
         "lat": 54.4547767,
         "lon": 101.0473604,
+        "id": 20168,
         "tags": {
-            "name": "Шерагуль",
-            "railway": "station"
+            "name": "ШЕРАГУЛЬ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183413,
         "lat": 54.4442511,
         "lon": 101.2808222,
+        "id": 20170,
         "tags": {
-            "name": "4853 км",
-            "railway": "halt",
-            "uic_ref": "2054856"
+            "name": "ОП 4853 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183329,
         "lat": 54.431656,
         "lon": 101.3014312,
+        "id": 20172,
         "tags": {
-            "name": "Мингатуй",
-            "railway": "station"
+            "name": "МИНГАТУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183414,
         "lat": 54.3597022,
         "lon": 101.4633082,
+        "id": 20174,
         "tags": {
-            "name": "4870 км",
-            "railway": "halt"
+            "name": "ОП 4870 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183328,
         "lat": 54.3249167,
         "lon": 101.5027334,
+        "id": 20175,
         "tags": {
-            "name": "Куйтун",
-            "name:ja": "クイトゥン",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "КУЙТУН"
         }
     },
     {
-        "type": "node",
-        "id": 242827609,
         "lat": 54.2438385,
         "lon": 101.6484397,
+        "id": 20177,
         "tags": {
-            "name": "Харик",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ХАРИК"
         }
     },
     {
-        "type": "node",
-        "id": 242826220,
         "lat": 54.1958589,
         "lon": 101.7160749,
+        "id": 20178,
         "tags": {
-            "name": "4895 км",
-            "railway": "halt",
-            "uic_ref": "2055858"
+            "name": "ОП 4895 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183420,
         "lat": 54.0997553,
         "lon": 101.8796286,
+        "id": 20182,
         "tags": {
-            "name": "4911 км",
-            "railway": "halt",
-            "uic_ref": "2054859"
+            "name": "ОП 4911 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 242824849,
         "lat": 54.0414157,
         "lon": 101.9582439,
+        "id": 20183,
         "tags": {
-            "name": "Перевоз",
-            "name:en": "Perevoz",
-            "railway": "station",
-            "uic_ref": "2054803"
+            "name": "ПЕРЕВОЗ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183423,
         "lat": 54.0040705,
         "lon": 101.9936571,
+        "id": 20185,
         "tags": {
-            "name": "4925 км",
-            "railway": "halt",
-            "uic_ref": "2055861"
+            "name": "ОП 4925 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183429,
         "lat": 53.986449,
         "lon": 102.0103658,
+        "id": 20187,
         "tags": {
-            "name": "4927 км",
-            "railway": "halt"
+            "name": "ОП 4927 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 242821936,
         "lat": 53.9252221,
         "lon": 102.0514613,
+        "id": 20188,
         "tags": {
-            "name": "Зима",
-            "name:en": "Zima",
-            "name:ja": "ジマー",
-            "name:ru": "Зима",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "ЗИМА"
         }
     },
     {
-        "type": "node",
-        "id": 242821929,
         "lat": 53.8976424,
         "lon": 102.0905721,
+        "id": 20189,
         "tags": {
-            "name": "Ока",
-            "railway": "halt",
-            "uic_ref": "2055863"
+            "name": "ОКА"
         }
     },
     {
-        "type": "node",
-        "id": 242819388,
         "lat": 53.754328,
         "lon": 102.241,
+        "id": 20191,
         "tags": {
-            "name": "Делюр",
-            "railway": "station",
-            "uic_ref": "2054804"
+            "name": "ДЕЛЮР"
         }
     },
     {
-        "type": "node",
-        "id": 2796058675,
         "lat": 53.879748,
         "lon": 102.1174774,
+        "id": 20192,
         "tags": {
-            "name": "Чиркино",
-            "railway": "halt",
-            "uic_ref": "2054032"
+            "name": "ЧИРКИНО"
         }
     },
     {
-        "type": "node",
-        "id": 243358573,
         "lat": 51.5517938,
         "lon": 111.1797193,
+        "id": 20193,
         "tags": {
-            "esr:user": "941206",
-            "express:code": "2050357",
-            "name": "Харагун",
-            "name:ru": "Харагун",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ХАРАГУН"
         }
     },
     {
-        "type": "node",
-        "id": 3605516403,
         "lat": 56.1666163,
         "lon": 98.3124323,
+        "id": 20197,
         "tags": {
-            "esr:user": "923246",
-            "name": "38 км",
-            "name:be": "38 км",
-            "name:bg": "38 км",
-            "name:ee": "38 km",
-            "name:en": "38 km",
-            "name:hy": "38 կմ",
-            "name:ka": "38 კმ",
-            "name:lt": "38 km",
-            "name:lv": "38 km",
-            "name:md": "38 km",
-            "name:pl": "38 km",
-            "name:ro": "38 km",
-            "name:ru": "38 км",
-            "name:uk": "38 км",
-            "railway": "halt",
-            "uic_ref": "2054093"
+            "name": "ОП 38 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605517358,
         "lat": 56.1433848,
         "lon": 98.4264212,
+        "id": 20200,
         "tags": {
-            "esr:user": "923301",
-            "name": "Топорок",
-            "name:ru": "Топорок",
-            "railway": "station",
-            "uic_ref": "2054754"
+            "name": "ТОПОРОК"
         }
     },
     {
-        "type": "node",
-        "id": 3605513082,
         "lat": 56.118161,
         "lon": 98.4879177,
+        "id": 20201,
         "tags": {
-            "esr:user": "923316",
-            "name": "53 км",
-            "name:be": "53 км",
-            "name:bg": "53 км",
-            "name:ee": "53 km",
-            "name:en": "53 km",
-            "name:hy": "53 կմ",
-            "name:ka": "53 კმ",
-            "name:lt": "53 km",
-            "name:lv": "53 km",
-            "name:md": "53 km",
-            "name:pl": "53 km",
-            "name:ro": "53 km",
-            "name:ru": "53 км",
-            "name:uk": "53 км",
-            "railway": "halt"
+            "name": "ОП 53 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605514120,
         "lat": 56.1192699,
         "lon": 98.5379932,
+        "id": 20202,
         "tags": {
-            "esr:user": "923477",
-            "name": "Невельская",
-            "name:ru": "Невельская",
-            "railway": "station",
-            "uic_name": "Newelskaja",
-            "uic_ref": "2054756"
+            "name": "НЕВЕЛЬСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3605513399,
         "lat": 56.1756118,
         "lon": 98.720029,
+        "id": 20204,
         "tags": {
-            "name": "Разъезд №6",
-            "public_transport": "station",
-            "railway": "station"
+            "name": "РЗД № 6"
         }
     },
     {
-        "type": "node",
-        "id": 3605511279,
         "lat": 56.1764351,
         "lon": 99.1191369,
+        "id": 20210,
         "tags": {
-            "esr:user": "923513",
-            "name": "104 км",
-            "name:be": "104 км",
-            "name:bg": "104 км",
-            "name:ee": "104 km",
-            "name:en": "104 km",
-            "name:hy": "104 կմ",
-            "name:ka": "104 კმ",
-            "name:lt": "104 km",
-            "name:lv": "104 km",
-            "name:md": "104 km",
-            "name:pl": "104 km",
-            "name:ro": "104 km",
-            "name:ru": "104 км",
-            "name:uk": "104 км",
-            "railway": "halt"
+            "name": "ОП 104 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605510993,
         "lat": 56.1623021,
         "lon": 99.1493308,
+        "id": 20211,
         "tags": {
-            "name": "Разъезд №9",
-            "public_transport": "station",
-            "railway": "station"
+            "name": "РЗД № 9"
         }
     },
     {
-        "type": "node",
-        "id": 3605509126,
         "lat": 56.1159553,
         "lon": 99.2746121,
+        "id": 20214,
         "tags": {
-            "esr:user": "923706",
-            "name": "Новочунка",
-            "name:ru": "Новочунка",
-            "public_transport": "station",
-            "railway": "station",
-            "uic_name": "Nowotschunka",
-            "uic_ref": "2054757"
+            "name": "НОВОЧУНКА"
         }
     },
     {
-        "type": "node",
-        "id": 3605508719,
         "lat": 56.0812047,
         "lon": 99.3918687,
+        "id": 20216,
         "tags": {
-            "esr:user": "923725",
-            "name": "125 км",
-            "name:be": "125 км",
-            "name:bg": "125 км",
-            "name:ee": "125 km",
-            "name:en": "125 km",
-            "name:hy": "125 կմ",
-            "name:ka": "125 კმ",
-            "name:lt": "125 km",
-            "name:lv": "125 km",
-            "name:md": "125 km",
-            "name:pl": "125 km",
-            "name:ro": "125 km",
-            "name:ru": "125 км",
-            "name:uk": "125 км",
-            "railway": "halt"
+            "name": "ОП 125 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605500790,
         "lat": 56.0707659,
         "lon": 99.548959,
+        "id": 20218,
         "tags": {
-            "esr:user": "923814",
-            "name": "136 км",
-            "name:be": "136 км",
-            "name:bg": "136 км",
-            "name:ee": "136 km",
-            "name:en": "136 km",
-            "name:hy": "136 կմ",
-            "name:ka": "136 კმ",
-            "name:lt": "136 km",
-            "name:lv": "136 km",
-            "name:md": "136 km",
-            "name:pl": "136 km",
-            "name:ro": "136 km",
-            "name:ru": "136 км",
-            "name:uk": "136 км",
-            "railway": "halt"
+            "name": "ОП 136 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3941521865,
         "lat": 56.0829392,
         "lon": 99.6385733,
+        "id": 20219,
         "tags": {
-            "name": "Чуна",
-            "name:de": "Tschuna",
-            "name:ru": "Чуна",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ЧУНА"
         }
     },
     {
-        "type": "node",
-        "id": 734108775,
         "lat": 56.085186,
         "lon": 99.6652633,
+        "id": 20220,
         "tags": {
-            "name": "Депо",
-            "name:ru": "Депо",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ДЕПО"
         }
     },
     {
-        "type": "node",
-        "id": 3605503368,
         "lat": 56.0894037,
         "lon": 99.7345081,
+        "id": 20221,
         "tags": {
-            "esr:user": "923922",
-            "name": "153 км",
-            "name:be": "153 км",
-            "name:bg": "153 км",
-            "name:ee": "153 km",
-            "name:en": "153 km",
-            "name:hy": "153 կմ",
-            "name:ka": "153 კმ",
-            "name:lt": "153 km",
-            "name:lv": "153 km",
-            "name:md": "153 km",
-            "name:pl": "153 km",
-            "name:ro": "153 km",
-            "name:ru": "153 км",
-            "name:uk": "153 км",
-            "railway": "halt"
+            "name": "ОП 153 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605504934,
         "lat": 56.1243555,
         "lon": 99.7714472,
+        "id": 20222,
         "tags": {
-            "esr:user": "924003",
-            "name": "Изыкан",
-            "name:ru": "Изыкан",
-            "railway": "halt",
-            "uic_ref": "2054761"
+            "name": "ИЗЫКАН"
         }
     },
     {
-        "type": "node",
-        "id": 3605503594,
         "lat": 56.1704011,
         "lon": 99.946523,
+        "id": 20225,
         "tags": {
-            "esr:user": "924107",
-            "name": "Таргиз",
-            "name:ru": "Таргиз",
-            "railway": "station",
-            "uic_name": "Targiz",
-            "uic_ref": "2054847"
+            "name": "ТАРГИЗ"
         }
     },
     {
-        "type": "node",
-        "id": 3605502625,
         "lat": 56.1323108,
         "lon": 100.0595899,
+        "id": 20226,
         "tags": {
-            "esr:user": "924111",
-            "name": "Чукша",
-            "name:ru": "Чукша",
-            "railway": "halt",
-            "uic_ref": "2054762"
+            "name": "ЧУКША"
         }
     },
     {
-        "type": "node",
-        "id": 3605500642,
         "lat": 56.2755958,
         "lon": 100.618897,
+        "id": 20229,
         "tags": {
-            "esr:user": "924224",
-            "name": "Огневка",
-            "name:ru": "Огнёвка",
-            "railway": "station",
-            "uic_ref": "2054848"
+            "name": "ОГНЕВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3605500303,
         "lat": 56.2324441,
         "lon": 100.7716849,
+        "id": 20230,
         "tags": {
-            "esr:user": "924234",
-            "name": "Разъезд № 18",
-            "railway": "halt",
-            "uic_ref": "2054997"
+            "name": "РЗД № 18"
         }
     },
     {
-        "type": "node",
-        "id": 3605498327,
         "lat": 56.144011,
         "lon": 101.0218133,
+        "id": 20233,
         "tags": {
-            "esr:user": "924319",
-            "name": "Балага",
-            "name:ru": "Балага",
-            "railway": "halt",
-            "uic_ref": "2054850"
+            "name": "БАЛАГА"
         }
     },
     {
-        "type": "node",
-        "id": 1853986832,
         "lat": 56.1178173,
         "lon": 101.1695601,
+        "id": 20234,
         "tags": {
-            "name": "Вихоревка",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ВИХОРЕВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3604944230,
         "lat": 56.1286596,
         "lon": 101.368274,
+        "id": 20236,
         "tags": {
-            "esr:user": "924427",
-            "name": "Моргудон",
-            "name:ru": "Моргудон",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054767"
+            "name": "МОРГУДОН"
         }
     },
     {
-        "type": "node",
-        "id": 734108775,
-        "lat": 56.085186,
-        "lon": 99.6652633,
-        "tags": {
-            "name": "Депо",
-            "name:ru": "Депо",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3604945600,
         "lat": 56.1106556,
         "lon": 101.2101828,
+        "id": 20238,
         "tags": {
-            "esr:user": "924446",
-            "name": "272 км",
-            "name:be": "272 км",
-            "name:bg": "272 км",
-            "name:ee": "272 km",
-            "name:en": "272 km",
-            "name:hy": "272 կմ",
-            "name:ka": "272 კმ",
-            "name:lt": "272 km",
-            "name:lv": "272 km",
-            "name:md": "272 km",
-            "name:pl": "272 km",
-            "name:ro": "272 km",
-            "name:ru": "272 км",
-            "name:uk": "272 км",
-            "railway": "halt"
+            "name": "ОП 272 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 674848018,
-        "lat": 56.132791,
-        "lon": 101.429152,
+        "lat": 56.124348,
+        "lon": 101.4460511,
+        "id": 20239,
         "tags": {
-            "esr:user": "924499",
-            "name": "Багульная-2",
-            "name:ru": "Багульная II",
-            "railway": "halt",
-            "uic_ref": "2054241"
+            "name": "БАГУЛЬНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 1311928879,
         "lat": 56.1465388,
         "lon": 101.6128111,
+        "id": 20241,
         "tags": {
-            "name": "Новобратск",
-            "railway": "station",
-            "uic_ref": "2054717"
+            "name": "НОВОБРАТСК"
         }
     },
     {
-        "type": "node",
-        "id": 2004843645,
-        "lat": 56.2741206,
-        "lon": 101.8952499,
-        "tags": {
-            "name": "Гидростроитель",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3877878557,
         "lat": 56.1814945,
         "lon": 101.5730196,
+        "id": 20244,
         "tags": {
-            "esr:user": "924643",
-            "name": "Тепловая",
-            "name:ru": "Тепловая",
-            "railway": "station",
-            "uic_ref": "2054245"
+            "name": "ТЕПЛОВАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3604943314,
         "lat": 56.2250038,
         "lon": 101.5890887,
+        "id": 20246,
         "tags": {
-            "esr:user": "924910",
-            "name": "Галачинский",
-            "name:ru": "Галачинский",
-            "public_transport": "station",
-            "railway": "station",
-            "uic_ref": "2054851"
+            "name": "ГАЛАЧИНСКИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1312227966,
         "lat": 56.3020917,
         "lon": 101.750087,
+        "id": 20249,
         "tags": {
-            "name": "Энергетик",
-            "railway": "halt",
-            "uic_ref": "2054164"
+            "name": "ЭНЕРГЕТИК"
         }
     },
     {
-        "type": "node",
-        "id": 3604941371,
         "lat": 56.2930435,
         "lon": 102.0526287,
+        "id": 20252,
         "tags": {
-            "esr:user": "925114",
-            "name": "Подвыездный",
-            "name:ru": "Подвыездный",
-            "railway": "halt",
-            "uic_ref": "2054184"
+            "name": "ПОДВЫЕЗДНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 279978399,
         "lat": 56.441372,
         "lon": 102.250902,
+        "id": 20254,
         "tags": {
-            "name": "Пашенный",
-            "railway": "station",
-            "uic_name": "Paschennij",
-            "uic_ref": "2054774"
+            "name": "ПАШЕННЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 279978552,
         "lat": 56.561948,
         "lon": 102.4399647,
+        "id": 20256,
         "tags": {
-            "fixme": "Проверить; название поставлено по названию НП",
-            "name": "Кежемская",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "КЕЖЕМСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 865075209,
         "lat": 56.4052512,
         "lon": 103.1113159,
+        "id": 20260,
         "tags": {
-            "name": "Видим",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ВИДИМ"
         }
     },
     {
-        "type": "node",
-        "id": 3776157820,
         "lat": 56.4283695,
         "lon": 103.3471348,
+        "id": 20261,
         "tags": {
-            "esr:user": "925504",
-            "name": "Сохатый",
-            "name:ru": "Сохатый",
-            "railway": "station",
-            "uic_ref": "2054855"
+            "name": "СОХАТЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3604929589,
         "lat": 56.3939329,
         "lon": 103.9136793,
+        "id": 20263,
         "tags": {
-            "esr:user": "925542",
-            "name": "Селезнево",
-            "name:ru": "Селезнево",
-            "railway": "halt",
-            "uic_ref": "2054783"
+            "name": "СЕЛЕЗНЕВО"
         }
     },
     {
-        "type": "node",
-        "id": 3604886476,
         "lat": 56.4597781,
         "lon": 103.4581709,
+        "id": 20264,
         "tags": {
-            "esr:user": "925557",
-            "name": "489 км",
-            "name:be": "489 км",
-            "name:bg": "489 км",
-            "name:ee": "489 km",
-            "name:en": "489 km",
-            "name:hy": "489 կմ",
-            "name:ka": "489 კმ",
-            "name:lt": "489 km",
-            "name:lv": "489 km",
-            "name:md": "489 km",
-            "name:pl": "489 km",
-            "name:ro": "489 km",
-            "name:ru": "489 км",
-            "name:uk": "489 км",
-            "railway": "halt",
-            "uic_ref": "2054166"
+            "name": "ОП 489 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3604919794,
         "lat": 56.4146838,
         "lon": 103.9250884,
+        "id": 20265,
         "tags": {
-            "esr:user": "925561",
-            "name": "526 км",
-            "name:be": "526 км",
-            "name:bg": "526 км",
-            "name:ee": "526 km",
-            "name:en": "526 km",
-            "name:hy": "526 կմ",
-            "name:ka": "526 კმ",
-            "name:lt": "526 km",
-            "name:lv": "526 km",
-            "name:md": "526 km",
-            "name:pl": "526 km",
-            "name:ro": "526 km",
-            "name:ru": "526 км",
-            "name:uk": "526 км",
-            "railway": "halt"
+            "name": "ОП 526 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 305355124,
         "lat": 56.4596615,
         "lon": 103.9467183,
+        "id": 20266,
         "tags": {
-            "name": "532 км",
-            "railway": "halt"
+            "name": "ОП 532 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3604916878,
-        "lat": 56.4870904,
-        "lon": 103.9542415,
-        "tags": {
-            "esr:user": "925608",
-            "name": "Среднеилимская",
-            "network": "РЖД",
-            "operator": "Восточно-Сибирская железная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Sredneilimskaja",
-            "uic_ref": "2054784"
-        }
-    },
-    {
-        "type": "node",
-        "id": 300791921,
-        "lat": 56.5675309,
-        "lon": 104.131417,
-        "tags": {
-            "name": "Коршуниха-Ангарская",
-            "name:en": "Korshuniha-Angarskaya",
-            "name:ru": "Коршуниха-Ангарская",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3719924110,
         "lat": 56.8619018,
         "lon": 104.2487004,
+        "id": 20274,
         "tags": {
-            "name": "Начальный",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "НАЧАЛЬНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1255554388,
         "lat": 57.0019743,
         "lon": 104.0560508,
+        "id": 20275,
         "tags": {
-            "name": "Баларихта",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "БАЛАРИХТА"
         }
     },
     {
-        "type": "node",
-        "id": 3602927087,
         "lat": 56.7263924,
         "lon": 104.415192,
+        "id": 20276,
         "tags": {
-            "esr:user": "925839",
-            "name": "Карстовая",
-            "name:ru": "Карстовая",
-            "railway": "station",
-            "uic_ref": "2054186"
+            "name": "КАРСТОВАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 1406276808,
         "lat": 57.1272825,
         "lon": 103.8925061,
+        "id": 20280,
         "tags": {
-            "int_name": "Igirma",
-            "name": "Игирма",
-            "public_transport": "station",
-            "railway": "station",
-            "uic_name": "Igirma",
-            "uic_ref": "2054860"
+            "name": "ИГИРМА"
         }
     },
     {
-        "type": "node",
-        "id": 1255554417,
         "lat": 57.2750149,
         "lon": 103.762046,
+        "id": 20281,
         "tags": {
-            "int_name": "Rudnogorsk",
-            "name": "Рудногорск",
-            "name:ja": "ルドノゴルスク",
-            "public_transport": "station",
-            "railway": "station",
-            "uic_name": "Rudnogorsk",
-            "uic_ref": "2054794"
+            "name": "РУДНОГОРСК"
         }
     },
     {
-        "type": "node",
-        "id": 3884633995,
         "lat": 57.5796845,
         "lon": 103.4347317,
+        "id": 20283,
         "tags": {
-            "esr:user": "926225",
-            "name": "Тушама",
-            "name:ru": "Тушама",
-            "railway": "station",
-            "uic_name": "Tuschama",
-            "uic_ref": "2054796"
+            "name": "ТУШАМА"
         }
     },
     {
-        "type": "node",
-        "id": 3602951956,
         "lat": 57.6454353,
         "lon": 103.2887271,
+        "id": 20284,
         "tags": {
-            "esr:user": "926306",
-            "name": "Тубинская",
-            "name:ru": "Тубинская",
-            "public_transport": "station",
-            "railway": "station",
-            "uic_name": "Tubinskaja",
-            "uic_ref": "2054797"
+            "name": "ТУБИНСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3306331260,
         "lat": 57.7986785,
         "lon": 103.1654124,
+        "id": 20285,
         "tags": {
-            "esr:user": "926507",
-            "name": "Диабазовый",
-            "name:ru": "Диабазовый",
-            "public_transport": "station",
-            "railway": "station",
-            "uic_name": "Diabasowij",
-            "uic_ref": "2054877"
+            "name": "ДИАБАЗОВЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3602925963,
         "lat": 56.6885538,
         "lon": 104.6672976,
+        "id": 20288,
         "tags": {
-            "esr:user": "926704",
-            "name": "Семигорск",
-            "name:ru": "Семигорск",
-            "railway": "station",
-            "uic_name": "Semigorsk",
-            "uic_ref": "2054793"
+            "name": "СЕМИГОРСК"
         }
     },
     {
-        "type": "node",
-        "id": 3602910769,
         "lat": 56.7620996,
         "lon": 104.7188134,
+        "id": 20289,
         "tags": {
-            "esr:user": "926808",
-            "name": "Мерзлотная",
-            "name:ru": "Мерзлотная",
-            "railway": "station",
-            "uic_ref": "2054379"
+            "name": "МЕРЗЛОТНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3602919031,
         "lat": 56.8325327,
         "lon": 104.9344072,
+        "id": 20294,
         "tags": {
-            "esr:user": "926865",
-            "name": "652 км",
-            "name:be": "652 км",
-            "name:bg": "652 км",
-            "name:ee": "652 km",
-            "name:en": "652 km",
-            "name:hy": "652 կմ",
-            "name:ka": "652 კმ",
-            "name:lt": "652 km",
-            "name:lv": "652 km",
-            "name:md": "652 km",
-            "name:pl": "652 km",
-            "name:ro": "652 km",
-            "name:ru": "652 км",
-            "name:uk": "652 км",
-            "railway": "halt"
+            "name": "ОП 652 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3026743684,
-        "lat": 51.80925,
-        "lon": 106.0226602,
+        "lat": 56.8562453,
+        "lon": 105.0646409,
+        "id": 20295,
         "tags": {
-            "name": "Сухой Ручей",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054944"
+            "name": "РУЧЕЙ"
         }
     },
     {
-        "type": "node",
-        "id": 857935768,
         "lat": 56.7676148,
         "lon": 105.6466911,
+        "id": 20299,
         "tags": {
-            "esr:user": "927035",
-            "name": "Усть-Кут",
-            "name:ja": "ウスチ・クート",
-            "name:ru": "Усть-Кут",
-            "railway": "halt",
-            "uic_ref": "2054189"
+            "name": "УСТЬ-КУТ"
         }
     },
     {
-        "type": "node",
-        "id": 3261402716,
         "lat": 56.7921825,
         "lon": 105.5817705,
+        "id": 20300,
         "tags": {
-            "alt_name": "706 км",
-            "esr:user": "927040",
-            "name": "Паниха",
-            "name:ru": "Паниха",
-            "railway": "halt",
-            "uic_ref": "2054873"
+            "name": "ПАНИХА"
         }
     },
     {
-        "type": "node",
-        "id": 443718694,
         "lat": 56.843168,
         "lon": 105.2494668,
+        "id": 20301,
         "tags": {
-            "esr:user": "927054",
-            "name": "674 км",
-            "name:be": "674 км",
-            "name:bg": "674 км",
-            "name:ee": "674 km",
-            "name:en": "674 km",
-            "name:hy": "674 կմ",
-            "name:ka": "674 კმ",
-            "name:lt": "674 km",
-            "name:lv": "674 km",
-            "name:md": "674 km",
-            "name:pl": "674 km",
-            "name:ro": "674 km",
-            "name:ru": "674 км",
-            "name:uk": "674 км",
-            "railway": "halt"
+            "name": "ОП 674 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1930307937,
         "lat": 56.7820417,
         "lon": 105.7454407,
+        "id": 20305,
         "tags": {
-            "name": "Лена",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ЛЕНА"
         }
     },
     {
-        "type": "node",
-        "id": 3261401787,
         "lat": 56.7494257,
         "lon": 105.3692323,
+        "id": 20306,
         "tags": {
-            "esr:user": "927116",
-            "name": "687 км",
-            "name:be": "687 км",
-            "name:bg": "687 км",
-            "name:ee": "687 km",
-            "name:en": "687 km",
-            "name:hy": "687 կմ",
-            "name:ka": "687 კმ",
-            "name:lt": "687 km",
-            "name:lv": "687 km",
-            "name:md": "687 km",
-            "name:pl": "687 km",
-            "name:ro": "687 km",
-            "name:ru": "687 км",
-            "name:uk": "687 км",
-            "railway": "halt"
+            "name": "ОП 687 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3261401685,
         "lat": 56.7462834,
         "lon": 105.4341669,
+        "id": 20308,
         "tags": {
-            "esr:user": "927139",
-            "name": "692 км",
-            "name:be": "692 км",
-            "name:bg": "692 км",
-            "name:ee": "692 km",
-            "name:en": "692 km",
-            "name:hy": "692 կմ",
-            "name:ka": "692 კმ",
-            "name:lt": "692 km",
-            "name:lv": "692 km",
-            "name:md": "692 km",
-            "name:pl": "692 km",
-            "name:ro": "692 km",
-            "name:ru": "692 км",
-            "name:uk": "692 км",
-            "railway": "halt"
+            "name": "ОП 692 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3602713632,
         "lat": 56.7299689,
         "lon": 105.4969516,
+        "id": 20310,
         "tags": {
-            "esr:user": "927158",
-            "name": "697 км",
-            "name:be": "697 км",
-            "name:bg": "697 км",
-            "name:ee": "697 km",
-            "name:en": "697 km",
-            "name:hy": "697 կմ",
-            "name:ka": "697 კმ",
-            "name:lt": "697 km",
-            "name:lv": "697 km",
-            "name:md": "697 km",
-            "name:pl": "697 km",
-            "name:ro": "697 km",
-            "name:ru": "697 км",
-            "name:uk": "697 км",
-            "railway": "halt"
+            "name": "ОП 697 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 314001939,
         "lat": 56.7713185,
         "lon": 105.5543748,
+        "id": 20312,
         "tags": {
-            "esr:user": "927177",
-            "name": "703 км",
-            "name:be": "703 км",
-            "name:bg": "703 км",
-            "name:ee": "703 km",
-            "name:en": "703 km",
-            "name:hy": "703 կմ",
-            "name:ka": "703 კმ",
-            "name:lt": "703 km",
-            "name:lv": "703 km",
-            "name:md": "703 km",
-            "name:pl": "703 km",
-            "name:ro": "703 km",
-            "name:ru": "703 км",
-            "name:uk": "703 км",
-            "railway": "halt"
+            "name": "ОП 703 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 9985518130,
-        "lat": 56.808982,
-        "lon": 105.9508728,
-        "tags": {
-            "name": "Лена-Восточная",
-            "railway": "station"
-        }
-    },
-    {
-        "type": "node",
-        "id": 5691045837,
         "lat": 52.3369911,
         "lon": 104.2139778,
+        "id": 20318,
         "tags": {
-            "esr:user": "930004",
-            "name": "Иркутск-Сортировочный",
-            "name:ru": "Иркутск-Сортировочный",
-            "railway": "station",
-            "uic_name": "Irkutsk-Sort",
-            "uic_ref": "2000622",
-            "wikidata": "Q4203273"
+            "name": "ИРКУТСК-СОРТ"
         }
     },
     {
-        "type": "node",
-        "id": 1498787146,
-        "lat": 52.2549096,
-        "lon": 104.265029,
-        "tags": {
-            "name": "Академическая",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 1498787101,
         "lat": 52.2625633,
         "lon": 104.2436952,
+        "id": 20321,
         "tags": {
-            "name": "Мельниково",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "МЕЛЬНИКОВО"
         }
     },
     {
-        "type": "node",
-        "id": 2796044925,
         "lat": 53.6752731,
         "lon": 102.310063,
+        "id": 20322,
         "tags": {
-            "name": "Тыреть",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ТЫРЕТЬ"
         }
     },
     {
-        "type": "node",
-        "id": 3260359245,
         "lat": 53.6148619,
         "lon": 102.408568,
+        "id": 20324,
         "tags": {
-            "esr:user": "930324",
-            "name": "Халярты",
-            "name:ru": "Халярта",
-            "railway": "halt",
-            "uic_ref": "2054034"
+            "name": "ХАЛЯРТА"
         }
     },
     {
-        "type": "node",
-        "id": 242812616,
         "lat": 53.5675748,
         "lon": 102.5182895,
+        "id": 20325,
         "tags": {
-            "name": "Залари",
-            "name:en": "Zalari",
-            "name:ja": "ザラリ",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "ЗАЛАРИ"
         }
     },
     {
-        "type": "node",
-        "id": 2796044926,
         "lat": 53.4733394,
         "lon": 102.6380215,
+        "id": 20326,
         "tags": {
-            "name": "Хотхор",
-            "railway": "station"
+            "name": "ХОТХОР"
         }
     },
     {
-        "type": "node",
-        "id": 242809847,
         "lat": 53.387417,
         "lon": 102.7235705,
+        "id": 20328,
         "tags": {
-            "name": "Хартовская",
-            "railway": "halt",
-            "uic_ref": "2055866"
+            "name": "ХАРТОВСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 1551993007,
         "lat": 53.3589327,
         "lon": 102.7567942,
+        "id": 20330,
         "tags": {
-            "name": "Кутулик",
-            "name:ja": "クトゥリク",
-            "railway": "station",
-            "uic_name": "Kutulik",
-            "uic_ref": "2054323"
+            "name": "КУТУЛИК"
         }
     },
     {
-        "type": "node",
-        "id": 1551994163,
         "lat": 53.3463368,
         "lon": 102.779837,
+        "id": 20331,
         "tags": {
-            "name": "Райпотребсоюз",
-            "public_transport": "stop_position",
-            "train": "yes",
-            "uic_ref": "2055867"
+            "name": "РАЙПОТРЕБСОЮЗ"
         }
     },
     {
-        "type": "node",
-        "id": 242808484,
         "lat": 53.2718977,
         "lon": 102.8351476,
+        "id": 20332,
         "tags": {
-            "name": "Забитуй",
-            "public_transport": "stop_position",
-            "train": "yes",
-            "uic_ref": "2054324"
+            "name": "ЗАБИТУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 242808459,
         "lat": 53.2208333,
         "lon": 102.9297421,
+        "id": 20334,
         "tags": {
-            "name": "Трактовый",
-            "railway": "halt",
-            "uic_ref": "2055870"
+            "name": "ТРАКТОВЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1257706916,
         "lat": 53.1488524,
         "lon": 103.0845294,
+        "id": 20338,
         "tags": {
-            "name": "Черемхово",
-            "name:ja": "チェレンホヴォ",
-            "railway": "station",
-            "uic_name": "Tscheremchowo",
-            "uic_ref": "2054305"
+            "name": "ЧЕРЕМХОВО"
         }
     },
     {
-        "type": "node",
-        "id": 3226044864,
-        "lat": 51.8744307,
-        "lon": 113.6585909,
-        "tags": {
-            "esr:user": "942533",
-            "express:code": "2051408",
-            "name": "Каменный Карьер",
-            "name:ru": "Каменный Карьер",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2051408"
-        }
-    },
-    {
-        "type": "node",
-        "id": 4625842801,
         "lat": 53.1079226,
         "lon": 103.335664,
+        "id": 20346,
         "tags": {
-            "esr:user": "931007",
-            "name": "Макарьево",
-            "name:ru": "Макарьево",
-            "railway": "station",
-            "uic_ref": "2054665"
+            "name": "МАКАРЬЕВО"
         }
     },
     {
-        "type": "node",
-        "id": 1585829861,
         "lat": 53.1016143,
         "lon": 103.1405678,
+        "id": 20347,
         "tags": {
-            "name": "Гришево",
-            "platforms": "2",
-            "railway": "station",
-            "uic_ref": "2054809"
+            "name": "ГРИШЕВО"
         }
     },
     {
-        "type": "node",
-        "id": 2012522398,
         "lat": 53.0292832,
         "lon": 103.1903463,
+        "id": 20350,
         "tags": {
-            "name": "Восточная",
-            "railway": "halt",
-            "uic_ref": "2055874"
+            "name": "ВОСТОЧНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 2012522402,
         "lat": 52.9749886,
         "lon": 103.2465256,
+        "id": 20351,
         "tags": {
-            "name": "Черепановка",
-            "railway": "halt",
-            "uic_ref": "2055875"
+            "name": "ЧЕРЕПАНОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 2012522397,
         "lat": 52.9975211,
         "lon": 103.2171401,
+        "id": 20352,
         "tags": {
-            "name": "Витух",
-            "railway": "halt",
-            "uic_ref": "2054037"
+            "name": "ВИТУХ"
         }
     },
     {
-        "type": "node",
-        "id": 2012522400,
         "lat": 52.9560176,
         "lon": 103.283227,
+        "id": 20353,
         "tags": {
-            "name": "Половина",
-            "railway": "station",
-            "uic_ref": "2054811"
+            "name": "ПОЛОВИНА"
         }
     },
     {
-        "type": "node",
-        "id": 2012522399,
         "lat": 52.9237747,
         "lon": 103.3649816,
+        "id": 20354,
         "tags": {
-            "name": "Заимка",
-            "railway": "halt",
-            "uic_ref": "2055876"
+            "name": "ЗАИМКА"
         }
     },
     {
-        "type": "node",
-        "id": 2012522401,
         "lat": 52.8950676,
         "lon": 103.4214961,
+        "id": 20355,
         "tags": {
-            "name": "Ткаченко",
-            "railway": "halt",
-            "uic_ref": "2054038"
+            "name": "ТКАЧЕНКО"
         }
     },
     {
-        "type": "node",
-        "id": 2659442934,
         "lat": 52.8684275,
         "lon": 103.4861544,
+        "id": 20356,
         "tags": {
-            "name": "Белая",
-            "railway": "station",
-            "uic_ref": "2054326"
+            "name": "БЕЛАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 242801740,
         "lat": 52.8536984,
         "lon": 103.4917911,
+        "id": 20357,
         "tags": {
-            "name": "5100 км",
-            "railway": "halt"
+            "name": "ОП 5100 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 567280469,
         "lat": 52.7894355,
         "lon": 103.5756587,
+        "id": 20359,
         "tags": {
-            "esr:user": "931717",
-            "name": "Мальтинка",
-            "name:en": "Maltinka",
-            "name:ru": "Мальтинка",
-            "railway": "halt",
-            "uic_ref": "2055877"
+            "name": "МАЛЬТИНКА"
         }
     },
     {
-        "type": "node",
-        "id": 567279919,
         "lat": 52.7745928,
         "lon": 103.5945744,
+        "id": 20360,
         "tags": {
-            "name": "Лужки",
-            "name:en": "Luzhki",
-            "name:ru": "Лужки",
-            "railway": "halt"
+            "name": "ЛУЖКИ"
         }
     },
     {
-        "type": "node",
-        "id": 567279866,
         "lat": 52.7535272,
         "lon": 103.6219241,
+        "id": 20361,
         "tags": {
-            "name": "Зелёный городок",
-            "name:en": "Green Town",
-            "name:ru": "Зелёный городок",
-            "railway": "halt"
+            "name": "ЗЕЛЕНЫЙ ГОР"
         }
     },
     {
-        "type": "node",
-        "id": 242799314,
-        "lat": 52.7287332,
-        "lon": 103.650772,
-        "tags": {
-            "name": "Усолье-Сибирское",
-            "name:en": "Usolye-Sibirskoye",
-            "name:ja": "ウソーリエ=シビルスコエ",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 2032658798,
         "lat": 52.6913241,
         "lon": 103.6913071,
+        "id": 20363,
         "tags": {
-            "name": "Тельминка",
-            "railway": "halt",
-            "uic_ref": "2054880"
+            "name": "ТЕЛЬМИНКА"
         }
     },
     {
-        "type": "node",
-        "id": 3505137708,
-        "lat": 51.4569931,
-        "lon": 106.6987265,
+        "lat": 52.667428,
+        "lon": 103.7304319,
+        "id": 20364,
         "tags": {
-            "name": "Тельман",
-            "railway": "station",
-            "uic_name": "Telman",
-            "uic_ref": "2002523"
+            "name": "ТЕЛЬМА"
         }
     },
     {
-        "type": "node",
-        "id": 3605559445,
         "lat": 52.6120387,
         "lon": 103.845651,
+        "id": 20365,
         "tags": {
-            "esr:user": "931914",
-            "name": "Биликтуй",
-            "name:ru": "Биликтуй",
-            "railway": "halt",
-            "uic_ref": "2054881"
+            "name": "БИЛИКТУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 329969441,
         "lat": 52.5754097,
         "lon": 103.899212,
+        "id": 20368,
         "tags": {
-            "name": "Майск",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "МАЙСК"
         }
     },
     {
-        "type": "node",
-        "id": 300791921,
-        "lat": 56.5675309,
-        "lon": 104.131417,
+        "lat": 52.5507279,
+        "lon": 103.9140315,
+        "id": 20369,
         "tags": {
-            "name": "Коршуниха-Ангарская",
-            "name:en": "Korshuniha-Angarskaya",
-            "name:ru": "Коршуниха-Ангарская",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "АНГАРСК"
         }
     },
     {
-        "type": "node",
-        "id": 972835428,
-        "lat": 56.4541158,
-        "lon": 97.5470569,
+        "lat": 52.5280203,
+        "lon": 103.9280382,
+        "id": 20370,
         "tags": {
-            "esr:user": "894518",
-            "name": "Южная Тунгуска",
-            "name:ru": "Южная Тунгуска",
-            "railway": "halt",
-            "uic_name": "Jujnaya Tunguska",
-            "uic_ref": "2038582"
+            "name": "ЮЖНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3605563510,
         "lat": 52.4816623,
         "lon": 103.9871867,
+        "id": 20373,
         "tags": {
-            "esr:user": "932211",
-            "name": "Совхозная",
-            "name:ru": "Совхозная",
-            "railway": "halt",
-            "uic_ref": "2054884"
+            "name": "СОВХОЗНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 2034272673,
         "lat": 52.4581105,
         "lon": 104.0301129,
+        "id": 20374,
         "tags": {
-            "name": "Карьер",
-            "railway": "halt",
-            "uic_ref": "2054885"
+            "name": "КАРЬЕР"
         }
     },
     {
-        "type": "node",
-        "id": 708305373,
         "lat": 52.4200901,
         "lon": 104.0562074,
+        "id": 20377,
         "tags": {
-            "esr:user": "932508",
-            "name": "Мегет",
-            "name:ja": "メゲト",
-            "name:ru": "Мегет",
-            "railway": "station",
-            "uic_ref": "2054816"
+            "name": "МЕГЕТ"
         }
     },
     {
-        "type": "node",
-        "id": 708304770,
         "lat": 52.403802,
         "lon": 104.0918721,
+        "id": 20378,
         "tags": {
-            "esr:user": "932512",
-            "name": "Вересовка",
-            "name:ru": "Вересовка",
-            "railway": "station",
-            "uic_ref": "2054886"
+            "name": "ВЕРЕСОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 708303943,
         "lat": 52.3691005,
         "lon": 104.1696406,
+        "id": 20380,
         "tags": {
-            "esr:user": "932616",
-            "name": "Горка",
-            "name:ru": "Горка",
-            "railway": "station",
-            "uic_ref": "2054887"
+            "name": "ГОРКА"
         }
     },
     {
-        "type": "node",
-        "id": 1484540984,
-        "lat": 52.3651089,
-        "lon": 104.1767915,
-        "tags": {
-            "name": "Компрессорная",
-            "railway": "halt",
-            "uic_ref": "2054888"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3605572819,
         "lat": 52.344017,
         "lon": 104.2046334,
+        "id": 20382,
         "tags": {
-            "esr:user": "932635",
-            "name": "Заводская",
-            "name:ru": "Заводская",
-            "railway": "halt",
-            "uic_ref": "2054890"
+            "name": "ЗАВОДСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3605573303,
         "lat": 52.3086896,
         "lon": 104.2358739,
+        "id": 20383,
         "tags": {
-            "esr:user": "932705",
-            "name": "Военный Городок",
-            "name:ru": "Военный Городок",
-            "railway": "station",
-            "uic_ref": "2054003"
+            "name": "ВОЕННЫЙ ГОР"
         }
     },
     {
-        "type": "node",
-        "id": 204980711,
-        "lat": 51.8044868,
-        "lon": 103.808371,
+        "lat": 52.2687596,
+        "lon": 104.2216043,
+        "id": 20385,
         "tags": {
-            "esr:user": "933144",
-            "name": "Андриановская",
-            "name:en": "Andrianovskaya",
-            "name:ru": "Андриановская",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054862"
+            "name": "КАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 911575218,
         "lat": 52.2513012,
         "lon": 104.1532131,
+        "id": 20386,
         "tags": {
-            "esr:user": "932813",
-            "name": "Смоленщина",
-            "name:ru": "Смоленщина",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054894"
+            "name": "СМОЛЕНЩИНА"
         }
     },
     {
-        "type": "node",
-        "id": 2004843704,
         "lat": 52.2473995,
         "lon": 104.1300898,
+        "id": 20387,
         "tags": {
-            "name": "Турбаза",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ТУРБАЗА"
         }
     },
     {
-        "type": "node",
-        "id": 257345653,
-        "lat": 55.7373383,
-        "lon": 98.2570308,
+        "lat": 52.2280058,
+        "lon": 104.1163914,
+        "id": 20388,
         "tags": {
-            "name": "Шелехово",
-            "railway": "halt",
-            "uic_ref": "2055826"
+            "name": "ШЕЛЕХОВ"
         }
     },
     {
-        "type": "node",
-        "id": 9395910137,
         "lat": 52.263647,
         "lon": 104.183446,
+        "id": 20389,
         "tags": {
-            "name": "Черемушки",
-            "railway": "halt"
+            "name": "ЧЕРЕМУШКИ"
         }
     },
     {
-        "type": "node",
-        "id": 927574364,
         "lat": 52.1627868,
         "lon": 104.1071638,
+        "id": 20392,
         "tags": {
-            "name": "Олха",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ОЛХА"
         }
     },
     {
-        "type": "node",
-        "id": 927574362,
         "lat": 52.1537781,
         "lon": 104.0752119,
+        "id": 20393,
         "tags": {
-            "name": "Летняя",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ЛЕТНЯЯ"
         }
     },
     {
-        "type": "node",
-        "id": 927574436,
         "lat": 52.1221848,
         "lon": 104.0837688,
+        "id": 20394,
         "tags": {
-            "name": "Дачная",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ДАЧНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 2004843651,
         "lat": 52.1379823,
         "lon": 104.0698784,
+        "id": 20395,
         "tags": {
-            "name": "Голубые Ели",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ГОЛУБЫЕ ЕЛИ"
         }
     },
     {
-        "type": "node",
-        "id": 1935323987,
         "lat": 52.1119118,
         "lon": 104.1039939,
+        "id": 20396,
         "tags": {
-            "esr:user": "932962",
-            "name": "Садовая",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "САДОВАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 278793822,
         "lat": 52.0777947,
         "lon": 104.0903528,
+        "id": 20397,
         "tags": {
-            "name": "Большой Луг",
-            "name:ja": "ボリショイ・ルグ",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054820"
+            "name": "БОЛЬШОЙ ЛУГ"
         }
     },
     {
-        "type": "node",
-        "id": 3198249055,
         "lat": 52.0525232,
         "lon": 104.0765883,
+        "id": 20398,
         "tags": {
-            "name": "Ханчин",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ХАНЧИН"
         }
     },
     {
-        "type": "node",
-        "id": 243520910,
         "lat": 51.7443075,
         "lon": 113.8487048,
+        "id": 20400,
         "tags": {
-            "esr:user": "942711",
-            "express:code": "2051414",
-            "name": "Орленок",
-            "name:ru": "Орленок",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2051414"
+            "name": "ОРЛЕНОК"
         }
     },
     {
-        "type": "node",
-        "id": 6342488508,
         "lat": 52.0125697,
         "lon": 104.0437393,
+        "id": 20401,
         "tags": {
-            "name": "Ягодный",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ЯГОДНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 278797255,
         "lat": 52.0123062,
         "lon": 104.0178836,
+        "id": 20402,
         "tags": {
-            "name": "Огоньки",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ОГОНЬКИ"
         }
     },
     {
-        "type": "node",
-        "id": 6284456360,
         "lat": 51.9917647,
         "lon": 103.9829805,
+        "id": 20404,
         "tags": {
-            "name": "Трудный",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ТРУДНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 6425281899,
         "lat": 51.9968614,
         "lon": 103.960686,
+        "id": 20405,
         "tags": {
-            "name": "Медвежий",
-            "railway": "halt",
-            "train": "yes"
+            "name": "МЕДВЕЖИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1935323988,
         "lat": 51.9463754,
         "lon": 103.8839204,
+        "id": 20407,
         "tags": {
-            "esr:user": "933110",
-            "name": "Санаторный",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "САНАТОРНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1935323983,
         "lat": 51.8788863,
         "lon": 103.855565,
+        "id": 20408,
         "tags": {
-            "esr:user": "933125",
-            "name": "Глубокая",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ГЛУБОКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3606631959,
         "lat": 51.8270678,
         "lon": 103.8190358,
+        "id": 20409,
         "tags": {
-            "esr:user": "933134",
-            "name": "Переезд",
-            "name:ru": "Переезд",
-            "railway": "halt",
-            "uic_ref": "2054924"
+            "name": "ПЕРЕЕЗД"
         }
     },
     {
-        "type": "node",
-        "id": 275770955,
-        "lat": 51.7286799,
-        "lon": 103.7581751,
+        "lat": 51.9871164,
+        "lon": 103.9491778,
+        "id": 20411,
         "tags": {
-            "name": "Галерея Сосновая",
-            "old_name": "154 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "СОСНОВЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1935323984,
         "lat": 51.9033806,
         "lon": 103.8842014,
+        "id": 20412,
         "tags": {
-            "esr:user": "933163",
-            "name": "Источник",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ИСТОЧНИК"
         }
     },
     {
-        "type": "node",
-        "id": 558517690,
         "lat": 51.7527651,
         "lon": 103.7446644,
+        "id": 20414,
         "tags": {
-            "esr:user": "933182",
-            "name": "Поворот",
-            "name:en": "Povorot",
-            "name:ru": "Поворот",
-            "name:translate:en": "Turn",
-            "railway": "halt",
-            "uic_ref": "2054058"
+            "name": "ПОВОРОТ"
         }
     },
     {
-        "type": "node",
-        "id": 1935323986,
         "lat": 51.9243325,
         "lon": 103.8892429,
+        "id": 20415,
         "tags": {
-            "esr:user": "933197",
-            "name": "Родниковый",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "РОДНИКОВЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2859620499,
         "lat": 51.7483844,
         "lon": 103.7562831,
+        "id": 20416,
         "tags": {
-            "esr:user": "933200",
-            "name": "Ангасолка",
-            "name:en": "Angasolka",
-            "name:ru": "Ангасолка",
-            "railway": "station",
-            "uic_ref": "2054823"
+            "name": "АНГАСОЛКА"
         }
     },
     {
-        "type": "node",
-        "id": 558493677,
-        "lat": 51.7274786,
-        "lon": 103.6987739,
-        "tags": {
-            "esr:user": "933229",
-            "name": "Чёртова Гора",
-            "name:en": "Chyortova Gora",
-            "name:ru": "Чёртова Гора",
-            "railway": "halt",
-            "uic_ref": "2054353"
-        }
-    },
-    {
-        "type": "node",
-        "id": 10998547881,
         "lat": 51.6981557,
         "lon": 103.6897789,
+        "id": 20419,
         "tags": {
-            "esr:user": "933233",
-            "name": "Слюдянка II",
-            "name:en": "Slyudyanka 2",
-            "name:ru": "Слюдянка II",
-            "railway": "station",
-            "uic_ref": "2054824"
+            "name": "СЛЮДЯНКА II"
         }
     },
     {
-        "type": "node",
-        "id": 558515323,
         "lat": 51.7375568,
         "lon": 103.7795833,
+        "id": 20420,
         "tags": {
-            "esr:user": "933248",
-            "name": "Тёмная падь",
-            "name:en": "Tyomnaya Pad'",
-            "name:ru": "Тёмная падь",
-            "name:translate:en": "Dark Ravine",
-            "railway": "halt",
-            "uic_ref": "2054059"
+            "name": "ТЕМНАЯ ПАДЬ"
         }
     },
     {
-        "type": "node",
-        "id": 2888474603,
         "lat": 51.7352861,
         "lon": 103.723997,
+        "id": 20421,
         "tags": {
-            "name": "Земляничный",
-            "railway": "halt"
+            "name": "ЗЕМЛЯНИЧНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 427868587,
         "lat": 51.7378989,
         "lon": 103.6992286,
+        "id": 20422,
         "tags": {
-            "esr:user": "933267",
-            "name": "Партизанская",
-            "name:en": "Partizanskiy",
-            "name:ru": "Партизанская",
-            "railway": "halt",
-            "uic_ref": "2054061"
+            "name": "ПАРТИЗАНСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 558489783,
         "lat": 51.7155536,
         "lon": 103.6713875,
+        "id": 20423,
         "tags": {
-            "esr:user": "933271",
-            "name": "Вербный",
-            "name:en": "Pussy-Willow",
-            "name:ru": "Вербный",
-            "railway": "halt",
-            "uic_ref": "2054062"
+            "name": "ВЕРБНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 204978748,
         "lat": 51.6584986,
         "lon": 103.7238261,
+        "id": 20424,
         "tags": {
-            "name": "Слюдянка I",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "СЛЮДЯНКА I"
         }
     },
     {
-        "type": "node",
-        "id": 2203275822,
         "lat": 51.6442287,
         "lon": 103.7604727,
+        "id": 20425,
         "tags": {
-            "esr:user": "933318",
-            "name": "Рыбзавод",
-            "name:en": "Rybzavod",
-            "name:ru": "Рыбзавод",
-            "railway": "halt",
-            "uic_ref": "2054926"
+            "name": "РЫБЗАВОД"
         }
     },
     {
-        "type": "node",
-        "id": 2197875945,
         "lat": 51.6241423,
         "lon": 103.8132189,
+        "id": 20426,
         "tags": {
-            "name": "Буравщина",
-            "name:en": "Buravschina",
-            "name:ru": "Буравщина",
-            "railway": "halt"
+            "name": "БУРАВЩИНА"
         }
     },
     {
-        "type": "node",
-        "id": 245292577,
         "lat": 51.6054204,
         "lon": 103.9038901,
+        "id": 20427,
         "tags": {
-            "esr:user": "933337",
-            "name": "Мангутай",
-            "name:en": "Mangutay",
-            "name:ru": "Мангутай",
-            "railway": "halt",
-            "uic_ref": "2054928"
+            "name": "МАНГУТАЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3212207779,
         "lat": 51.5603788,
         "lon": 104.0017011,
+        "id": 20428,
         "tags": {
-            "esr:user": "933341",
-            "name": "Ореховая падь",
-            "name:en": "Orekhovaya Pad'",
-            "name:ru": "Ореховая падь",
-            "railway": "halt",
-            "uic_ref": "2054929"
+            "name": "ОРЕХОВАЯ ПАДЬ"
         }
     },
     {
-        "type": "node",
-        "id": 1935323987,
-        "lat": 52.1119118,
-        "lon": 104.1039939,
-        "tags": {
-            "esr:user": "932962",
-            "name": "Садовая",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 2183893645,
         "lat": 51.6115603,
         "lon": 103.8505987,
+        "id": 20430,
         "tags": {
-            "esr:user": "933360",
-            "name": "Муравей",
-            "name:en": "Muravey",
-            "name:ru": "Муравей",
-            "railway": "halt",
-            "uic_ref": "2054064"
+            "name": "МУРАВЕЙ"
         }
     },
     {
-        "type": "node",
-        "id": 427868005,
         "lat": 51.729214,
         "lon": 103.7222893,
+        "id": 20431,
         "tags": {
-            "esr": "933407",
-            "esr:user": "933407",
-            "name": "Култук",
-            "name:en": "Kultuk",
-            "name:ja": "クルトゥク",
-            "name:ru": "Култук",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054652"
+            "name": "КУЛТУК"
         }
     },
     {
-        "type": "node",
-        "id": 1599006210,
         "lat": 51.7499443,
         "lon": 103.9713858,
+        "id": 20433,
         "tags": {
-            "esr:user": "933426",
-            "name": "Шарыжалгай",
-            "name:en": "Sharyzhalgay",
-            "name:ru": "Шарыжалгай",
-            "public_transport": "stop_position",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054654"
+            "name": "ШАРЫЖАЛГАЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1215727584,
         "lat": 51.7864728,
         "lon": 104.2266138,
+        "id": 20434,
         "tags": {
-            "esr:user": "933430",
-            "fixme": "уточнить положение о/п",
-            "name": "Маритуй",
-            "name:en": "Marituy",
-            "name:ru": "Маритуй",
-            "public_transport": "stop_position",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054655"
+            "name": "МАРИТУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3201232107,
         "lat": 51.7959289,
         "lon": 104.5151831,
+        "id": 20435,
         "tags": {
-            "esr:user": "933445",
-            "name": "Уланово",
-            "name:ru": "Уланово",
-            "public_transport": "stop_position",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054656"
+            "name": "УЛАНОВО"
         }
     },
     {
-        "type": "node",
-        "id": 3185276030,
         "lat": 51.8570844,
         "lon": 104.7165786,
+        "id": 20440,
         "tags": {
-            "esr:user": "933498",
-            "int_name": "78 km",
-            "name": "78 км",
-            "name:ru": "78 км",
-            "railway": "halt"
+            "name": "ОП 78 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 648759468,
         "lat": 51.870378,
         "lon": 104.8090101,
+        "id": 20442,
         "tags": {
-            "esr:user": "933604",
-            "name": "Байкал",
-            "name:ja": "バイカル",
-            "name:ru": "Байкал",
-            "note": "72 км КБЖД",
-            "public_transport": "stop_position",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054658"
+            "name": "БАЙКАЛ"
         }
     },
     {
-        "type": "node",
-        "id": 2886413948,
         "lat": 51.5340456,
         "lon": 104.0876428,
+        "id": 20444,
         "tags": {
-            "name": "5342 км",
-            "railway": "halt",
-            "uic_ref": "2054930"
+            "name": "ОП 5342 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3606641174,
-        "lat": 51.5158056,
-        "lon": 104.1418991,
-        "tags": {
-            "name": "Байкальск-Пасс.",
-            "railway": "halt",
-            "uic_name": "Bajkalsk Pass",
-            "uic_ref": "2001840"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3606646860,
         "lat": 51.5055518,
         "lon": 104.1877094,
+        "id": 20447,
         "tags": {
-            "esr:user": "933746",
-            "name": "Промплощадка",
-            "name:ru": "Промплощадка",
-            "railway": "halt",
-            "uic_ref": "2054932"
+            "name": "ПРОМПЛОЩАДКА"
         }
     },
     {
-        "type": "node",
-        "id": 1551993007,
-        "lat": 53.3589327,
-        "lon": 102.7567942,
+        "lat": 51.5415713,
+        "lon": 104.059363,
+        "id": 20448,
         "tags": {
-            "name": "Кутулик",
-            "name:ja": "クトゥリク",
-            "railway": "station",
-            "uic_name": "Kutulik",
-            "uic_ref": "2054323"
+            "name": "УТУЛИК"
         }
     },
     {
-        "type": "node",
-        "id": 1194222061,
-        "lat": 50.868667,
-        "lon": 115.6873536,
+        "lat": 51.5004332,
+        "lon": 104.2263739,
+        "id": 20449,
         "tags": {
-            "name": "Ясногорск Забайкальский",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "БАЙКАЛЬСК"
         }
     },
     {
-        "type": "node",
-        "id": 2038851686,
         "lat": 51.4780916,
         "lon": 104.407627,
+        "id": 20451,
         "tags": {
-            "esr:user": "933820",
-            "name": "Мурино",
-            "name:en": "Murino",
-            "name:ru": "Мурино",
-            "railway": "halt",
-            "uic_ref": "2054830"
+            "name": "МУРИНО"
         }
     },
     {
-        "type": "node",
-        "id": 2420136526,
         "lat": 51.4778251,
         "lon": 104.4527784,
+        "id": 20453,
         "tags": {
-            "name": "5369 км",
-            "name:en": "5369 km",
-            "name:ru": "5369 км",
-            "railway": "halt"
+            "name": "ОП 5369 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 2416006893,
         "lat": 51.4563514,
         "lon": 104.5086358,
+        "id": 20455,
         "tags": {
-            "esr:user": "933939",
-            "name": "Паньковка II",
-            "name:en": "Pankovka Vtoraya",
-            "name:ru": "Паньковка II",
-            "railway": "halt",
-            "uic_ref": "2054936"
+            "name": "ПАНЬКОВКА II"
         }
     },
     {
-        "type": "node",
-        "id": 245321328,
-        "lat": 51.4919651,
-        "lon": 104.8439261,
-        "tags": {
-            "name": "Речка-Выдрино",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 2248276170,
         "lat": 51.4452045,
         "lon": 104.6934383,
+        "id": 20458,
         "tags": {
-            "name": "Толбазиха",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054066"
+            "name": "ТОЛБАЗИХА"
         }
     },
     {
-        "type": "node",
-        "id": 245313334,
         "lat": 51.4544095,
         "lon": 104.7705227,
+        "id": 20459,
         "tags": {
-            "name": "Мамай",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "МАМАЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2248276167,
-        "lat": 51.5099916,
-        "lon": 104.9289167,
-        "tags": {
-            "name": "Кедровая-Сибирская",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3027064086,
         "lat": 51.555241,
         "lon": 105.1136568,
+        "id": 20471,
         "tags": {
-            "name": "Танхой",
-            "name:en": "Tankhoy",
-            "name:ja": "タンホイ",
-            "railway": "station",
-            "uic_name": "Tanchoj",
-            "uic_ref": "2054547"
+            "name": "ТАНХОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1812403364,
         "lat": 51.5794214,
         "lon": 105.2528937,
+        "id": 20478,
         "tags": {
-            "name": "Переёмная",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ПЕРЕЕМНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 245346796,
         "lat": 51.6053433,
         "lon": 105.4195266,
+        "id": 20480,
         "tags": {
-            "name": "Прибой",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ПРИБОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2248276168,
         "lat": 51.5991919,
         "lon": 105.379868,
+        "id": 20481,
         "tags": {
-            "name": "Осиновка",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ОСИНОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 245352302,
         "lat": 51.6857371,
         "lon": 105.7410005,
+        "id": 20483,
         "tags": {
-            "esr:user": "934503",
-            "name": "Клюевка",
-            "railway": "halt"
+            "name": "КЛЮЕВКА"
         }
     },
     {
-        "type": "node",
-        "id": 245352302,
         "lat": 51.6857371,
         "lon": 105.7410005,
+        "id": 20484,
         "tags": {
-            "esr:user": "934503",
-            "name": "Клюевка",
-            "railway": "halt"
+            "name": "ОП КЛЮЕВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3027044624,
         "lat": 51.7279651,
         "lon": 105.9325325,
+        "id": 20487,
         "tags": {
-            "name": "Тельная",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054941"
+            "name": "ТЕЛЬНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3027039037,
         "lat": 51.755981,
         "lon": 105.9667988,
+        "id": 20488,
         "tags": {
-            "name": "Гремячий",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054942"
+            "name": "ГРЕМЯЧИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3026760437,
         "lat": 51.7769258,
         "lon": 105.9829862,
+        "id": 20489,
         "tags": {
-            "esr:user": "934630",
-            "name": "Мантуриха",
-            "name:ru": "Мантуриха",
-            "railway": "halt",
-            "uic_ref": "2054943"
+            "name": "МАНТУРИХА"
         }
     },
     {
-        "type": "node",
-        "id": 3026743684,
         "lat": 51.80925,
         "lon": 106.0226602,
+        "id": 20490,
         "tags": {
-            "name": "Сухой Ручей",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054944"
+            "name": "СУХОЙ РУЧЕЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3026743682,
         "lat": 51.8492863,
         "lon": 106.0698945,
+        "id": 20491,
         "tags": {
-            "name": "Боярский",
-            "railway": "halt",
-            "uic_ref": "2054863"
+            "name": "БОЯРСКИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 558517690,
-        "lat": 51.7527651,
-        "lon": 103.7446644,
-        "tags": {
-            "esr:user": "933182",
-            "name": "Поворот",
-            "name:en": "Povorot",
-            "name:ru": "Поворот",
-            "name:translate:en": "Turn",
-            "railway": "halt",
-            "uic_ref": "2054058"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3026737206,
         "lat": 51.8928271,
         "lon": 106.1353073,
+        "id": 20493,
         "tags": {
-            "name": "Култушная",
-            "railway": "halt",
-            "source": "landsat",
-            "uic_name": "Kultuschnaia",
-            "uic_ref": "2054946"
+            "name": "КУЛТУШНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3026655020,
         "lat": 51.9686508,
         "lon": 106.3511987,
+        "id": 20496,
         "tags": {
-            "esr:user": "934700",
-            "name": "Посольская",
-            "name:en": "Posolskaya",
-            "name:ru": "Посольская",
-            "railway": "station",
-            "uic_name": "Posolskaya",
-            "uic_ref": "2054755"
+            "name": "ПОСОЛЬСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3026661911,
         "lat": 51.9700945,
         "lon": 106.3090653,
+        "id": 20497,
         "tags": {
-            "name": "Большая Речка",
-            "name:ja": "ボリシャヤ・レチカ",
-            "railway": "halt",
-            "source": "landsat",
-            "uic_ref": "2054948"
+            "name": "БОЛЬШАЯ РЕЧКА"
         }
     },
     {
-        "type": "node",
-        "id": 3026655019,
-        "lat": 51.9758254,
-        "lon": 106.402558,
-        "tags": {
-            "name": "Песчаный карьер",
-            "railway": "halt",
-            "source": "landsat",
-            "uic_ref": "2054949"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3026655017,
         "lat": 51.9852179,
         "lon": 106.5096492,
+        "id": 20501,
         "tags": {
-            "name": "Еловка",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054075"
+            "name": "ЕЛОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3026655018,
         "lat": 52.0157425,
         "lon": 106.6982512,
+        "id": 20503,
         "tags": {
-            "name": "Нюки",
-            "railway": "halt",
-            "uic_ref": "2054960"
+            "name": "НЮКИ"
         }
     },
     {
-        "type": "node",
-        "id": 245411850,
         "lat": 52.0185955,
         "lon": 106.7528307,
+        "id": 20504,
         "tags": {
-            "name": "Береговой",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "БЕРЕГОВОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3026663808,
         "lat": 52.0202035,
         "lon": 106.8450121,
+        "id": 20506,
         "tags": {
-            "name": "5560 км",
-            "railway": "halt",
-            "uic_ref": "2054077"
+            "name": "ОП 5560 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3026655021,
         "lat": 52.0328682,
         "lon": 106.8712229,
+        "id": 20507,
         "tags": {
-            "esr:user": "934908",
-            "name": "Селенга",
-            "name:ru": "Селенга",
-            "railway": "station",
-            "uic_name": "Selenga",
-            "uic_ref": "2054765"
+            "name": "СЕЛЕНГА"
         }
     },
     {
-        "type": "node",
-        "id": 3026654819,
         "lat": 52.0451343,
         "lon": 106.8965019,
+        "id": 20508,
         "tags": {
-            "name": "Первая площадка",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054965"
+            "name": "ПЕРВ ПЛОЩАДКА"
         }
     },
     {
-        "type": "node",
-        "id": 3026654820,
         "lat": 52.0688802,
         "lon": 106.9618047,
+        "id": 20509,
         "tags": {
-            "name": "Таракановка",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054966"
+            "name": "ТАРАКАНОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3026645649,
         "lat": 52.0842787,
         "lon": 107.0219821,
+        "id": 20510,
         "tags": {
-            "name": "Мостовка",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054967"
+            "name": "МОСТОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3026645650,
         "lat": 52.1142828,
         "lon": 107.1394338,
+        "id": 20512,
         "tags": {
-            "name": "Таловка",
-            "railway": "station",
-            "source": "bing",
-            "uic_name": "Talowka",
-            "uic_ref": "2054545"
+            "name": "ТАЛОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 3026645652,
         "lat": 52.1158415,
         "lon": 107.1690875,
+        "id": 20513,
         "tags": {
-            "name": "Троицкое",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054968"
+            "name": "ТРОИЦКОЕ"
         }
     },
     {
-        "type": "node",
-        "id": 3026650673,
         "lat": 52.1159777,
         "lon": 107.2493382,
+        "id": 20514,
         "tags": {
-            "name": "Лесовозный",
-            "railway": "halt",
-            "source": "bing",
-            "uic_name": "Lesovoznij",
-            "uic_ref": "2054549"
+            "name": "ЛЕСОВОЗНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3026645645,
         "lat": 52.1214614,
         "lon": 107.3045023,
+        "id": 20515,
         "tags": {
-            "name": "Ильинка",
-            "name:ja": "イリインカ",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054969"
+            "name": "ИЛЬИНКА"
         }
     },
     {
-        "type": "node",
-        "id": 277748529,
         "lat": 52.1393005,
         "lon": 107.4347426,
+        "id": 20516,
         "tags": {
-            "name": "Татаурово",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "ТАТАУРОВО"
         }
     },
     {
-        "type": "node",
-        "id": 3026645648,
         "lat": 52.0894913,
         "lon": 107.4835895,
+        "id": 20517,
         "tags": {
-            "name": "Мандрик",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054970"
+            "name": "МАНДРИК"
         }
     },
     {
-        "type": "node",
-        "id": 3026645646,
         "lat": 52.0487606,
         "lon": 107.4919484,
+        "id": 20520,
         "tags": {
-            "esr:user": "935243",
-            "name": "Колос",
-            "railway": "halt",
-            "uic_ref": "2054080"
+            "name": "КОЛОС"
         }
     },
     {
-        "type": "node",
-        "id": 3026643083,
         "lat": 52.0290665,
         "lon": 107.4972928,
+        "id": 20521,
         "tags": {
-            "esr:user": "935258",
-            "name": "Петуховка",
-            "railway": "halt",
-            "uic_ref": "2054081"
+            "name": "ПЕТУХОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 2417388613,
         "lat": 51.9176615,
         "lon": 107.4999477,
+        "id": 20523,
         "tags": {
-            "esr:user": "935313",
-            "name": "Сотниково",
-            "railway": "halt"
+            "name": "СОТНИКОВО"
         }
     },
     {
-        "type": "node",
-        "id": 948042636,
         "lat": 56.1540841,
         "lon": 97.1584696,
+        "id": 20524,
         "tags": {
-            "esr:user": "894043",
-            "name": "Сосновый Бор",
-            "name:ru": "Сосновый Бор",
-            "railway": "halt",
-            "uic_ref": "2038377"
+            "name": "СОСНОВЫЙ БОР"
         }
     },
     {
-        "type": "node",
-        "id": 1718636288,
         "lat": 51.9610642,
         "lon": 107.5001081,
+        "id": 20525,
         "tags": {
-            "esr:user": "935332",
-            "name": "Учитель",
-            "railway": "halt",
-            "uic_ref": "2054083"
+            "name": "УЧИТЕЛЬ"
         }
     },
     {
-        "type": "node",
-        "id": 3004050986,
         "lat": 51.9402684,
         "lon": 107.5023143,
+        "id": 20526,
         "tags": {
-            "esr:user": "935347",
-            "name": "Солнечная",
-            "railway": "halt",
-            "uic_ref": "2054672"
+            "name": "СОЛНЕЧНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3004046929,
         "lat": 51.9309625,
         "lon": 107.5053433,
+        "id": 20527,
         "tags": {
-            "esr:user": "935351",
-            "name": "Зенит",
-            "railway": "halt",
-            "uic_ref": "2054084"
+            "name": "ЗЕНИТ"
         }
     },
     {
-        "type": "node",
-        "id": 3026634815,
         "lat": 51.8881264,
         "lon": 107.5181007,
+        "id": 20528,
         "tags": {
-            "esr:user": "935402",
-            "name": "Дивизионная",
-            "railway": "station",
-            "uic_ref": "2054834"
+            "name": "ДИВИЗИОННАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3026634817,
         "lat": 51.8623739,
         "lon": 107.5411939,
+        "id": 20529,
         "tags": {
-            "esr:user": "935417",
-            "name": "Стеклозавод",
-            "railway": "halt",
-            "uic_ref": "2054973"
+            "name": "СТЕКЛОЗАВОД"
         }
     },
     {
-        "type": "node",
-        "id": 1865896097,
         "lat": 51.614149,
         "lon": 107.3893694,
+        "id": 20532,
         "tags": {
-            "esr:user": "935601",
-            "name": "Шалуты",
-            "name:ru": "Шалуты",
-            "railway": "station",
-            "uic_name": "Shaluti",
-            "uic_ref": "2054838"
+            "name": "ШАЛУТЫ"
         }
     },
     {
-        "type": "node",
-        "id": 277749199,
         "lat": 51.8023616,
         "lon": 107.6189719,
+        "id": 20535,
         "tags": {
-            "name": "Комушка",
-            "railway": "halt",
-            "uic_name": "Komushka",
-            "uic_ref": "2054865"
+            "name": "КОМУШКА"
         }
     },
     {
-        "type": "node",
-        "id": 3369830094,
         "lat": 51.7760447,
         "lon": 107.5530104,
+        "id": 20539,
         "tags": {
-            "name": "Медведчиково",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "МЕДВЕДЧИКОВО"
         }
     },
     {
-        "type": "node",
-        "id": 277749365,
         "lat": 51.6886053,
         "lon": 107.4472536,
+        "id": 20542,
         "tags": {
-            "name": "Саянтуй",
-            "railway": "station",
-            "uic_name": "Sayantuj",
-            "uic_ref": "2054561"
+            "name": "САЯНТУЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1865896098,
         "lat": 51.603168,
         "lon": 107.372862,
+        "id": 20546,
         "tags": {
-            "name": "5689 км",
-            "name:ru": "5689 км",
-            "railway": "halt",
-            "uic_ref": "2054986"
+            "name": "ОП 5689 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1811267252,
         "lat": 51.5202471,
         "lon": 107.2606013,
+        "id": 20551,
         "tags": {
-            "esr:user": "935991",
-            "name": "деревня Ганзурино",
-            "name:ru": "деревня Ганзурино",
-            "railway": "halt"
+            "name": "ДЕР ГАНЗУРИНО"
         }
     },
     {
-        "type": "node",
-        "id": 3505149521,
         "lat": 51.5130713,
         "lon": 107.1137498,
+        "id": 20552,
         "tags": {
-            "esr:user": "936015",
-            "name": "5717 км",
-            "name:be": "5717 км",
-            "name:bg": "5717 км",
-            "name:ee": "5717 km",
-            "name:en": "5717 km",
-            "name:hy": "5717 կմ",
-            "name:ka": "5717 კმ",
-            "name:lt": "5717 km",
-            "name:lv": "5717 km",
-            "name:md": "5717 km",
-            "name:pl": "5717 km",
-            "name:ro": "5717 km",
-            "name:ru": "5717 км",
-            "name:uk": "5717 км",
-            "railway": "halt",
-            "uic_name": "Ost.Punkt 5717 km",
-            "uic_ref": "2054826"
+            "name": "ОП 5717 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 277760519,
         "lat": 51.530668,
         "lon": 107.027203,
+        "id": 20553,
         "tags": {
-            "esr:user": "936026",
-            "name": "Оронгой",
-            "name:en": "Orongoy",
-            "name:ru": "Оронгой",
-            "railway": "station",
-            "uic_name": "Orongoj",
-            "uic_ref": "2054839"
+            "name": "ОРОНГОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2978639547,
         "lat": 51.500854,
         "lon": 106.8518309,
+        "id": 20557,
         "tags": {
-            "name": "Убукун",
-            "railway": "station",
-            "uic_name": "Ubukun",
-            "uic_ref": "2054840"
+            "name": "УБУКУН"
         }
     },
     {
-        "type": "node",
-        "id": 3505137708,
         "lat": 51.4569931,
         "lon": 106.6987265,
+        "id": 20559,
         "tags": {
-            "name": "Тельман",
-            "railway": "station",
-            "uic_name": "Telman",
-            "uic_ref": "2002523"
+            "name": "ТЕЛЬМАН"
         }
     },
     {
-        "type": "node",
-        "id": 3505148645,
         "lat": 51.4386609,
         "lon": 106.682919,
+        "id": 20560,
         "tags": {
-            "esr:user": "936091",
-            "name": "5751 км",
-            "name:be": "5751 км",
-            "name:bg": "5751 км",
-            "name:ee": "5751 km",
-            "name:en": "5751 km",
-            "name:hy": "5751 կմ",
-            "name:ka": "5751 კმ",
-            "name:lt": "5751 km",
-            "name:lv": "5751 km",
-            "name:md": "5751 km",
-            "name:pl": "5751 km",
-            "name:ro": "5751 km",
-            "name:ru": "5751 км",
-            "name:uk": "5751 км",
-            "railway": "halt",
-            "uic_name": "Ost.Punkt 5751 km",
-            "uic_ref": "2054237"
+            "name": "ОП 5751 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3505151079,
         "lat": 51.3717152,
         "lon": 106.5830832,
+        "id": 20561,
         "tags": {
-            "esr:user": "936104",
-            "name": "Сульфат",
-            "name:ru": "Сульфат",
-            "railway": "station",
-            "uic_name": "Sulfat",
-            "uic_ref": "2054563"
+            "name": "СУЛЬФАТ"
         }
     },
     {
-        "type": "node",
-        "id": 3505154198,
         "lat": 51.2434738,
         "lon": 106.3809278,
+        "id": 20567,
         "tags": {
-            "esr:user": "936301",
-            "name": "Бараты",
-            "name:ru": "Бараты",
-            "railway": "station",
-            "uic_name": "Barati",
-            "uic_ref": "2054746"
+            "name": "БАРАТЫ"
         }
     },
     {
-        "type": "node",
-        "id": 300429337,
         "lat": 51.1978929,
         "lon": 106.3531199,
+        "id": 20568,
         "tags": {
-            "name": "Муртой",
-            "railway": "halt",
-            "uic_name": "Murtoj",
-            "uic_ref": "2054870"
+            "name": "МУРТОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3583879231,
         "lat": 51.2004729,
         "lon": 108.8607091,
+        "id": 20569,
         "tags": {
-            "name": "5796 км",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "ОП 5796 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 300429395,
         "lat": 51.1148596,
         "lon": 106.270043,
+        "id": 20570,
         "tags": {
-            "name": "Гусиное Озеро",
-            "name:ja": "グシノエ・オゼラ",
-            "railway": "station",
-            "uic_name": "Gusinoe Osero",
-            "uic_ref": "2054747"
+            "name": "ГУСИНОЕ ОЗЕРО"
         }
     },
     {
-        "type": "node",
-        "id": 300429472,
         "lat": 50.9206467,
         "lon": 106.2451419,
+        "id": 20573,
         "tags": {
-            "name": "5822 км",
-            "railway": "halt",
-            "uic_name": "Ost.Punkt 5822 km",
-            "uic_ref": "2054238"
+            "name": "ОП 5822 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3505182995,
         "lat": 50.7749285,
         "lon": 106.2679487,
+        "id": 20575,
         "tags": {
-            "esr:user": "936513",
-            "name": "Бутиха",
-            "name:ru": "Бутиха",
-            "railway": "halt",
-            "uic_name": "Butikha",
-            "uic_ref": "2054239"
+            "name": "БУТИХА"
         }
     },
     {
-        "type": "node",
-        "id": 300431116,
         "lat": 50.6871504,
         "lon": 106.1860135,
+        "id": 20576,
         "tags": {
-            "esr:user": "936602",
-            "name": "Джида",
-            "name:bxr": "Жада",
-            "name:de": "Dschida",
-            "name:en": "Dzhida",
-            "name:ja": "ジダ",
-            "name:ru": "Джида",
-            "railway": "station",
-            "uic_name": "Djida",
-            "uic_ref": "2054749"
+            "name": "ДЖИДА"
         }
     },
     {
-        "type": "node",
-        "id": 300429976,
         "lat": 50.572958,
         "lon": 106.195586,
+        "id": 20577,
         "tags": {
-            "esr:user": "936725",
-            "name": "Хужир",
-            "name:ja": "フジル",
-            "name:ru": "Хужир",
-            "railway": "station",
-            "uic_name": "Khujir",
-            "uic_ref": "2054751"
+            "name": "ХУЖИР"
         }
     },
     {
-        "type": "node",
-        "id": 3505183452,
         "lat": 50.4805749,
         "lon": 106.156878,
+        "id": 20579,
         "tags": {
-            "esr:user": "936807",
-            "name": "Харанхой",
-            "name:ru": "Харанхой",
-            "railway": "station",
-            "uic_name": "Kharankhoj",
-            "uic_ref": "2054752"
+            "name": "ХАРАНХОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2469754511,
         "lat": 51.8474298,
         "lon": 107.7814021,
+        "id": 20585,
         "tags": {
-            "name": "Тальцы",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ТАЛЬЦЫ"
         }
     },
     {
-        "type": "node",
-        "id": 9173232882,
         "lat": 51.8817332,
         "lon": 107.9111119,
+        "id": 20586,
         "tags": {
-            "esr:user": "937617",
-            "name": "Колхозный",
-            "railway": "halt",
-            "uic_ref": "2054976"
+            "name": "КОЛХОЗНЫЙ"
         }
     },
     {
-        "type": "node",
-        "id": 9173244950,
         "lat": 51.8956918,
         "lon": 107.9829709,
+        "id": 20587,
         "tags": {
-            "esr:user": "937624",
-            "name": "5672 км",
-            "railway": "halt",
-            "uic_ref": "2054977"
+            "name": "ОП 5672 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 9173222501,
         "lat": 51.9079641,
         "lon": 108.0155356,
+        "id": 20588,
         "tags": {
-            "esr:user": "937639",
-            "name": "База ПМС",
-            "railway": "halt",
-            "uic_ref": "2054978"
+            "name": "БАЗА ПМС"
         }
     },
     {
-        "type": "node",
-        "id": 927574436,
-        "lat": 52.1221848,
-        "lon": 104.0837688,
-        "tags": {
-            "name": "Дачная",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 243346754,
         "lat": 51.9149666,
         "lon": 108.0371113,
+        "id": 20591,
         "tags": {
-            "name": "Онохой",
-            "name:en": "Onohoy",
-            "name:ja": "オノホイ",
-            "name:ru": "Онохой",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ОНОХОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2478070597,
         "lat": 51.7606707,
         "lon": 108.3892408,
+        "id": 20600,
         "tags": {
-            "name": "Челутай",
-            "railway": "station",
-            "uic_ref": "2054556"
+            "name": "ЧЕЛУТАЙ"
         }
     },
     {
-        "type": "node",
-        "id": 243348003,
         "lat": 51.7196339,
         "lon": 108.5094241,
+        "id": 20601,
         "tags": {
-            "name": "Илька",
-            "name:en": "Ilka",
-            "name:ja": "イリカ",
-            "name:ru": "Илька",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ИЛЬКА"
         }
     },
     {
-        "type": "node",
-        "id": 243348534,
         "lat": 51.5648263,
         "lon": 108.7889618,
+        "id": 20604,
         "tags": {
-            "name": "Горхон",
-            "name:en": "Gorhon",
-            "name:ru": "Горхон",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ГОРХОН"
         }
     },
     {
-        "type": "node",
-        "id": 243349123,
         "lat": 51.4555351,
         "lon": 108.8813936,
+        "id": 20605,
         "tags": {
-            "name": "Кижа",
-            "name:en": "Kizha",
-            "name:ru": "Кижа",
-            "railway": "halt"
+            "name": "КИЖА"
         }
     },
     {
-        "type": "node",
-        "id": 318634105,
         "lat": 56.346674,
         "lon": 114.4231216,
+        "id": 40067,
         "tags": {
-            "esr:user": "904423",
-            "name": "1441 км",
-            "name:be": "1441 км",
-            "name:bg": "1441 км",
-            "name:ee": "1441 km",
-            "name:en": "1441 km",
-            "name:hy": "1441 կմ",
-            "name:ka": "1441 კმ",
-            "name:lt": "1441 km",
-            "name:lv": "1441 km",
-            "name:md": "1441 km",
-            "name:pl": "1441 km",
-            "name:ro": "1441 km",
-            "name:ru": "1441 км",
-            "name:uk": "1441 км",
-            "railway": "halt"
+            "name": "ОП 1441 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3261402293,
         "lat": 56.8306983,
         "lon": 104.895206,
+        "id": 20293,
         "tags": {
-            "name": "648 км",
-            "railway": "halt"
+            "name": "ОП 648 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605509296,
         "lat": 56.1031956,
         "lon": 99.3070629,
+        "id": 20213,
         "tags": {
-            "esr:user": "923621",
-            "name": "119 км",
-            "name:be": "119 км",
-            "name:bg": "119 км",
-            "name:ee": "119 km",
-            "name:en": "119 km",
-            "name:hy": "119 կմ",
-            "name:ka": "119 კმ",
-            "name:lt": "119 km",
-            "name:lv": "119 km",
-            "name:md": "119 km",
-            "name:pl": "119 km",
-            "name:ro": "119 km",
-            "name:ru": "119 км",
-            "name:uk": "119 км",
-            "railway": "halt"
+            "name": "ОП 119 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 243327663,
         "lat": 54.4824786,
         "lon": 100.8049362,
+        "id": 20164,
         "tags": {
-            "name": "4820 км",
-            "railway": "halt",
-            "uic_ref": "2055855"
+            "name": "ОП 4820 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1532492535,
         "lat": 54.5672694,
         "lon": 100.6057114,
+        "id": 20160,
         "tags": {
-            "name": "4802 км",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "ОП 4802 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 294128253,
         "lat": 51.8406683,
         "lon": 107.5825388,
+        "id": 20530,
         "tags": {
-            "name": "Улан-Удэ",
-            "name:de": "Ulan-Ude",
-            "name:ja": "ウラン・ウデ",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "УЛАН-УДЭ"
         }
     },
     {
-        "type": "node",
-        "id": 4795265855,
         "lat": 56.5585144,
         "lon": 106.8066887,
+        "id": 19890,
         "tags": {
-            "name": "Ния",
-            "name:de": "Nija",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Nija",
-            "uic_ref": "2001027"
+            "name": "НИЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3394681860,
         "lat": 56.1795725,
         "lon": 107.455558,
+        "id": 19892,
         "tags": {
-            "esr:user": "902702",
-            "name": "Киренга",
-            "name:ru": "Киренга",
-            "network": "РЖД",
-            "operator": "Востчоно-Сибирская железная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Kirenga",
-            "uic_ref": "2054048"
+            "name": "КИРЕНГА"
         }
     },
     {
-        "type": "node",
-        "id": 3505198052,
         "lat": 55.7632958,
         "lon": 108.4507861,
+        "id": 19896,
         "tags": {
-            "esr:user": "903007",
-            "name": "Кунерма",
-            "name:de": "Kunerma",
-            "name:ja": "クネルマ",
-            "name:ru": "Кунерма",
-            "network": "РЖД",
-            "operator": "Востчоно-Сибирская железная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Kunerma",
-            "uic_ref": "2054050"
+            "name": "КУНЕРМА"
         }
     },
     {
-        "type": "node",
-        "id": 4720683646,
         "lat": 56.011877,
         "lon": 110.9068743,
+        "id": 19922,
         "tags": {
-            "name": "Ангоя",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "АНГОЯ"
         }
     },
     {
-        "type": "node",
-        "id": 10886568885,
         "lat": 57.010879,
         "lon": 119.6316477,
+        "id": 19948,
         "tags": {
-            "name": "Олонгдо",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "ОЛОНГДО"
         }
     },
     {
-        "type": "node",
-        "id": 3505251242,
         "lat": 56.3788796,
         "lon": 114.5008159,
+        "id": 19966,
         "tags": {
-            "name": "Улан-Макит",
-            "name:en": "Ulan-Makit",
-            "name:ru": "Улан-Макит",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes"
+            "name": "УЛАН-МАКИТ"
         }
     },
     {
-        "type": "node",
-        "id": 892620773,
         "lat": 55.9711939,
         "lon": 97.8234353,
+        "id": 20096,
         "tags": {
-            "esr:user": "920106",
-            "name": "Бирюсинск",
-            "network": "РЖД",
-            "operator": "Восточно-сибирская желехная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_ref": "2054224"
+            "name": "БИРЮСИНСК"
         }
     },
     {
-        "type": "node",
-        "id": 1527932094,
         "lat": 55.5523243,
         "lon": 98.666029,
+        "id": 20112,
         "tags": {
-            "name": "Алзамай",
-            "name:ja": "アルザマイ",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "АЛЗАМАЙ"
         }
     },
     {
-        "type": "node",
-        "id": 242837419,
         "lat": 55.0797597,
         "lon": 98.8631763,
+        "id": 20125,
         "tags": {
-            "name": "Ук",
-            "name:ja": "ウク",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "УК"
         }
     },
     {
-        "type": "node",
-        "id": 3266571460,
         "lat": 54.8430833,
         "lon": 99.1217132,
+        "id": 20134,
         "tags": {
-            "esr:user": "921306",
-            "name": "Уда 2",
-            "name:ru": "Уда II",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054309"
+            "name": "УДА II"
         }
     },
     {
-        "type": "node",
-        "id": 243087729,
         "lat": 54.6255226,
         "lon": 99.8458894,
+        "id": 20149,
         "tags": {
-            "name": "Шеберта",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ШЕБЕРТА"
         }
     },
     {
-        "type": "node",
-        "id": 3267655273,
         "lat": 54.6431077,
         "lon": 100.4575377,
+        "id": 20156,
         "tags": {
-            "esr:user": "921908",
-            "name": "Котик",
-            "name:ru": "Котик",
-            "railway": "station",
-            "uic_ref": "2054317"
+            "name": "КОТИК"
         }
     },
     {
-        "type": "node",
-        "id": 368344265,
         "lat": 54.5102358,
         "lon": 100.758808,
+        "id": 20163,
         "tags": {
-            "name": "Азей",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "АЗЕЙ"
         }
     },
     {
-        "type": "node",
-        "id": 242832297,
         "lat": 54.4710053,
         "lon": 101.1640646,
+        "id": 20169,
         "tags": {
-            "name": "Тулюшка",
-            "railway": "station",
-            "uic_ref": "2054799"
+            "name": "ТУЛЮШКА"
         }
     },
     {
-        "type": "node",
-        "id": 3964015178,
         "lat": 54.1366433,
         "lon": 101.8432847,
+        "id": 20181,
         "tags": {
-            "alt_name": "Кимельтей",
-            "esr:user": "922900",
-            "name": "Кимильтей",
-            "railway": "station",
-            "uic_ref": "2055802"
+            "name": "КИМИЛЬТЕЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3605511577,
         "lat": 56.1636026,
         "lon": 99.0303385,
+        "id": 20209,
         "tags": {
-            "esr:user": "923509",
-            "name": "Парчум",
-            "name:ru": "Парчум",
-            "railway": "station",
-            "uic_name": "Partschum",
-            "uic_ref": "2054801"
+            "name": "ПАРЧУМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605508167,
         "lat": 56.0670715,
         "lon": 99.4441061,
+        "id": 20217,
         "tags": {
-            "esr:user": "923800",
-            "name": "Сосновые Родники",
-            "network": "РЖД",
-            "operator": "Восточно-Сибирская железная дорога",
-            "public_transport": "station",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Sosnowie Rodniki",
-            "uic_ref": "2054758"
+            "name": "СОСН РОДНИКИ"
         }
     },
     {
-        "type": "node",
-        "id": 3605501810,
         "lat": 56.1224259,
         "lon": 100.2391055,
+        "id": 20227,
         "tags": {
-            "esr:user": "924200",
-            "name": "Кешево",
-            "name:ru": "Кешево",
-            "railway": "station",
-            "uic_name": "Keshevo",
-            "uic_ref": "2054763"
+            "name": "КЕШЕВО"
         }
     },
     {
-        "type": "node",
-        "id": 734443412,
         "lat": 56.1902907,
         "lon": 100.8836296,
+        "id": 20232,
         "tags": {
-            "esr:user": "924304",
-            "name": "Турма",
-            "name:ru": "Турма",
-            "public_transport": "stop_position",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Turma",
-            "uic_ref": "2054766"
+            "name": "ТУРМА"
         }
     },
     {
-        "type": "node",
-        "id": 1311928879,
-        "lat": 56.1465388,
-        "lon": 101.6128111,
+        "lat": 56.1220236,
+        "lon": 101.5449795,
+        "id": 20240,
         "tags": {
-            "name": "Новобратск",
-            "railway": "station",
-            "uic_ref": "2054717"
+            "name": "БРАТСК"
         }
     },
     {
-        "type": "node",
-        "id": 734232306,
         "lat": 56.1525143,
         "lon": 101.4757542,
+        "id": 20245,
         "tags": {
-            "name": "Анзёби",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "АНЗЕБИ"
         }
     },
     {
-        "type": "node",
-        "id": 2004843645,
         "lat": 56.2741206,
         "lon": 101.8952499,
+        "id": 20251,
         "tags": {
-            "name": "Гидростроитель",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ГИДРОСТРОИТЕЛЬ"
         }
     },
     {
-        "type": "node",
-        "id": 3261120167,
         "lat": 56.5748448,
         "lon": 102.6305996,
+        "id": 20257,
         "tags": {
-            "esr:user": "925311",
-            "name": "Мамырь",
-            "name:ru": "Мамырь",
-            "railway": "halt",
-            "uic_ref": "2054777"
+            "name": "МАМЫРЬ"
         }
     },
     {
-        "type": "node",
-        "id": 3604934128,
         "lat": 56.4140467,
         "lon": 103.6419765,
+        "id": 20262,
         "tags": {
-            "esr:user": "925523",
-            "name": "Чёрная",
-            "railway": "station",
-            "uic_ref": "2054782"
+            "name": "ЧЕРНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 858220939,
         "lat": 56.7113567,
         "lon": 104.2446751,
+        "id": 20273,
         "tags": {
-            "name": "Хребтовая",
-            "name:en": "Khrebtovaya",
-            "name:ja": "フレプトヴァヤ",
-            "name:ru": "Хребтовая",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ХРЕБТОВАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 1370144943,
         "lat": 56.5279849,
         "lon": 102.864698,
+        "id": 20279,
         "tags": {
-            "name": "Речушка",
-            "public_transport": "stop_position",
-            "railway": "station",
-            "train": "yes",
-            "uic_name": "Retschuschka",
-            "uic_ref": "2054779"
+            "name": "РЕЧУШКА"
         }
     },
     {
-        "type": "node",
-        "id": 3942803264,
         "lat": 57.9099753,
         "lon": 102.7763285,
+        "id": 20287,
         "tags": {
-            "name": "Усть-Илимск",
-            "name:en": "Ust-Ilimsk",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "УСТЬ-ИЛИМСК"
         }
     },
     {
-        "type": "node",
-        "id": 443718686,
         "lat": 56.8564918,
         "lon": 105.2163564,
+        "id": 20296,
         "tags": {
-            "name": "Янталь",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ЯНТАЛЬ"
         }
     },
     {
-        "type": "node",
-        "id": 3602643988,
         "lat": 56.805567,
         "lon": 105.8997325,
+        "id": 20314,
         "tags": {
-            "esr:user": "927603",
-            "name": "Якурим",
-            "name:ru": "Якурим",
-            "railway": "station",
-            "uic_ref": "2054190"
+            "name": "ЯКУРИМ"
         }
     },
     {
-        "type": "node",
-        "id": 1500960951,
         "lat": 52.2826286,
         "lon": 104.2603298,
+        "id": 20319,
         "tags": {
-            "name": "Иркутск-Пассажирский",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ИРКУТСК-ПАС"
         }
     },
     {
-        "type": "node",
-        "id": 3260359214,
         "lat": 53.4278445,
         "lon": 102.6738302,
+        "id": 20329,
         "tags": {
-            "esr:user": "930521",
-            "name": "Головинская",
-            "name:ru": "Головинская",
-            "railway": "station",
-            "uic_ref": "2054806"
+            "name": "ГОЛОВИНСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3605558323,
         "lat": 53.1826647,
         "lon": 103.02982,
+        "id": 20337,
         "tags": {
-            "esr:user": "930818",
-            "name": "Жаргон",
-            "name:ru": "Жаргон",
-            "railway": "halt",
-            "uic_ref": "2054807"
+            "name": "ЖАРГОН"
         }
     },
     {
-        "type": "node",
-        "id": 242802607,
         "lat": 53.0565173,
         "lon": 103.1654564,
+        "id": 20348,
         "tags": {
-            "name": "Касьяновка",
-            "railway": "station"
+            "name": "КАСЬЯНОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 548433919,
         "lat": 52.8259721,
         "lon": 103.5227168,
+        "id": 20358,
         "tags": {
-            "esr:user": "931702",
-            "name": "Мальта",
-            "name:en": "Malta",
-            "name:ru": "Мальта",
-            "railway": "station",
-            "uic_ref": "2054812"
+            "name": "МАЛЬТА"
         }
     },
     {
-        "type": "node",
-        "id": 1824799748,
         "lat": 52.5992173,
         "lon": 103.8759492,
+        "id": 20367,
         "tags": {
-            "name": "Китой",
-            "name:ja": "キトイ",
-            "railway": "station",
-            "uic_ref": "2054814"
+            "name": "КИТОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 2130353421,
         "lat": 52.4996371,
         "lon": 103.9479725,
+        "id": 20372,
         "tags": {
-            "name": "Суховская",
-            "public_transport": "station"
+            "name": "СУХОВСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 708304394,
         "lat": 52.3871762,
         "lon": 104.1366411,
+        "id": 20379,
         "tags": {
-            "esr:user": "932601",
-            "name": "Батарейная",
-            "name:ru": "Батарейная",
-            "railway": "station",
-            "uic_ref": "2054817"
+            "name": "БАТАРЕЙНАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 927574363,
         "lat": 52.2009126,
         "lon": 104.106893,
+        "id": 20390,
         "tags": {
-            "name": "Гончарово",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ГОНЧАРОВО"
         }
     },
     {
-        "type": "node",
-        "id": 1928496159,
         "lat": 51.9675623,
         "lon": 103.906145,
+        "id": 20406,
         "tags": {
-            "name": "Подкаменная",
-            "public_transport": "stop_position",
-            "train": "yes"
+            "name": "ПОДКАМЕННАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 204980711,
         "lat": 51.8044868,
         "lon": 103.808371,
+        "id": 20410,
         "tags": {
-            "esr:user": "933144",
-            "name": "Андриановская",
-            "name:en": "Andrianovskaya",
-            "name:ru": "Андриановская",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054862"
+            "name": "АНДРИАНОВСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 245321328,
-        "lat": 51.4919651,
-        "lon": 104.8439261,
+        "lat": 51.4467353,
+        "lon": 104.6454759,
+        "id": 20456,
         "tags": {
-            "name": "Речка-Выдрино",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ВЫДРИНО"
         }
     },
     {
-        "type": "node",
-        "id": 1812403363,
         "lat": 51.6527836,
         "lon": 105.58802,
+        "id": 20477,
         "tags": {
-            "esr:user": "934325",
-            "name": "Мишиха",
-            "name:ru": "Мишиха",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054833"
+            "name": "МИШИХА"
         }
     },
     {
-        "type": "node",
-        "id": 3027044623,
         "lat": 51.7186113,
         "lon": 105.8626219,
+        "id": 20486,
         "tags": {
-            "esr:user": "934607",
-            "name": "Мысовая",
-            "name:ru": "Мысовая",
-            "railway": "station",
-            "uic_name": "Misowaja",
-            "uic_ref": "2054745"
+            "name": "МЫСОВАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 3026655022,
         "lat": 52.0042262,
         "lon": 106.6163643,
+        "id": 20502,
         "tags": {
-            "name": "Тимлюй",
-            "railway": "station",
-            "source": "bing",
-            "uic_name": "Timljuj",
-            "uic_ref": "2054560"
+            "name": "ТИМЛЮЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3026641135,
         "lat": 52.0110645,
         "lon": 107.4974627,
+        "id": 20522,
         "tags": {
-            "esr:user": "935309",
-            "name": "Мостовой",
-            "railway": "station",
-            "uic_ref": "2054864"
+            "name": "МОСТОВОЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1811273909,
         "lat": 51.8238529,
         "lon": 107.6800369,
+        "id": 20533,
         "tags": {
-            "name": "Заудинский",
-            "name:ru": "Заудинский",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
+            "name": "ЗАУДИНСКИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 1811267250,
         "lat": 51.5149464,
         "lon": 107.1887892,
+        "id": 20550,
         "tags": {
-            "esr:user": "935987",
-            "name": "Ганзурино",
-            "name:ru": "Ганзурино",
-            "railway": "station",
-            "uic_name": "Ganzurino",
-            "uic_ref": "2054562"
+            "name": "ГАНЗУРИНО"
         }
     },
     {
-        "type": "node",
-        "id": 300429255,
         "lat": 51.3246832,
         "lon": 106.4885618,
+        "id": 20564,
         "tags": {
-            "int_name": "Zagustay",
-            "name": "Загустай",
-            "railway": "station",
-            "uic_name": "Zagustaj",
-            "uic_ref": "2054564"
+            "name": "ЗАГУСТАЙ"
         }
     },
     {
-        "type": "node",
-        "id": 3505182092,
         "lat": 50.873214,
         "lon": 106.2426305,
+        "id": 20574,
         "tags": {
-            "esr:user": "936509",
-            "name": "Селендума",
-            "name:ja": "セレンドゥマ",
-            "name:ru": "Селендума",
-            "railway": "station",
-            "uic_name": "Selenduma",
-            "uic_ref": "2054748"
+            "name": "СЕЛЕНДУМА"
         }
     },
     {
-        "type": "node",
-        "id": 300430214,
         "lat": 50.3890674,
         "lon": 106.0998926,
+        "id": 20580,
         "tags": {
-            "esr:user": "936903",
-            "name": "Наушки",
-            "name:bxr": "Наашхи",
-            "name:en": "Naushki",
-            "name:ja": "ナウシキ",
-            "name:ru": "Наушки",
-            "railway": "station",
-            "uic_name": "Naushki",
-            "uic_ref": "2054165"
+            "name": "НАУШКИ"
         }
     },
     {
-        "type": "node",
-        "id": 462207614,
         "lat": 51.8403929,
         "lon": 108.2766585,
+        "id": 20592,
         "tags": {
-            "name": "Заиграево",
-            "name:ja": "ザイグラエヴォ",
-            "public_transport": "stop_position",
-            "train": "yes",
-            "uic_name": "Saigraewo",
-            "uic_ref": "2001242"
+            "name": "ЗАИГРАЕВО"
         }
     },
     {
-        "type": "node",
-        "id": 3205823874,
         "lat": 51.6764252,
         "lon": 108.7006376,
+        "id": 20603,
         "tags": {
-            "esr:user": "938108",
-            "name": "Новоильинский",
-            "name:en": "Novoilyinskiy",
-            "name:ru": "Новоильинский",
-            "railway": "station",
-            "uic_name": "Nowoilinskij",
-            "uic_ref": "2054835"
+            "name": "НОВОИЛЬИНСКИЙ"
         }
     },
     {
-        "type": "node",
-        "id": 305355130,
         "lat": 56.4728287,
         "lon": 103.9507376,
+        "id": 20267,
         "tags": {
-            "name": "533 км",
-            "railway": "halt"
+            "name": "ОП 533 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183412,
         "lat": 54.4620291,
         "lon": 100.9733399,
+        "id": 20167,
         "tags": {
-            "name": "4832 км",
-            "railway": "halt"
+            "name": "ОП 4832 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 257345730,
         "lat": 55.8595391,
         "lon": 98.1246725,
+        "id": 20094,
         "tags": {
-            "name": "4528 км",
-            "railway": "halt"
+            "name": "ОП 4528 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1527932111,
         "lat": 55.898936,
         "lon": 98.1020154,
+        "id": 20090,
         "tags": {
-            "name": "4522 км",
-            "railway": "halt",
-            "uic_ref": "2055823"
+            "name": "ОП 4522 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183426,
         "lat": 53.995748,
         "lon": 102.0013029,
+        "id": 20186,
         "tags": {
-            "name": "4926 км",
-            "railway": "halt",
-            "uic_ref": "2055862"
+            "name": "ОП 4926 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183421,
         "lat": 54.0339305,
         "lon": 101.9654207,
+        "id": 20184,
         "tags": {
-            "name": "4921 км",
-            "railway": "halt",
-            "uic_ref": "2055860"
+            "name": "ОП 4921 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183418,
         "lat": 54.1205837,
         "lon": 101.8615433,
+        "id": 20180,
         "tags": {
-            "name": "4909 км",
-            "railway": "halt"
+            "name": "ОП 4909 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 4917999021,
         "lat": 51.713996,
         "lon": 103.6909575,
+        "id": 20469,
         "tags": {
-            "name": "159 км",
-            "name:ru": "159 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes"
+            "name": "ОП 159 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3884582918,
         "lat": 53.435362,
         "lon": 102.6635281,
+        "id": 20327,
         "tags": {
-            "esr:user": "930428",
-            "name": "5010 км",
-            "name:be": "5010 км",
-            "name:bg": "5010 км",
-            "name:ee": "5010 km",
-            "name:en": "5010 km",
-            "name:hy": "5010 կմ",
-            "name:ka": "5010 კმ",
-            "name:lt": "5010 km",
-            "name:lv": "5010 km",
-            "name:md": "5010 km",
-            "name:pl": "5010 km",
-            "name:ro": "5010 km",
-            "name:ru": "5010 км",
-            "name:uk": "5010 км",
-            "railway": "halt"
+            "name": "ОП 5010 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056771,
         "lat": 55.3415951,
         "lon": 98.6472291,
+        "id": 20117,
         "tags": {
-            "name": "4611 км",
-            "railway": "halt",
-            "uic_ref": "2055831"
+            "name": "ОП 4611 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056774,
         "lat": 55.3093308,
         "lon": 98.6785597,
+        "id": 20118,
         "tags": {
-            "name": "4615 км",
-            "railway": "halt",
-            "uic_ref": "2055832"
+            "name": "ОП 4615 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056777,
         "lat": 55.2753086,
         "lon": 98.7389098,
+        "id": 20119,
         "tags": {
-            "name": "4621 км",
-            "railway": "halt",
-            "uic_ref": "2055833"
+            "name": "ОП 4621 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 243086022,
         "lat": 54.7669344,
         "lon": 99.4251233,
+        "id": 20140,
         "tags": {
-            "name": "4709 км",
-            "railway": "halt"
+            "name": "ОП 4709 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3026650838,
         "lat": 52.0639826,
         "lon": 107.4887791,
+        "id": 20518,
         "tags": {
-            "name": "5613 км",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2054971"
+            "name": "ОП 5613 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3505167038,
         "lat": 51.0278797,
         "lon": 106.2614875,
+        "id": 20571,
         "tags": {
-            "esr:user": "936411",
-            "name": "Темник",
-            "name:ru": "Темник",
-            "railway": "halt",
-            "uic_name": "Temnik",
-            "uic_ref": "2002525"
+            "name": "ТЕМНИК"
         }
     },
     {
-        "type": "node",
-        "id": 3604941946,
         "lat": 56.3021774,
         "lon": 101.6916353,
+        "id": 20248,
         "tags": {
-            "esr:user": "924939",
-            "name": "321 км",
-            "name:be": "321 км",
-            "name:bg": "321 км",
-            "name:ee": "321 km",
-            "name:en": "321 km",
-            "name:hy": "321 կմ",
-            "name:ka": "321 კმ",
-            "name:lt": "321 km",
-            "name:lv": "321 km",
-            "name:md": "321 km",
-            "name:pl": "321 km",
-            "name:ro": "321 km",
-            "name:ru": "321 км",
-            "name:uk": "321 км",
-            "railway": "halt"
+            "name": "ОП 321 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605509155,
         "lat": 56.1589746,
         "lon": 99.185025,
+        "id": 20212,
         "tags": {
-            "esr:user": "923617",
-            "name": "109 км",
-            "name:be": "109 км",
-            "name:bg": "109 км",
-            "name:ee": "109 km",
-            "name:en": "109 km",
-            "name:hy": "109 կմ",
-            "name:ka": "109 კმ",
-            "name:lt": "109 km",
-            "name:lv": "109 km",
-            "name:md": "109 km",
-            "name:pl": "109 km",
-            "name:ro": "109 km",
-            "name:ru": "109 км",
-            "name:uk": "109 км",
-            "railway": "halt"
+            "name": "ОП 109 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 972840329,
         "lat": 56.3128061,
         "lon": 97.3759017,
+        "id": 20194,
         "tags": {
-            "esr:user": "894325",
-            "name": "24 км",
-            "name:be": "24 км",
-            "name:bg": "24 км",
-            "name:ee": "24 km",
-            "name:en": "24 km",
-            "name:hy": "24 կմ",
-            "name:ka": "24 კმ",
-            "name:lt": "24 km",
-            "name:lv": "24 km",
-            "name:md": "24 km",
-            "name:pl": "24 km",
-            "name:ro": "24 km",
-            "name:ru": "24 км",
-            "name:uk": "24 км",
-            "railway": "halt"
+            "name": "ОП 24 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605517362,
         "lat": 56.1697502,
         "lon": 98.4034865,
+        "id": 20198,
         "tags": {
-            "esr:user": "923250",
-            "name": "45 км",
-            "name:be": "45 км",
-            "name:bg": "45 км",
-            "name:ee": "45 km",
-            "name:en": "45 km",
-            "name:hy": "45 կմ",
-            "name:ka": "45 კმ",
-            "name:lt": "45 km",
-            "name:lv": "45 km",
-            "name:md": "45 km",
-            "name:pl": "45 km",
-            "name:ro": "45 km",
-            "name:ru": "45 км",
-            "name:uk": "45 км",
-            "railway": "halt",
-            "uic_ref": "2054094"
+            "name": "ОП 45 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183410,
         "lat": 54.4622142,
         "lon": 100.8530579,
+        "id": 20165,
         "tags": {
-            "name": "4824 км",
-            "railway": "station"
+            "name": "ОП 4824 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3604920907,
         "lat": 56.4981496,
         "lon": 103.9640827,
+        "id": 20270,
         "tags": {
-            "esr:user": "925627",
-            "name": "536 км",
-            "name:be": "536 км",
-            "name:bg": "536 км",
-            "name:ee": "536 km",
-            "name:en": "536 km",
-            "name:hy": "536 կմ",
-            "name:ka": "536 კმ",
-            "name:lt": "536 km",
-            "name:lv": "536 km",
-            "name:md": "536 km",
-            "name:pl": "536 km",
-            "name:ro": "536 km",
-            "name:ru": "536 км",
-            "name:uk": "536 км",
-            "railway": "halt"
+            "name": "ОП 536 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183393,
         "lat": 54.6257635,
         "lon": 99.8892063,
+        "id": 20150,
         "tags": {
-            "name": "4746 км",
-            "railway": "halt"
+            "name": "ОП 4746 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 2886413191,
         "lat": 51.5102312,
         "lon": 104.1568214,
+        "id": 20446,
         "tags": {
-            "name": "5347 км",
-            "railway": "halt",
-            "uic_ref": "2054931"
+            "name": "ОП 5347 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3269230395,
         "lat": 56.1333394,
         "lon": 99.7973555,
+        "id": 20223,
         "tags": {
-            "esr:user": "924018",
-            "name": "155 км",
-            "name:be": "155 км",
-            "name:bg": "155 км",
-            "name:ee": "155 km",
-            "name:en": "155 km",
-            "name:hy": "155 կմ",
-            "name:ka": "155 კმ",
-            "name:lt": "155 km",
-            "name:lv": "155 km",
-            "name:md": "155 km",
-            "name:pl": "155 km",
-            "name:ro": "155 km",
-            "name:ru": "155 км",
-            "name:uk": "155 км",
-            "railway": "halt"
+            "name": "ОП 155 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 245298629,
         "lat": 51.4786919,
         "lon": 104.35833,
+        "id": 20452,
         "tags": {
-            "name": "5362 км",
-            "railway": "halt"
+            "name": "ОП 5362 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056794,
         "lat": 54.9878272,
         "lon": 98.8773979,
+        "id": 20128,
         "tags": {
-            "name": "4663 км",
-            "railway": "halt",
-            "uic_ref": "2055838"
+            "name": "ОП 4663 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 242830386,
         "lat": 54.3889677,
         "lon": 101.3803707,
+        "id": 20173,
         "tags": {
-            "name": "4863 км",
-            "railway": "halt",
-            "uic_ref": "2055857"
+            "name": "ОП 4863 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 9173218944,
         "lat": 51.8732337,
         "lon": 107.8765851,
+        "id": 20590,
         "tags": {
-            "esr:user": "937658",
-            "name": "5664 км",
-            "railway": "halt",
-            "uic_ref": "2054087"
+            "name": "ОП 5664 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3260362109,
         "lat": 53.6588726,
         "lon": 102.3510654,
+        "id": 20323,
         "tags": {
-            "esr:user": "930319",
-            "name": "4971 км",
-            "name:be": "4971 км",
-            "name:bg": "4971 км",
-            "name:ee": "4971 km",
-            "name:en": "4971 km",
-            "name:hy": "4971 կմ",
-            "name:ka": "4971 კმ",
-            "name:lt": "4971 km",
-            "name:lv": "4971 km",
-            "name:md": "4971 km",
-            "name:pl": "4971 km",
-            "name:ro": "4971 km",
-            "name:ru": "4971 км",
-            "name:uk": "4971 км",
-            "railway": "halt",
-            "uic_ref": "2055865"
+            "name": "ОП 4971 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550056796,
         "lat": 54.9416775,
         "lon": 98.9602939,
+        "id": 20130,
         "tags": {
-            "name": "4672 км",
-            "railway": "halt",
-            "uic_ref": "2055839"
+            "name": "ОП 4672 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3604935223,
         "lat": 56.100463,
         "lon": 101.2638962,
+        "id": 20235,
         "tags": {
-            "esr:user": "924412",
-            "name": "276 км",
-            "name:be": "276 км",
-            "name:bg": "276 км",
-            "name:ee": "276 km",
-            "name:en": "276 km",
-            "name:hy": "276 կմ",
-            "name:ka": "276 კმ",
-            "name:lt": "276 km",
-            "name:lv": "276 km",
-            "name:md": "276 km",
-            "name:pl": "276 km",
-            "name:ro": "276 km",
-            "name:ru": "276 км",
-            "name:uk": "276 км",
-            "railway": "halt",
-            "uic_ref": "2054999"
+            "name": "ОП 276 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 857992211,
         "lat": 56.8270733,
         "lon": 105.2747318,
+        "id": 20302,
         "tags": {
-            "esr:user": "927069",
-            "name": "676 км",
-            "name:be": "676 км",
-            "name:bg": "676 км",
-            "name:ee": "676 km",
-            "name:en": "676 km",
-            "name:hy": "676 կմ",
-            "name:ka": "676 კმ",
-            "name:lt": "676 km",
-            "name:lv": "676 km",
-            "name:md": "676 km",
-            "name:pl": "676 km",
-            "name:ro": "676 km",
-            "name:ru": "676 км",
-            "name:uk": "676 км",
-            "railway": "halt"
+            "name": "ОП 676 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3026650837,
         "lat": 52.1021196,
         "lon": 107.0815834,
+        "id": 20511,
         "tags": {
-            "name": "5578 км",
-            "railway": "halt",
-            "source": "bing",
-            "uic_ref": "2054078"
+            "name": "ОП 5578 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 857992290,
         "lat": 56.8081303,
         "lon": 105.2836146,
+        "id": 20303,
         "tags": {
-            "esr:user": "927073",
-            "name": "679 км",
-            "name:be": "679 км",
-            "name:bg": "679 км",
-            "name:ee": "679 km",
-            "name:en": "679 km",
-            "name:hy": "679 կմ",
-            "name:ka": "679 კმ",
-            "name:lt": "679 km",
-            "name:lv": "679 km",
-            "name:md": "679 km",
-            "name:pl": "679 km",
-            "name:ro": "679 km",
-            "name:ru": "679 км",
-            "name:uk": "679 км",
-            "railway": "halt"
+            "name": "ОП 679 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183415,
         "lat": 54.2763257,
         "lon": 101.5706633,
+        "id": 20176,
         "tags": {
-            "name": "4882 км",
-            "railway": "halt"
+            "name": "ОП 4882 км"
         }
     },
     {
-        "type": "node",
-        "id": 1527932114,
         "lat": 55.526411,
         "lon": 98.6484721,
+        "id": 20113,
         "tags": {
-            "name": "4589 км",
-            "railway": "halt",
-            "uic_ref": "2054829"
+            "name": "ОП 4589 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3261401593,
         "lat": 56.7369178,
         "lon": 105.3976386,
+        "id": 20307,
         "tags": {
-            "esr:user": "927124",
-            "name": "690 км",
-            "name:be": "690 км",
-            "name:bg": "690 км",
-            "name:ee": "690 km",
-            "name:en": "690 km",
-            "name:hy": "690 կմ",
-            "name:ka": "690 კმ",
-            "name:lt": "690 km",
-            "name:lv": "690 km",
-            "name:md": "690 km",
-            "name:pl": "690 km",
-            "name:ro": "690 km",
-            "name:ru": "690 км",
-            "name:uk": "690 км",
-            "railway": "halt"
+            "name": "ОП 690 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3602705666,
         "lat": 56.7443314,
         "lon": 105.454634,
+        "id": 20309,
         "tags": {
-            "esr:user": "927143",
-            "name": "694 км",
-            "name:be": "694 км",
-            "name:bg": "694 км",
-            "name:ee": "694 km",
-            "name:en": "694 km",
-            "name:hy": "694 կմ",
-            "name:ka": "694 კმ",
-            "name:lt": "694 km",
-            "name:lv": "694 km",
-            "name:md": "694 km",
-            "name:pl": "694 km",
-            "name:ro": "694 km",
-            "name:ru": "694 км",
-            "name:uk": "694 км",
-            "railway": "halt"
+            "name": "ОП 694 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3602713204,
         "lat": 56.7370605,
         "lon": 105.5257881,
+        "id": 20311,
         "tags": {
-            "esr:user": "927162",
-            "name": "699 км",
-            "name:be": "699 км",
-            "name:bg": "699 км",
-            "name:ee": "699 km",
-            "name:en": "699 km",
-            "name:hy": "699 կմ",
-            "name:ka": "699 კმ",
-            "name:lt": "699 km",
-            "name:lv": "699 km",
-            "name:md": "699 km",
-            "name:pl": "699 km",
-            "name:ro": "699 km",
-            "name:ru": "699 км",
-            "name:uk": "699 км",
-            "railway": "halt"
+            "name": "ОП 699 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605501562,
         "lat": 56.1445878,
         "lon": 100.280773,
+        "id": 20231,
         "tags": {
-            "esr:user": "924249",
-            "name": "192 км",
-            "name:be": "192 км",
-            "name:bg": "192 км",
-            "name:ee": "192 km",
-            "name:en": "192 km",
-            "name:hy": "192 կմ",
-            "name:ka": "192 კმ",
-            "name:lt": "192 km",
-            "name:lv": "192 km",
-            "name:md": "192 km",
-            "name:pl": "192 km",
-            "name:ro": "192 km",
-            "name:ru": "192 км",
-            "name:uk": "192 км",
-            "railway": "halt"
+            "name": "ОП 192 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 243084528,
         "lat": 54.8263431,
         "lon": 99.2138472,
+        "id": 20136,
         "tags": {
-            "name": "4694 км",
-            "railway": "halt"
+            "name": "ОП 4694 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3505208858,
         "lat": 55.8525866,
         "lon": 109.6917064,
+        "id": 19915,
         "tags": {
-            "esr:user": "903331",
-            "name": "1096 км",
-            "name:be": "1096 км",
-            "name:bg": "1096 км",
-            "name:ee": "1096 km",
-            "name:en": "1096 km",
-            "name:hy": "1096 կմ",
-            "name:ka": "1096 კმ",
-            "name:lt": "1096 km",
-            "name:lv": "1096 km",
-            "name:md": "1096 km",
-            "name:pl": "1096 km",
-            "name:ro": "1096 km",
-            "name:ru": "1096 км",
-            "name:uk": "1096 км",
-            "railway": "halt",
-            "uic_ref": "2054226"
+            "name": "ОП 1096 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1550183417,
         "lat": 54.173128,
         "lon": 101.7555724,
+        "id": 20179,
         "tags": {
-            "name": "4899 км",
-            "railway": "halt"
+            "name": "ОП 4899 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 1850104667,
         "lat": 56.199073,
         "lon": 113.5148447,
+        "id": 22245,
         "tags": {
-            "name": "54 км",
-            "railway": "halt"
+            "name": "ОП 54 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 339832074,
         "lat": 56.2772474,
         "lon": 113.342139,
+        "id": 22417,
         "tags": {
-            "esr:user": "905750",
-            "name": "16 км",
-            "name:be": "16 км",
-            "name:bg": "16 км",
-            "name:ee": "16 km",
-            "name:en": "16 km",
-            "name:hy": "16 կմ",
-            "name:ka": "16 კმ",
-            "name:lt": "16 km",
-            "name:lv": "16 km",
-            "name:md": "16 km",
-            "name:pl": "16 km",
-            "name:ro": "16 km",
-            "name:ru": "16 км",
-            "name:uk": "16 км",
-            "railway": "halt"
+            "name": "ОП 16 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 339831816,
         "lat": 56.2620307,
         "lon": 113.3674516,
+        "id": 22418,
         "tags": {
-            "description": "26 км (Перевал) (современный обход Северомуйского тоннеля)",
-            "esr:user": "905784",
-            "name": "26 км",
-            "railway": "halt",
-            "railway:station_category": "1"
+            "name": "ОП 26 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3602641973,
         "lat": 56.3103403,
         "lon": 107.2563832,
+        "id": 40239,
         "tags": {
-            "esr:user": "902521",
-            "name": "Марикта",
-            "name:de": "Marikta",
-            "name:ru": "Марикта",
-            "railway": "station"
+            "name": "МАРИКТА"
         }
     },
     {
-        "type": "node",
-        "id": 3602634277,
         "lat": 56.4662671,
         "lon": 106.8451273,
+        "id": 40240,
         "tags": {
-            "esr:user": "902317",
-            "name": "Таковка",
-            "name:ru": "Таковка",
-            "railway": "station",
-            "uic_ref": "2054505"
+            "name": "ТАКОВКА"
         }
     },
     {
-        "type": "node",
-        "id": 9988551729,
         "lat": 55.7824604,
         "lon": 108.1862247,
+        "id": 40244,
         "tags": {
-            "esr:user": "903030",
-            "name": "Калакачан",
-            "name:ru": "Калакачан",
-            "railway": "station"
+            "name": "КАЛАКАЧАН"
         }
     },
     {
-        "type": "node",
-        "id": 3485854217,
         "lat": 56.6804134,
         "lon": 106.7102297,
+        "id": 40245,
         "tags": {
-            "esr:user": "902216",
-            "name": "Ирдыкан",
-            "name:ru": "Ирдыкан",
-            "railway": "station",
-            "source": "bing",
-            "uic_ref": "2054504"
+            "name": "ИРДЫКАН"
         }
     },
     {
-        "type": "node",
-        "id": 3602641493,
         "lat": 56.2464472,
         "lon": 107.3389828,
+        "id": 40246,
         "tags": {
-            "esr:user": "902714",
-            "name": "Бирея",
-            "name:ru": "Бирея",
-            "railway": "station",
-            "uic_ref": "2054506"
+            "name": "БИРЕЯ"
         }
     },
     {
-        "type": "node",
-        "id": 2421206838,
         "lat": 56.6006149,
         "lon": 104.1693945,
+        "id": 22715,
         "tags": {
-            "name": "554 км",
-            "railway": "halt"
+            "name": "ОП 554 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 708304526,
         "lat": 52.3947993,
         "lon": 104.118103,
+        "id": 22802,
         "tags": {
-            "esr:user": "932599",
-            "name": "ПМС-45",
-            "name:ru": "ПМС-45",
-            "railway": "halt",
-            "uic_ref": "2054669"
+            "name": "ПМС-45"
         }
     },
     {
-        "type": "node",
-        "id": 318634123,
         "lat": 56.3655905,
         "lon": 114.6820049,
+        "id": 22803,
         "tags": {
-            "esr:user": "906062",
-            "name": "1459 км",
-            "name:be": "1459 км",
-            "name:bg": "1459 км",
-            "name:ee": "1459 km",
-            "name:en": "1459 km",
-            "name:hy": "1459 կմ",
-            "name:ka": "1459 კმ",
-            "name:lt": "1459 km",
-            "name:lv": "1459 km",
-            "name:md": "1459 km",
-            "name:pl": "1459 km",
-            "name:ro": "1459 km",
-            "name:ru": "1459 км",
-            "name:uk": "1459 км",
-            "railway": "halt"
+            "name": "ОП 1459 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 674848018,
         "lat": 56.132791,
         "lon": 101.429152,
+        "id": 22814,
         "tags": {
-            "esr:user": "924499",
-            "name": "Багульная-2",
-            "name:ru": "Багульная II",
-            "railway": "halt",
-            "uic_ref": "2054241"
+            "name": "БАГУЛЬНАЯ II"
         }
     },
     {
-        "type": "node",
-        "id": 3604952633,
         "lat": 56.1162654,
         "lon": 101.4568165,
+        "id": 22815,
         "tags": {
-            "esr:user": "924516",
-            "name": "Багульная-3",
-            "name:ru": "Багульная III",
-            "railway": "halt",
-            "uic_ref": "2054242"
+            "name": "БАГУЛЬНАЯ III"
         }
     },
     {
-        "type": "node",
-        "id": 2607198016,
         "lat": 56.026661,
         "lon": 107.7071831,
+        "id": 22863,
         "tags": {
-            "name": "914 км",
-            "railway": "halt"
+            "name": "ОП 914 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3605559289,
         "lat": 53.1588114,
         "lon": 103.0741408,
+        "id": 22864,
         "tags": {
-            "esr:user": "931469",
-            "name": "5053 км",
-            "railway": "halt"
+            "name": "ОП 5053 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3505212868,
         "lat": 55.9545447,
         "lon": 110.597865,
+        "id": 41457,
         "tags": {
-            "esr:user": "903454",
-            "name": "1156 км",
-            "name:be": "1156 км",
-            "name:bg": "1156 км",
-            "name:ee": "1156 km",
-            "name:en": "1156 km",
-            "name:hy": "1156 կմ",
-            "name:ka": "1156 კმ",
-            "name:lt": "1156 km",
-            "name:lv": "1156 km",
-            "name:md": "1156 km",
-            "name:pl": "1156 km",
-            "name:ro": "1156 km",
-            "name:ru": "1156 км",
-            "name:uk": "1156 км",
-            "railway": "halt"
+            "name": "ОП 1156 КМ"
         }
     },
     {
-        "type": "node",
-        "id": 3226044870,
         "lat": 51.9448129,
         "lon": 113.6075239,
+        "id": 41467,
         "tags": {
-            "esr:user": "942410",
-            "name": "Пионерская",
-            "name:ru": "Пионерская",
-            "public_transport": "stop_position",
-            "railway": "halt",
-            "train": "yes",
-            "uic_ref": "2051405"
+            "name": "ПИОНЕРСКАЯ"
         }
     },
     {
-        "type": "node",
-        "id": 927574436,
-        "lat": 52.1221848,
-        "lon": 104.0837688,
-        "tags": {
-            "name": "Дачная",
-            "public_transport": "stop_position",
-            "railway": "stop",
-            "train": "yes"
-        }
-    },
-    {
-        "type": "node",
-        "id": 3605549382,
         "lat": 54.9236675,
         "lon": 98.9789048,
+        "id": 41469,
         "tags": {
-            "esr:user": "921236",
-            "name": "4675 км",
-            "name:be": "4675 км",
-            "name:bg": "4675 км",
-            "name:ee": "4675 km",
-            "name:en": "4675 km",
-            "name:hy": "4675 կմ",
-            "name:ka": "4675 კმ",
-            "name:lt": "4675 km",
-            "name:lv": "4675 km",
-            "name:md": "4675 km",
-            "name:pl": "4675 km",
-            "name:ro": "4675 km",
-            "name:ru": "4675 км",
-            "name:uk": "4675 км",
-            "railway": "halt"
+            "name": "ОП 4675 КМ"
         }
     }
 ]

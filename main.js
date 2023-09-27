@@ -59,7 +59,7 @@ window.onload = async function() {
 
     const allStations = []
     sortedStations.forEach((item, idx) => {
-        let name = L.divIcon({className: 'station-text', html: item.tags.name});
+        let name = L.divIcon({className: 'station-text', html: `${item.tags.name} (${item.id})`});
         const stationIcon = L.circleMarker([item.lat,item.lon], {fillColor: '#2b5ad2', color: '#a1e4fa', weight: 1, fillOpacity: 1, radius: 5});
         const stationName = L.marker([item.lat,item.lon], {icon: name})
         const stationGroup = L.featureGroup([stationIcon,stationName]).addTo(map)
@@ -93,9 +93,15 @@ window.onload = async function() {
 
     searchButton.addEventListener('click', () => {
         const res = j.find(item => item.tags.name?.toLowerCase().includes(search.value.toLowerCase()))
+        const findId = concatStations.find(item => item.id === Number(search.value))
         console.log(res)
         if (res) {
             map.setView([res.lat, res.lon], 14);
+            return
+        }
+        if (findId) {
+            map.setView([findId.lat, findId.lon], 14);
+            return
         }
     })
 }

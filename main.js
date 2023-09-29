@@ -1,6 +1,7 @@
 // import data from './russia_geojson_wgs84.geojson' assert {type: 'json'};
 import stations from './stations.json' assert {type: 'json'};
 import additionalStations from './additionalStations.json' assert {type: 'json'};
+import additionalLines from './additionalLines.json' assert {type: 'json'};
 import j from './j.json' assert {type: 'json'};
 import lines from './lines.json' assert {type: 'json'};
 import linePoints from './linePoints.json' assert {type: 'json'};
@@ -49,6 +50,10 @@ window.onload = async function() {
 
     lines.forEach(line => {
         L.polyline(line.nodes, {color: '#3a789d'}).addTo(map);
+    })
+
+    additionalLines.forEach(line => {
+        L.polyline(line.nodes, {color: '#91a1ad'}).addTo(map);
     })
 
     const concatStations = stations.concat(additionalStations)

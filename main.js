@@ -53,13 +53,13 @@ window.onload = async function() {
 
     const concatStations = stations.concat(additionalStations)
 
-    const sortedStations = concatStations.filter((obj, index, self) =>
-        index === self.findIndex((o) => o.tags.name === obj.tags.name)
-    );
+    // const sortedStations = concatStations.filter((obj, index, self) =>
+    //     index === self.findIndex((o) => o.name === obj.name)
+    // );
 
     const allStations = []
-    sortedStations.forEach((item, idx) => {
-        let name = L.divIcon({className: 'station-text', html: `${item.tags.name} (${item.id})`});
+    concatStations.forEach((item, idx) => {
+        let name = L.divIcon({className: 'station-text', html: `${item.name} (${item.id})`});
         const stationIcon = L.circleMarker([item.lat,item.lon], {fillColor: '#2b5ad2', color: '#a1e4fa', weight: 1, fillOpacity: 1, radius: 5});
         const stationName = L.marker([item.lat,item.lon], {icon: name})
         const stationGroup = L.featureGroup([stationIcon,stationName]).addTo(map)

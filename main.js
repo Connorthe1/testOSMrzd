@@ -16,11 +16,12 @@ window.onload = async function() {
     const bounds = L.latLngBounds(corner1, corner2)
 
     const key = '9uMou4WBAcqERBnW7CQj';
-     const map = L.map('map', {
+    const map = L.map('map', {
         zoomSnap: 0.5,
         zoomDelta: 0.5,
         wheelPxPerZoomLevel: 180,
-        attributionControl: true,
+        maxZoom: 14,
+        minZoom: 5,
         scrollWheelZoom: false, // disable original zoom function
         smoothWheelZoom: true,  // enable smooth zoom
         smoothSensitivity: 4,
@@ -30,9 +31,32 @@ window.onload = async function() {
 
     L.maptilerLayer({
         apiKey: key,
+        maxZoom: 14,
+        minZoom: 4,
         // style: "97153cbc-9568-4fe0-8863-bfc30bd5cd18", //optional
         noWrap: true,
     }).addTo(map);
+
+
+    // const map = L.map('map', {
+    //     attributionControl: false,
+    //     scrollWheelZoom: false, // disable original zoom function
+    //     smoothWheelZoom: true,  // enable smooth zoom
+    //     smoothSensitivity: 4,
+    //     zoomSnap: 0.5,
+    //     zoomDelta: 0.5,
+    //     wheelPxPerZoomLevel: 180,
+    //     maxBounds: bounds
+    // }).setView([52.289588, 104.280606], 6); //starting position
+    //
+    // L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${key}`,{ //style URL
+    //     tileSize: 512,
+    //     zoomOffset: -1,
+    //     minZoom: 4,
+    //     maxZoom: 15,
+    //     attribution: "",
+    //     crossOrigin: true
+    // }).addTo(map);
 
     // Russia map
     // await L.geoJSON(data, {
@@ -75,7 +99,7 @@ window.onload = async function() {
 
     showStations(5)
     function showStations(zoom) {
-        if (zoom > 10) {
+        if (zoom > 11) {
             stationsLayer.eachLayer(function(layer) {
                 layer.setOpacity(1);
             });

@@ -7,7 +7,7 @@ import lines from './lines.json' assert {type: 'json'};
 import linePoints from './linePoints.json' assert {type: 'json'};
 
 window.onload = async function() {
-    // const showOts = document.querySelector('#ots')
+    const showOts = document.querySelector('#ots')
     const search = document.querySelector('#search')
     const searchButton = document.querySelector('#searchButton')
 
@@ -37,34 +37,6 @@ window.onload = async function() {
         noWrap: true,
     }).addTo(map);
 
-
-    // const map = L.map('map', {
-    //     attributionControl: false,
-    //     scrollWheelZoom: false, // disable original zoom function
-    //     smoothWheelZoom: true,  // enable smooth zoom
-    //     smoothSensitivity: 4,
-    //     zoomSnap: 0.5,
-    //     zoomDelta: 0.5,
-    //     wheelPxPerZoomLevel: 180,
-    //     maxBounds: bounds
-    // }).setView([52.289588, 104.280606], 6); //starting position
-    //
-    // L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${key}`,{ //style URL
-    //     tileSize: 512,
-    //     zoomOffset: -1,
-    //     minZoom: 4,
-    //     maxZoom: 15,
-    //     attribution: "",
-    //     crossOrigin: true
-    // }).addTo(map);
-
-    // Russia map
-    // await L.geoJSON(data, {
-    //     style: function (feature) {
-    //         return {color: feature.properties.color};
-    //     }
-    // }).addTo(map);
-
     lines.forEach(line => {
         line.nodes = line.nodes.map(item => {
             const findRef = linePoints.find(point => point.id === item)
@@ -73,29 +45,24 @@ window.onload = async function() {
     })
 
     lines.forEach(line => {
-        L.polyline(line.nodes, {color: '#3a789d'}).addTo(map);
+        L.polyline(line.nodes, {color: '#3a789d', interactive: false}).addTo(map);
     })
 
     additionalLines.forEach(line => {
-        L.polyline(line.nodes, {color: '#91a1ad'}).addTo(map);
+        L.polyline(line.nodes, {color: '#91a1ad', interactive: false}).addTo(map);
     })
 
     const concatStations = stations.concat(additionalStations)
 
-    // const sortedStations = concatStations.filter((obj, index, self) =>
-    //     index === self.findIndex((o) => o.name === obj.name)
-    // );
-
-    const allStations = []
+    const allStationsName = []
     concatStations.forEach((item, idx) => {
         let name = L.divIcon({className: 'station-text', html: `${item.name} (${item.id})`});
-        const stationIcon = L.circleMarker([item.lat,item.lon], {fillColor: '#2b5ad2', color: '#a1e4fa', weight: 1, fillOpacity: 1, radius: 5});
-        const stationName = L.marker([item.lat,item.lon], {icon: name})
-        const stationGroup = L.featureGroup([stationIcon,stationName]).addTo(map)
-        allStations.push(stationName)
+        L.circleMarker([item.lat,item.lon], {fillColor: '#2b5ad2', color: '#a1e4fa', weight: 1, fillOpacity: 1, radius: 5, interactive: false}).addTo(map);
+        const stationName = L.marker([item.lat,item.lon], {icon: name, interactive: false})
+        allStationsName.push(stationName)
     })
 
-    const stationsLayer = L.layerGroup(allStations).addTo(map)
+    const stationsLayer = L.layerGroup(allStationsName).addTo(map)
 
     showStations(5)
     function showStations(zoom) {
@@ -110,15 +77,16 @@ window.onload = async function() {
         }
     }
 
+    const myIcon = L.icon({
+        iconUrl: './marker.svg',
+        iconSize: [38, 95],
+        iconAnchor: [19, 78],
+    });
+    let currentMarker = {}
+
     map.on('zoomend', () => {
         showStations(map.getZoom())
     })
-
-    // showOts.addEventListener('click', () => {
-    //     lines.forEach(line => {
-    //         L.polyline(line.nodes, {color: '#f3c71b'}).addTo(map);
-    //     })
-    // })
 
     searchButton.addEventListener('click', () => {
         const res = j.find(item => item.tags.name?.toLowerCase().includes(search.value.toLowerCase()))
@@ -133,4 +101,48 @@ window.onload = async function() {
             return
         }
     })
+
+    const delay = [20319,20369]
+
+    showOts.addEventListener('click', () => {
+        delay.forEach(delay => {
+            const findStation = concatStations.find(station => station.id === delay)
+            if (findStation) {
+                const name = L.divIcon({className: 'station-delay-text', html: `${findStation.name} (${findStation.id})`});
+                const stationIcon = L.circleMarker([findStation.lat,findStation.lon], {fillColor: '#ffb700', color: '#d39904', weight: 1, fillOpacity: 1, radius: 10});
+                const stationName = L.marker([findStation.lat,findStation.lon], {icon: name})
+                const group = L.featureGroup([stationIcon,stationName]).addTo(map)
+                group.on('mouseover', () => {
+                    stationIcon.setStyle({fillColor: '#DE3249',color: '#b22033'})
+                })
+                group.on('mouseout', () => {
+                    stationIcon.setStyle({fillColor: '#ffb700',color: '#d39904'})
+                })
+                group.on('click', () => {
+                    if (Object.keys(currentMarker).length) {
+                        markerRemove()
+                    }
+                    stationIcon.setStyle({opacity: 0, fillOpacity: 0})
+                    stationName.setOpacity(0)
+                    const marker = L.marker([findStation.lat,findStation.lon], {icon: myIcon})
+                    const name = L.divIcon({className: 'marker-text', html: `${findStation.name} (${findStation.id})`});
+                    const markerName = L.marker([findStation.lat,findStation.lon], {icon: name})
+                    currentMarker.marker = L.featureGroup([marker,markerName]).addTo(map)
+                    currentMarker.name = stationName
+                    currentMarker.icon = stationIcon
+                    currentMarker.marker.on('click', () => {
+                        markerRemove()
+                    })
+                })
+            }
+        })
+    })
+
+    function markerRemove() {
+        currentMarker.marker.remove()
+        currentMarker.icon.setStyle({opacity: 1, fillOpacity: 1})
+        currentMarker.name.setOpacity(1)
+        currentMarker = {}
+    }
+
 }

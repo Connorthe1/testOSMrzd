@@ -18,9 +18,6 @@
     <script src="SmoothWheelZoom.js"></script>
     <style>
         #map { height: 90vh; width: 90%; }
-        img {
-            display: none !important;
-        }
         .leaflet-control-attribution, .leaflet-control {
             display: none !important;
         }
@@ -33,20 +30,51 @@
             font-size: 15px;
             left: 16px;
             top: -6px;
-            width: 1000px !important;
+            width: auto !important;
+            height: auto !important;
+            white-space: nowrap;
             text-shadow: 1.41px 1.41px #d9eef5, 2px 0 #d9eef5, 1.41px -1.41px #d9eef5,
             0 -2px #d9eef5, -1.41px -1.41px #d9eef5, -2px 0 #d9eef5,
             -1.41px 1.41px #d9eef5, 0 2px #d9eef5;
+        }
+        .station-delay-text {
+            font-family: "Open Sans";
+            font-weight: 800;
+            font-size: 15px;
+            left: 20px;
+            top: -6px;
+            width: auto !important;
+            height: auto !important;
+            white-space: nowrap;
+            text-shadow: 1.41px 1.41px #f5f1d9, 2px 0 #f5f1d9, 1.41px -1.41px #f5f1d9,
+            0 -2px #f5f1d9, -1.41px -1.41px #f5f1d9, -2px 0 #f5f1d9,
+            -1.41px 1.41px #f5f1d9, 0 2px #f5f1d9;
+        }
+        .marker-text {
+            font-family: "Open Sans";
+            font-weight: 800;
+            font-size: 15px;
+            left: 28px;
+            top: -52px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 4px;
+            padding: 2px 4px;
+            color: #efefef;
+            width: auto !important;
+            height: auto !important;
+            white-space: nowrap;
         }
     </style>
     <script type="module" src="main.js"></script>
 </head>
 <body>
     <div id="map"></div>
-<!--    <button id="ots">Показать место ОТС</button>-->
-    <div style="margin-top: 10px">
-        <input id="search" type="text" autocomplete="off">
-        <button id="searchButton">Поиск</button>
+    <div style="margin-top: 10px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex">
+            <input id="search" style="margin-right: 6px;" type="text" autocomplete="off">
+            <button id="searchButton">Поиск</button>
+        </div>
+        <button style="width: 200px;" id="ots">Показать место ОТС</button>
     </div>
 </body>
 </html>

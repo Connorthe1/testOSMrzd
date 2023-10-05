@@ -5,6 +5,7 @@ import additionalLines from './additionalLines.json' assert {type: 'json'};
 import j from './j.json' assert {type: 'json'};
 import lines from './lines.json' assert {type: 'json'};
 import linePoints from './linePoints.json' assert {type: 'json'};
+import { findPointsWithMargin } from './parallelPoint.js'
 
 window.onload = async function() {
     const showOts = document.querySelector('#ots')
@@ -49,7 +50,7 @@ window.onload = async function() {
     })
 
     additionalLines.forEach(line => {
-        L.polyline(line.nodes, {color: '#91a1ad', interactive: false}).addTo(map);
+        L.polyline(line.nodes, {color: '#3a789d', interactive: false}).addTo(map);
     })
 
     const concatStations = stations.concat(additionalStations)
@@ -59,6 +60,7 @@ window.onload = async function() {
         let name = L.divIcon({className: 'station-text', html: `${item.name} (${item.id})`});
         L.circleMarker([item.lat,item.lon], {fillColor: '#2b5ad2', color: '#a1e4fa', weight: 1, fillOpacity: 1, radius: 5, interactive: false}).addTo(map);
         const stationName = L.marker([item.lat,item.lon], {icon: name, interactive: false})
+        stationName.id = item.id
         allStationsName.push(stationName)
     })
 
@@ -82,6 +84,11 @@ window.onload = async function() {
         iconSize: [38, 95],
         iconAnchor: [19, 78],
     });
+    const myWarn = L.icon({
+        iconUrl: './warning.svg',
+        iconSize: [30,30],
+        iconAnchor: [15, 15],
+    });
     let currentMarker = {}
 
     map.on('zoomend', () => {
@@ -104,7 +111,57 @@ window.onload = async function() {
 
     const delay = [20319,20369]
 
+    const delayLines = [
+        {
+            idStation1: 20382,
+            idStation2: 20381
+        },
+        {
+            idStation1: 20383,
+            idStation2: 20318
+        }
+    ]
+
     showOts.addEventListener('click', () => {
+        stationsLayer.eachLayer((l) => {
+            if (delay.some(item => item === l.id)) {
+                l.remove()
+            }
+        })
+
+        delayLines.forEach(line => {
+            const st1 = concatStations.find(station => station.id === line.idStation1)
+            const st2 = concatStations.find(station => station.id === line.idStation2)
+            if (st1 && st2) {
+                const line = L.polyline([[st1.lat,st1.lon],[st2.lat,st2.lon]], {color: '#ff9900', weight: 8}).addTo(map);
+                const centerBetweenNoOffset = findPointsWithMargin(Number(st1.lat),Number(st1.lon),Number(st2.lat),Number(st2.lon), 0)
+                // const lineIcon = L.circleMarker([centerBetween.x,centerBetween.y], {fillColor: '#ffffff', color: '#d39904', weight: 3, fillOpacity: 1, radius: 12}).addTo(map)
+
+                line.on('mouseover', () => {
+                    line.setStyle({color: '#4795C3'})
+                })
+                line.on('mouseout', () => {
+                    line.setStyle({color: '#ff9900'})
+                })
+                line.on('click', () => {
+                    if (Object.keys(currentMarker).length) {
+                        markerRemove()
+                    }
+                    // lineIcon.setStyle({opacity: 0, fillOpacity: 0})
+                    const marker = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: myIcon})
+                    const nameText = L.divIcon({className: 'marker-text', html: `${st1.name} - ${st2.name}`});
+                    const countText = L.divIcon({className: 'marker-counter', html: `27`});
+                    const markerName = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: nameText})
+                    const markerCount = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: countText})
+                    currentMarker.marker = L.featureGroup([marker,markerName,markerCount]).addTo(map)
+                    currentMarker.marker.on('click', () => {
+                        markerRemove()
+                    })
+                })
+            }
+        })
+
+
         delay.forEach(delay => {
             const findStation = concatStations.find(station => station.id === delay)
             if (findStation) {
@@ -113,7 +170,7 @@ window.onload = async function() {
                 const stationName = L.marker([findStation.lat,findStation.lon], {icon: name})
                 const group = L.featureGroup([stationIcon,stationName]).addTo(map)
                 group.on('mouseover', () => {
-                    stationIcon.setStyle({fillColor: '#DE3249',color: '#b22033'})
+                    stationIcon.setStyle({fillColor: '#4795C3',color: '#1774a1'})
                 })
                 group.on('mouseout', () => {
                     stationIcon.setStyle({fillColor: '#ffb700',color: '#d39904'})
@@ -122,14 +179,15 @@ window.onload = async function() {
                     if (Object.keys(currentMarker).length) {
                         markerRemove()
                     }
-                    stationIcon.setStyle({opacity: 0, fillOpacity: 0})
-                    stationName.setOpacity(0)
+                    stationIcon.setStyle({fillColor: '#ffb700',color: '#d39904'})
+                    group.remove()
                     const marker = L.marker([findStation.lat,findStation.lon], {icon: myIcon})
-                    const name = L.divIcon({className: 'marker-text', html: `${findStation.name} (${findStation.id})`});
-                    const markerName = L.marker([findStation.lat,findStation.lon], {icon: name})
-                    currentMarker.marker = L.featureGroup([marker,markerName]).addTo(map)
-                    currentMarker.name = stationName
-                    currentMarker.icon = stationIcon
+                    const nameText = L.divIcon({className: 'marker-text', html: `${findStation.name} (${findStation.id})`});
+                    const countText = L.divIcon({className: 'marker-counter', html: `27`});
+                    const markerName = L.marker([findStation.lat,findStation.lon], {icon: nameText})
+                    const markerCount = L.marker([findStation.lat,findStation.lon], {icon: countText})
+                    currentMarker.marker = L.featureGroup([marker,markerName,markerCount]).addTo(map)
+                    currentMarker.group = group
                     currentMarker.marker.on('click', () => {
                         markerRemove()
                     })
@@ -140,8 +198,9 @@ window.onload = async function() {
 
     function markerRemove() {
         currentMarker.marker.remove()
-        currentMarker.icon.setStyle({opacity: 1, fillOpacity: 1})
-        currentMarker.name.setOpacity(1)
+        currentMarker.group?.addTo(map)
+        // currentMarker.icon?.setStyle({opacity: 1, fillOpacity: 1})
+        // currentMarker.name?.setOpacity(1)
         currentMarker = {}
     }
 

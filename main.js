@@ -1,4 +1,3 @@
-// import data from './russia_geojson_wgs84.geojson' assert {type: 'json'};
 import stations from './stations.json' assert {type: 'json'};
 import additionalStations from './additionalStations.json' assert {type: 'json'};
 import additionalLines from './additionalLines.json' assert {type: 'json'};
@@ -110,7 +109,6 @@ window.onload = async function() {
     })
 
     const delay = [20319,20369]
-
     const delayLines = [
         {
             idStation1: 20382,
@@ -121,10 +119,27 @@ window.onload = async function() {
             idStation2: 20318
         }
     ]
+    const ots = 20383
+    let clicked = false
 
     showOts.addEventListener('click', () => {
+        if (clicked) {
+            const findOts = concatStations.find(station => station.id === ots)
+            if (findOts) {
+                map.setView([findOts.lat, findOts.lon], 13);
+            }
+            return
+        }
+        clicked = true
+        const findOts = concatStations.find(station => station.id === ots)
+        if (findOts) {
+            map.setView([findOts.lat, findOts.lon], 13);
+        }
+
+        const allSelected = [...delay]
+        allSelected.push(ots)
         stationsLayer.eachLayer((l) => {
-            if (delay.some(item => item === l.id)) {
+            if (allSelected.some(item => item === l.id)) {
                 l.remove()
             }
         })
@@ -133,31 +148,7 @@ window.onload = async function() {
             const st1 = concatStations.find(station => station.id === line.idStation1)
             const st2 = concatStations.find(station => station.id === line.idStation2)
             if (st1 && st2) {
-                const line = L.polyline([[st1.lat,st1.lon],[st2.lat,st2.lon]], {color: '#ff9900', weight: 8}).addTo(map);
-                const centerBetweenNoOffset = findPointsWithMargin(Number(st1.lat),Number(st1.lon),Number(st2.lat),Number(st2.lon), 0)
-                // const lineIcon = L.circleMarker([centerBetween.x,centerBetween.y], {fillColor: '#ffffff', color: '#d39904', weight: 3, fillOpacity: 1, radius: 12}).addTo(map)
-
-                line.on('mouseover', () => {
-                    line.setStyle({color: '#4795C3'})
-                })
-                line.on('mouseout', () => {
-                    line.setStyle({color: '#ff9900'})
-                })
-                line.on('click', () => {
-                    if (Object.keys(currentMarker).length) {
-                        markerRemove()
-                    }
-                    // lineIcon.setStyle({opacity: 0, fillOpacity: 0})
-                    const marker = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: myIcon})
-                    const nameText = L.divIcon({className: 'marker-text', html: `${st1.name} - ${st2.name}`});
-                    const countText = L.divIcon({className: 'marker-counter', html: `27`});
-                    const markerName = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: nameText})
-                    const markerCount = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: countText})
-                    currentMarker.marker = L.featureGroup([marker,markerName,markerCount]).addTo(map)
-                    currentMarker.marker.on('click', () => {
-                        markerRemove()
-                    })
-                })
+                createSelectedLine(st1, st2, '#ff9900','#4795C3')
             }
         })
 
@@ -165,36 +156,70 @@ window.onload = async function() {
         delay.forEach(delay => {
             const findStation = concatStations.find(station => station.id === delay)
             if (findStation) {
-                const name = L.divIcon({className: 'station-delay-text', html: `${findStation.name} (${findStation.id})`});
-                const stationIcon = L.circleMarker([findStation.lat,findStation.lon], {fillColor: '#ffb700', color: '#d39904', weight: 1, fillOpacity: 1, radius: 10});
-                const stationName = L.marker([findStation.lat,findStation.lon], {icon: name})
-                const group = L.featureGroup([stationIcon,stationName]).addTo(map)
-                group.on('mouseover', () => {
-                    stationIcon.setStyle({fillColor: '#4795C3',color: '#1774a1'})
-                })
-                group.on('mouseout', () => {
-                    stationIcon.setStyle({fillColor: '#ffb700',color: '#d39904'})
-                })
-                group.on('click', () => {
-                    if (Object.keys(currentMarker).length) {
-                        markerRemove()
-                    }
-                    stationIcon.setStyle({fillColor: '#ffb700',color: '#d39904'})
-                    group.remove()
-                    const marker = L.marker([findStation.lat,findStation.lon], {icon: myIcon})
-                    const nameText = L.divIcon({className: 'marker-text', html: `${findStation.name} (${findStation.id})`});
-                    const countText = L.divIcon({className: 'marker-counter', html: `27`});
-                    const markerName = L.marker([findStation.lat,findStation.lon], {icon: nameText})
-                    const markerCount = L.marker([findStation.lat,findStation.lon], {icon: countText})
-                    currentMarker.marker = L.featureGroup([marker,markerName,markerCount]).addTo(map)
-                    currentMarker.group = group
-                    currentMarker.marker.on('click', () => {
-                        markerRemove()
-                    })
-                })
+                createSelectedStation(findStation,'#ffb700', '#d39904', '#4795C3', '#1774a1', false)
             }
         })
+
+        createSelectedStation(findOts,'#ea041f', '#9f0626', '#4795C3', '#1774a1', true)
     })
+
+    function createSelectedLine(st1, st2,color,colorHover, isOts) {
+        const line = L.polyline([[st1.lat,st1.lon],[st2.lat,st2.lon]], {color: color, weight: 8}).addTo(map);
+        const centerBetweenNoOffset = findPointsWithMargin(Number(st1.lat),Number(st1.lon),Number(st2.lat),Number(st2.lon), 0)
+        // const lineIcon = L.circleMarker([centerBetween.x,centerBetween.y], {fillColor: '#ffffff', color: '#d39904', weight: 3, fillOpacity: 1, radius: 12}).addTo(map)
+
+        line.on('mouseover', () => {
+            line.setStyle({color: colorHover})
+        })
+        line.on('mouseout', () => {
+            line.setStyle({color: color})
+        })
+        line.on('click', () => {
+            if (Object.keys(currentMarker).length) {
+                markerRemove()
+            }
+            // lineIcon.setStyle({opacity: 0, fillOpacity: 0})
+            const marker = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: myIcon})
+            const nameText = L.divIcon({className: 'marker-text', html: `${st1.name} - ${st2.name}`});
+            const countText = L.divIcon({className: 'marker-counter', html: `27`});
+            const markerName = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: nameText})
+            const markerCount = L.marker([centerBetweenNoOffset.x,centerBetweenNoOffset.y], {icon: countText})
+            currentMarker.marker = L.featureGroup([marker,markerName,markerCount]).addTo(map)
+            currentMarker.marker.on('click', () => {
+                markerRemove()
+            })
+        })
+    }
+
+    function createSelectedStation(findStation,colorFirst,colorOutline,colorHover,colorHoverOutline, isOts) {
+        const name = L.divIcon({className: 'station-delay-text', html: `${findStation.name} (${findStation.id})`});
+        const stationIcon = L.circleMarker([findStation.lat,findStation.lon], {fillColor: colorFirst, color: colorOutline, weight: 2, fillOpacity: 1, radius: 10});
+        const stationName = L.marker([findStation.lat,findStation.lon], {icon: name})
+        const group = L.featureGroup([stationIcon,stationName]).addTo(map)
+        group.on('mouseover', () => {
+            stationIcon.setStyle({fillColor: colorHover,color: colorHoverOutline})
+        })
+        group.on('mouseout', () => {
+            stationIcon.setStyle({fillColor: colorFirst,color: colorOutline})
+        })
+        group.on('click', () => {
+            if (Object.keys(currentMarker).length) {
+                markerRemove()
+            }
+            stationIcon.setStyle({fillColor: colorFirst,color: colorOutline})
+            group.remove()
+            const marker = L.marker([findStation.lat,findStation.lon], {icon: myIcon})
+            const nameText = L.divIcon({className: isOts ? 'marker-text-ots' : 'marker-text', html: `${findStation.name} (${findStation.id}) ${isOts ? '(Место ОТС)' : ''}`});
+            const countText = L.divIcon({className: 'marker-counter', html: `27`});
+            const markerName = L.marker([findStation.lat,findStation.lon], {icon: nameText})
+            const markerCount = L.marker([findStation.lat,findStation.lon], {icon: countText})
+            currentMarker.marker = L.featureGroup([marker,markerName,markerCount]).addTo(map)
+            currentMarker.group = group
+            currentMarker.marker.on('click', () => {
+                markerRemove()
+            })
+        })
+    }
 
     function markerRemove() {
         currentMarker.marker.remove()

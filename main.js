@@ -43,7 +43,7 @@ window.onload = async function() {
     L.maplibreGL({
         maxZoom: 15,
         minZoom: 4,
-        style: 'http://192.168.1.118/api/maps/basic/style.json',
+        style: './mapStyle.json',
         noWrap: true,
     }).addTo(map);
 

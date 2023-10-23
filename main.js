@@ -27,6 +27,7 @@ window.onload = async function() {
     const corner2 = L.latLng(37.151806, 177.99319)
     const bounds = L.latLngBounds(corner1, corner2)
 
+    const key = '9uMou4WBAcqERBnW7CQj';
     const map = L.map('map', {
         zoomSnap: 0.5,
         zoomDelta: 0.5,
@@ -40,12 +41,20 @@ window.onload = async function() {
     })
     map.setView([52.289588, 104.280606], 6);
 
-    L.maplibreGL({
-        maxZoom: 15,
+    L.maptilerLayer({
+        apiKey: key,
+        maxZoom: 14,
         minZoom: 4,
-        style: './mapStyle.json',
+        // style: "97153cbc-9568-4fe0-8863-bfc30bd5cd18", //optional
         noWrap: true,
     }).addTo(map);
+
+    // L.maplibreGL({
+    //     maxZoom: 15,
+    //     minZoom: 4,
+    //     style: './mapStyle.json',
+    //     noWrap: true,
+    // }).addTo(map);
 
     lines.forEach(line => {
         line.nodes = line.nodes.map(item => {
